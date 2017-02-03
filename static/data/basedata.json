@@ -116,6 +116,7 @@
       {"name": "JavaScript 秘密花园","link": "http://bonsaiden.github.io/JavaScript-Garden/zh/"},
       {"name": "深入理解JavaScript系列","link": "http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html"},
       {"name": "JSON风格指南","link": "https://github.com/darcyliu/google-styleguide/blob/master/JSONStyleGuide.md"},
+      {"name":"JavaScript资源大全中文版","link":"https://github.com/jobbole/awesome-javascript-cn"},
       {"name": "JS实现 十大经典排序算法","link": "https://github.com/darcyliu/google-styleguide/blob/master/JSONStyleGuide.md"}
   ],
   "makeBlog": {
