@@ -104,22 +104,35 @@
       {"name": "Genymotion安装及使用教程详解","link": "http://www.devio.org/2016/11/27/Genymotion%E5%AE%89%E8%A3%85%E5%8F%8A%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E8%AF%A6%E8%A7%A3/"}
     ]
   },
-  "jsBlog":[
-      {"name":"JavaScript标准教程","link":"http://javascript.ruanyifeng.com/#oop"},
-      {"name":"原生Js实例练习","link":"http://www.fgm.cc/learn/"},
-      {"name": "JS前端开发群月报","link": "http://www.kancloud.cn/jsfront/month/82796"},
-      {"name": "豪情前端作品列表","link": "http://jikeytang.github.io/"},
-      {"name": "前端解忧杂货铺","link": "https://zhuanlan.zhihu.com/thinkingInFE"},
-      {"name": "ECMAScript 6入门","link": "http://es6.ruanyifeng.com/"},
-      {"name": "ECMAScript 5","link": "http://yanhaijing.com/es5/#null"},
-      {"name": "JavaScript Promise迷你书","link": "http://liubin.org/promises-book/"},
-      {"name": "JavaScript 原理","link": "http://typeof.net/s/jsmech/"},
-      {"name": "JavaScript 秘密花园","link": "http://bonsaiden.github.io/JavaScript-Garden/zh/"},
-      {"name": "深入理解JavaScript系列","link": "http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html"},
-      {"name": "JSON风格指南","link": "https://github.com/darcyliu/google-styleguide/blob/master/JSONStyleGuide.md"},
-      {"name":"JavaScript资源大全中文版","link":"https://github.com/jobbole/awesome-javascript-cn"},
-      {"name": "JS实现 十大经典排序算法","link": "https://github.com/darcyliu/google-styleguide/blob/master/JSONStyleGuide.md"}
-  ],
+  "jsBlog":{
+      "js1":[
+          {"name":"JavaScript标准教程","link":"http://javascript.ruanyifeng.com/#oop"},
+          {"name":"原生Js实例练习","link":"http://www.fgm.cc/learn/"},
+          {"name": "JS前端开发群月报","link": "http://www.kancloud.cn/jsfront/month/82796"},
+          {"name": "豪情前端作品列表","link": "http://jikeytang.github.io/"},
+          {"name": "前端解忧杂货铺","link": "https://zhuanlan.zhihu.com/thinkingInFE"},
+          {"name": "ECMAScript 6入门","link": "http://es6.ruanyifeng.com/"},
+          {"name": "ECMAScript 5","link": "http://yanhaijing.com/es5/#null"},
+          {"name": "JavaScript Promise迷你书","link": "http://liubin.org/promises-book/"},
+          {"name": "JavaScript 原理","link": "http://typeof.net/s/jsmech/"},
+          {"name": "JavaScript 秘密花园","link": "http://bonsaiden.github.io/JavaScript-Garden/zh/"},
+          {"name": "深入理解JavaScript系列","link": "http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html"},
+          {"name": "JSON风格指南","link": "https://github.com/darcyliu/google-styleguide/blob/master/JSONStyleGuide.md"},
+          {"name":"JavaScript资源大全中文版","link":"https://github.com/jobbole/awesome-javascript-cn"},
+          {"name": "JS实现 十大经典排序算法","link": "https://github.com/darcyliu/google-styleguide/blob/master/JSONStyleGuide.md"},
+          {"name": "Everycode Js","link": "https://github.com/nunnly/everycode/issues"},
+          {"name": "命名函数表达式探秘","link": "http://justjavac.com/named-function-expressions-demystified.html"},
+          {"name": "学用 JavaScript 设计模式","link": "http://www.oschina.net/translate/learning-javascript-design-patterns"},
+          {"name": "Javascript的12个怪癖","link": "https://github.com/justjavac/12-javascript-quirks/blob/master/cn/content.md"}
+      ],
+      "jq1":[
+          {"name": "简单易懂的JQuery魔法","link": "http://www.nowamagic.net/librarys/books/contents/jquery"},
+          {"name": "How to write jQuery plugin?","link": "http://i5ting.github.io/How-to-write-jQuery-plugin/build/jquery.plugin.html"},
+          {"name": "Jquery API","link": "https://oscarotero.com/jquery/"},
+          {"name": "JQuery 源码解读","link": "http://rapheal.sinaapp.com/tag/jquery-2/"},
+          {"name": "JQuery 源码分析","link": "http://www.cnblogs.com/aaronjs/p/3279314.html"}
+      ]
+  },
   "makeBlog": {
     "mobile1":[
         {"name": "移动前端开发收藏夹","link": "https://github.com/hoosin/mobile-web-favorites"},
@@ -233,6 +246,11 @@
         "name": "Chrome扩展及应用开发",
         "link": "http://www.ituring.com.cn/article/60223"
       }
+    ],
+    "art4":[
+         {"name":"前端资源分享1","link":"https://github.com/hacke2/hacke2.github.io/issues/1"},
+         {"name":"前端资源分享2","link":"https://github.com/hacke2/hacke2.github.io/issues/3"},
+         {"name":"前端开发体系建设日记 ","link":"https://github.com/fouber/blog/issues/2"}
     ]
   },
   "quietBlog":[
@@ -246,6 +264,12 @@
           {"name":"Git参考手册","link":"http://gitref.justjavac.com/basic/#rm-mv"},
           {"name":"GitHub秘籍","link":"https://snowdream86.gitbooks.io/github-cheat-sheet/content/zh/"},
           {"name":"Git-简明指南","link":"http://rogerdudler.github.io/git-guide/index.zh.html"},
+          {"name":"猴子都能懂的Git入门","link":"http://backlogtool.com/git-guide/cn/"},
+          {"name":"沉浸式学 Git","link":"http://igit.linuxtoy.org/contents.html"},
+          {"name":"Git Cheat Sheet 中文版","link":"https://github.com/flyhigher139/Git-Cheat-Sheet"},
+          {"name":"Git Community Book 中文版","link":"http://gitbook.liuhui998.com/index.html"},
+          {"name":"Git Magic","link":"http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_cn/ch01.html"},
+          {"name":"Git教程-廖雪峰","link":"http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000"},
           {"name":"程序员自我修养","link":"http://www.kancloud.cn/kancloud/a-programmer-prepares/78160"}
       ]
   },
