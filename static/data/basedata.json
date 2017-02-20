@@ -15,14 +15,18 @@
             {"name": "十年踪迹","link": "https://www.h5jun.com/archives/" },
             {"name": "ChokCoco","link": "http://www.cnblogs.com/coco1s/" },
             {"name": "Kayo","link": "http://kayosite.com/"},
-            {"name": "Ahonn","link": "http://www.ahonn.me/"}
+            {"name": "Ahonn","link": "http://www.ahonn.me/"},
+            {"name":"tw93","link":"http://tw93.github.io/"},
+            {"name":"师少兵","link":"http://www.xiabingbao.com/"},
+            {"name":"亚里士朱德的博客","link":"http://yalishizhude.github.io/"}
       ],
   "teamBlog": [
             {"name": "奇舞团博客","link": "https://75team.com/"},
             {"name": "腾讯前端团队","link": "http://www.alloyteam.com/"},
             {"name": "淘宝前端","link": "http://taobaofed.org/"},
             {"name": "大搜车","link": "http://f2e.souche.com/blog/"},
-            {"name": "携程","link": "http://ued.ctrip.com/blog/"}
+            {"name": "携程","link": "http://ued.ctrip.com/blog/"},
+            {"name":"奇舞学院","link":"https://t.75team.com/video"}
       ],
   "nationBlog": [
             {"name": "Web技术研究","link": "https://www.web-tinker.com/"},
@@ -200,6 +204,7 @@
         "name": "OverAPI",
         "link": "http://overapi.com/"
       },
+      {"name":"超强正则可视化匹配","link":"https://www.regex101.com/"},
       {
         "name": "正则可视化工具",
         "link": "https://regexper.com/"
