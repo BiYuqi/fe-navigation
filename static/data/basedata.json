@@ -18,7 +18,9 @@
             {"name": "Ahonn","link": "http://www.ahonn.me/"},
             {"name":"tw93","link":"http://tw93.github.io/"},
             {"name":"师少兵","link":"http://www.xiabingbao.com/"},
-            {"name":"亚里士朱德的博客","link":"http://yalishizhude.github.io/"}
+            {"name":"亚里士朱德的博客","link":"http://yalishizhude.github.io/"},
+            {"name":"Zjmainstay","link":"http://www.zjmainstay.cn/regexp"},
+            {"name":"KeenWon","link":"http://keenwon.com/"}
       ],
   "teamBlog": [
             {"name": "奇舞团博客","link": "https://75team.com/"},
@@ -134,7 +136,9 @@
           {"name": "How to write jQuery plugin?","link": "http://i5ting.github.io/How-to-write-jQuery-plugin/build/jquery.plugin.html"},
           {"name": "Jquery API","link": "https://oscarotero.com/jquery/"},
           {"name": "JQuery 源码解读","link": "http://rapheal.sinaapp.com/tag/jquery-2/"},
-          {"name": "JQuery 源码分析","link": "http://www.cnblogs.com/aaronjs/p/3279314.html"}
+          {"name": "JQuery 源码分析","link": "http://www.cnblogs.com/aaronjs/p/3279314.html"},
+          {"name":"简单解惑JQuery","link":"http://www.tashan10.com/kan-liao-zhe-ge-cai-fa-xian-jqueryyuan-dai-ma-bu-shi-na-yao-hui-se/"},
+          {"name":"jQuery插件开发","link":"http://www.jianshu.com/p/518d424d4994"}
       ]
   },
   "makeBlog": {
