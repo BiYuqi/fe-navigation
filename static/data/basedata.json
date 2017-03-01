@@ -20,6 +20,11 @@
             {"name":"师少兵","link":"http://www.xiabingbao.com/"},
             {"name":"亚里士朱德的博客","link":"http://yalishizhude.github.io/"},
             {"name":"Zjmainstay","link":"http://www.zjmainstay.cn/regexp"},
+            {"name":"Superman Blog","link":"http://www.iamsuperman.cn/"},
+        	{"name":"Beidan","link":"http://www.cnblogs.com/beidan/"},
+        	{"name":"流云诸葛","link":"http://www.cnblogs.com/lyzg/"},
+        	{"name":"肥仔John","link":"http://www.cnblogs.com/fsjohnhuang/"},
+        	{"name":"Jake","link":"http://i.jakeyu.top/"},
             {"name":"KeenWon","link":"http://keenwon.com/"}
       ],
   "teamBlog": [
@@ -65,22 +70,11 @@
       {"name": "通读cheerio API","link": "http://cnodejs.org/topic/5203a71844e76d216a727d2e"},
       {"name": "Express教程","link": "http://www.expressjs.com.cn/"},
       {"name": "MongoDB教程","link": "http://www.runoob.com/mongodb/mongodb-tutorial.html"},
-      {
-        "name": "《一起学 Node.js》",
-        "link": "https://github.com/nswbmw/N-blog"
-      },
-      {
-        "name": "从零开始nodejs系列文章(荐)",
-        "link": "http://blog.fens.me/series-nodejs/"
-      },
-      {
-        "name": "MongoDB 极简实践入门",
-        "link": "https://github.com/StevenSLXie/Tutorials-for-Web-Developers/blob/master/MongoDB%20%E6%9E%81%E7%AE%80%E5%AE%9E%E8%B7%B5%E5%85%A5%E9%97%A8.md"
-      },
-      {
-        "name": "《koa实战》",
-        "link": "http://book.apebook.org/minghe/koa-action/index.html"
-      }
+      {"name": "《一起学 Node.js》","link": "https://github.com/nswbmw/N-blog"},
+      {"name": "从零开始nodejs系列文章(荐)","link": "http://blog.fens.me/series-nodejs/"},
+      {"name": "MongoDB 极简实践入门","link": "https://github.com/StevenSLXie/Tutorials-for-Web-Developers/blob/master/MongoDB%20%E6%9E%81%E7%AE%80%E5%AE%9E%E8%B7%B5%E5%85%A5%E9%97%A8.md"},
+      {"name":"Nodejs教程","link":"http://nodejs.jakeyu.top/"},
+      {"name": "《koa实战》","link": "http://book.apebook.org/minghe/koa-action/index.html"}
   ],
   "vueReact": {
     "vuejs":[
@@ -266,7 +260,8 @@
       {"name":"百度静态资源","link":"http://cdn.code.baidu.com/"},
       {"name":"BootCDN","link":"http://www.bootcdn.cn/"},
       {"name":"Web前端资源库","link":"https://www.awesomes.cn/"},
-      {"name":"淘宝NPM镜像","link":"http://npm.taobao.org/"}
+      {"name":"淘宝NPM镜像","link":"http://npm.taobao.org/"},
+      {"name":"模拟数据Rap","link":"http://rap.taobao.org/org/index.do"}
   ],
   "gits":{
       "git1":[
