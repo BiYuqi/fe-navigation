@@ -82,13 +82,15 @@
         {"name": "vue-router 2","link": "http://router.vuejs.org/zh-cn/index.html?q="},
         {"name": "Vuex","link": "http://vuex.vuejs.org/zh-cn/"},
         {"name": "Vue数据请求之axios","link": "https://github.com/mzabriskie/axios"},
+        {"name": "axios全攻略","link": "https://ykloveyxk.github.io/2017/02/25/axios%E5%85%A8%E6%94%BB%E7%95%A5/"},
         {"name": " Vue.js 中文教程","link": "http://www.ctolib.com/docs-vue-js-c-index.html"}
     ],
     "vueDemo":[
         {"name": "基于vue2.0数据展示平台","link": "http://www.jianshu.com/p/da8836c4a4d7","github": "https://github.com/hieeyh/tong2-family"},
-      {"name": "知乎日报 by Vue.js","link": "https://github.com/pomelo-chuan/Zhihu-Daily-Vue.js"},
-      {"name": "仿饿了么app商家详情","link": "https://github.com/liangxiaojuan/eleme?utm_source=tuicool&utm_medium=referral"},
-      {"name": "vue2.0构建单页应用最佳实战 ","link": "http://www.tuicool.com/articles/me6RJfF"}
+        {"name": "知乎日报 by Vue.js","link": "https://github.com/pomelo-chuan/Zhihu-Daily-Vue.js"},
+        {"name": "仿饿了么app商家详情","link": "https://github.com/liangxiaojuan/eleme?utm_source=tuicool&utm_medium=referral"},
+        {"name": "vue2.0构建单页应用最佳实战 ","link": "http://www.tuicool.com/articles/me6RJfF"},
+        {"name": "vue2.0构建本地记事本 ","link": "https://github.com/lin-xin/notepad"}
     ],
     "reactDemo":[
       {"name": "RN 学习指南","link": "https://github.com/reactnativecn/react-native-guide#reactjs","github": "https://github.com/hieeyh/tong2-family"},
@@ -119,7 +121,7 @@
           {"name": "深入理解JavaScript系列","link": "http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html"},
           {"name": "JSON风格指南","link": "https://github.com/darcyliu/google-styleguide/blob/master/JSONStyleGuide.md"},
           {"name":"JavaScript资源大全中文版","link":"https://github.com/jobbole/awesome-javascript-cn"},
-          {"name": "JS实现 十大经典排序算法","link": "https://github.com/darcyliu/google-styleguide/blob/master/JSONStyleGuide.md"},
+          {"name": "JS实现十大经典排序算法","link": "https://sort.hust.cc/"},
           {"name": "Everycode Js","link": "https://github.com/nunnly/everycode/issues"},
           {"name": "命名函数表达式探秘","link": "http://justjavac.com/named-function-expressions-demystified.html"},
           {"name": "学用 JavaScript 设计模式","link": "http://www.oschina.net/translate/learning-javascript-design-patterns"},
@@ -132,7 +134,8 @@
           {"name": "JQuery 源码解读","link": "http://rapheal.sinaapp.com/tag/jquery-2/"},
           {"name": "JQuery 源码分析","link": "http://www.cnblogs.com/aaronjs/p/3279314.html"},
           {"name":"简单解惑JQuery","link":"http://www.tashan10.com/kan-liao-zhe-ge-cai-fa-xian-jqueryyuan-dai-ma-bu-shi-na-yao-hui-se/"},
-          {"name":"jQuery插件开发","link":"http://www.jianshu.com/p/518d424d4994"}
+          {"name":"jQuery插件开发","link":"http://www.jianshu.com/p/518d424d4994"},
+          {"name":"YOU MIGHT NOT NEED JQUERY","link":"http://youmightnotneedjquery.com/"}
       ]
   },
   "makeBlog": {
@@ -157,12 +160,14 @@
       "gulps":[
           {"name":"gulp详细入门教程","link":"http://www.ydcss.com/"},
           {"name":"gulp中文网","link":"http://www.gulpjs.com.cn/"},
-          {"name":"gulp使用指南","link":"http://www.techug.com/gulp"}
+          {"name":"gulp使用指南","link":"http://www.techug.com/gulp"},
+          {"name":"精通gulp常用插件","link":"https://zhuanlan.zhihu.com/p/25243171?group_id=819532884137361408"}
       ],
       "webpacks":[
           {"name":"Webpack中文指南","link":"http://webpackdoc.com/"},
           {"name":"Webpack经典入门","link":"http://www.tuicool.com/articles/ZjemEbJ"},
-          {"name":"Webpack学习资源","link":"https://github.com/lengziyu/learn-webpack"}
+          {"name":"Webpack学习资源","link":"https://github.com/lengziyu/learn-webpack"},
+          {"name":"RequireJS常用知识","link":"http://www.cnblogs.com/lyzg/p/4865502.html"}
       ],
       "csss":[
           {"name":"Less详细入门","link":"http://www.bootcss.com/p/lesscss/"},
