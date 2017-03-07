@@ -208,14 +208,9 @@
         "link": "http://overapi.com/"
       },
       {"name":"超强正则可视化匹配","link":"https://www.regex101.com/"},
-      {
-        "name": "正则可视化工具",
-        "link": "https://regexper.com/"
-      },
-      {
-        "name": "Jsfiddle",
-        "link": "http://jsfiddle.net/"
-      }
+      {"name":"正则文章","link":"http://www.haorooms.com/search?keyword=%E6%AD%A3%E5%88%99"},
+      {"name": "正则可视化工具","link": "https://regexper.com/"},
+      {"name": "Jsfiddle","link": "http://jsfiddle.net/"}
     ],
     "art2":[{
         "name": "HTML 和 CSS 代码规范",
@@ -237,23 +232,15 @@
         "name": "项目目录结构规范",
         "link": "https://github.com/ecomfe/spec/blob/master/directory.md"
       },
-      {
-        "name": "资源教程",
-        "link": "https://github.com/jsfront/src/blob/master/qq.md"
-      }
+      {"name": "资源教程","link": "https://github.com/jsfront/src/blob/master/qq.md"},
+      {"name":"计算机基础","link":"https://hit-alibaba.github.io/interview/basic/network/HTTP.html"}
     ],
-    "art3":[{
-        "name": "Underscore",
-        "link": "http://www.bootcss.com/p/underscore/"
-      },
-      {
-        "name": "undersercore源码分析",
-        "link": "https://yoyoyohamapi.gitbooks.io/undersercore-analysis/content/base/index.html"
-      },
-      {
-        "name": "Chrome扩展及应用开发",
-        "link": "http://www.ituring.com.cn/article/60223"
-      }
+    "art3":[
+        {"name": "Underscore","link": "http://www.bootcss.com/p/underscore/"},
+        {"name": "undersercore源码分析","link": "https://yoyoyohamapi.gitbooks.io/undersercore-analysis/content/base/index.html"},
+        {"name": "undersercore源码分析2","link": "http://www.html-js.com/article/Underscorejs-source-code-analysis-of-underscorejs-source-code-analysis%203031"},
+        {"name": "undersercore源码分析3","link": "http://yalishizhude.github.io/tags/underscore/"},
+        {"name": "Chrome扩展及应用开发","link": "http://www.ituring.com.cn/article/60223"}
     ],
     "art4":[
          {"name":"前端资源分享1","link":"https://github.com/hacke2/hacke2.github.io/issues/1"},
