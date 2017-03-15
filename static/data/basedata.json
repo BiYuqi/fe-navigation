@@ -25,7 +25,8 @@
         	{"name":"流云诸葛","link":"http://www.cnblogs.com/lyzg/"},
         	{"name":"肥仔John","link":"http://www.cnblogs.com/fsjohnhuang/"},
         	{"name":"Jake","link":"http://i.jakeyu.top/"},
-            {"name":"KeenWon","link":"http://keenwon.com/"}
+            {"name":"KeenWon","link":"http://keenwon.com/"},
+            {"name":"前端技术空间-易建勇","link":"http://www.yi-jy.com/category/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/"}
       ],
   "teamBlog": [
             {"name": "奇舞团博客","link": "https://75team.com/"},
@@ -145,6 +146,7 @@
         {"name": "最全的head列表","link": "https://github.com/joshbuchea/HEAD"},
         {"name": "移动端尺寸基础知识","link": "http://colachan.com/post/3435"},
         {"name": "H5项目常见问题汇总及解决方案","link": "https://github.com/FrontEndZQ/HTML5-FAQ"},
+        {"name": "CSS3自定义滚动条","link":"http://www.xuanfengge.com/css3-webkit-scrollbar.html"},
         {"name": "移动端高清、多屏适配方案","link": "http://www.html-js.com/article/Mobile-terminal-H5-mobile-terminal-HD-multi-screen-adaptation-scheme%203041"}
     ],
     "mobile2":[
@@ -161,6 +163,7 @@
           {"name":"gulp详细入门教程","link":"http://www.ydcss.com/"},
           {"name":"gulp中文网","link":"http://www.gulpjs.com.cn/"},
           {"name":"gulp使用指南","link":"http://www.techug.com/gulp"},
+           {"name":"gulp使用小结","link":"http://www.cnblogs.com/Darren_code/p/gulp.html"},
           {"name":"精通gulp常用插件","link":"https://zhuanlan.zhihu.com/p/25243171?group_id=819532884137361408"}
       ],
       "webpacks":[
