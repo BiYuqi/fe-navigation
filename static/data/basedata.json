@@ -26,7 +26,8 @@
         	{"name":"肥仔John","link":"http://www.cnblogs.com/fsjohnhuang/"},
         	{"name":"Jake","link":"http://i.jakeyu.top/"},
             {"name":"KeenWon","link":"http://keenwon.com/"},
-            {"name":"前端技术空间-易建勇","link":"http://www.yi-jy.com/category/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/"}
+            {"name":"三水清","link":"http://js8.in/"},
+            {"name":"易建勇","link":"http://www.yi-jy.com/category/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/"}
       ],
   "teamBlog": [
             {"name": "奇舞团博客","link": "https://75team.com/"},
@@ -88,10 +89,11 @@
     ],
     "vueDemo":[
         {"name": "基于vue2.0数据展示平台","link": "http://www.jianshu.com/p/da8836c4a4d7","github": "https://github.com/hieeyh/tong2-family"},
-        {"name": "知乎日报 by Vue.js","link": "https://github.com/pomelo-chuan/Zhihu-Daily-Vue.js"},
+        {"name": "知乎日报 by Vue","link": "https://github.com/pomelo-chuan/Zhihu-Daily-Vue.js"},
         {"name": "仿饿了么app商家详情","link": "https://github.com/liangxiaojuan/eleme?utm_source=tuicool&utm_medium=referral"},
-        {"name": "vue2.0构建单页应用最佳实战 ","link": "http://www.tuicool.com/articles/me6RJfF"},
-        {"name": "vue2.0构建本地记事本 ","link": "https://github.com/lin-xin/notepad"}
+        {"name": "vue2.0单页应用实战 ","link": "http://www.tuicool.com/articles/me6RJfF"},
+        {"name": "vue2.0本地记事本 ","link": "https://github.com/lin-xin/notepad"},
+        {"name": "vue2.0理财计算器 ","link": "https://github.com/ksky521/welicai"}
     ],
     "reactDemo":[
       {"name": "RN 学习指南","link": "https://github.com/reactnativecn/react-native-guide#reactjs","github": "https://github.com/hieeyh/tong2-family"},
