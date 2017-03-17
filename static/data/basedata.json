@@ -76,6 +76,8 @@
       {"name": "从零开始nodejs系列文章(荐)","link": "http://blog.fens.me/series-nodejs/"},
       {"name": "MongoDB 极简实践入门","link": "https://github.com/StevenSLXie/Tutorials-for-Web-Developers/blob/master/MongoDB%20%E6%9E%81%E7%AE%80%E5%AE%9E%E8%B7%B5%E5%85%A5%E9%97%A8.md"},
       {"name":"Nodejs教程","link":"http://nodejs.jakeyu.top/"},
+      {"name":"Node.js Rest API","link":"https://zhuanlan.zhihu.com/p/25506654"},
+      {"name":"Node.js技术栈","link":"https://cnodejs.org/topic/55651bf07d4c64752effb4b1"},
       {"name": "《koa实战》","link": "http://book.apebook.org/minghe/koa-action/index.html"}
   ],
   "vueReact": {
