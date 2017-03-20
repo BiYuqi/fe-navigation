@@ -82,12 +82,13 @@
   ],
   "vueReact": {
     "vuejs":[
-        {"name":"Vue起步","link":"http://cn.vuejs.org/v2/guide/"},
+        {"name":"Vue起步","link":"https://vuefe.cn/v2/guide/"},
         {"name": "vue-router 2","link": "http://router.vuejs.org/zh-cn/index.html?q="},
         {"name": "Vuex","link": "http://vuex.vuejs.org/zh-cn/"},
         {"name": "Vue数据请求之axios","link": "https://github.com/mzabriskie/axios"},
         {"name": "axios全攻略","link": "https://ykloveyxk.github.io/2017/02/25/axios%E5%85%A8%E6%94%BB%E7%95%A5/"},
-        {"name": " Vue.js 中文教程","link": "http://www.ctolib.com/docs-vue-js-c-index.html"}
+        {"name": " Vue.js 中文教程","link": "http://www.ctolib.com/docs-vue-js-c-index.html"},
+        {"name": " Vue.js 中文社区","link": "http://www.vue-js.com/"}
     ],
     "vueDemo":[
         {"name": "基于vue2.0数据展示平台","link": "http://www.jianshu.com/p/da8836c4a4d7","github": "https://github.com/hieeyh/tong2-family"},
@@ -130,7 +131,9 @@
           {"name": "Everycode Js","link": "https://github.com/nunnly/everycode/issues"},
           {"name": "命名函数表达式探秘","link": "http://justjavac.com/named-function-expressions-demystified.html"},
           {"name": "学用 JavaScript 设计模式","link": "http://www.oschina.net/translate/learning-javascript-design-patterns"},
-          {"name": "Javascript的12个怪癖","link": "https://github.com/justjavac/12-javascript-quirks/blob/master/cn/content.md"}
+          {"name": "Javascript的12个怪癖","link": "https://github.com/justjavac/12-javascript-quirks/blob/master/cn/content.md"},
+          {"name":"TalkingCoder","link":"https://www.talkingcoder.com/article/list/all"},
+          {"name":"上传图片相关技术","link":"http://www.wdshare.org/article/57ccde4874cf8e270b2c5343"}
       ],
       "jq1":[
           {"name": "简单易懂的JQuery魔法","link": "http://www.nowamagic.net/librarys/books/contents/jquery"},
