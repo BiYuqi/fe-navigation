@@ -83,12 +83,13 @@
   "vueReact": {
     "vuejs":[
         {"name":"Vue起步","link":"https://vuefe.cn/v2/guide/"},
-        {"name": "vue-router 2","link": "http://router.vuejs.org/zh-cn/index.html?q="},
-        {"name": "Vuex","link": "http://vuex.vuejs.org/zh-cn/"},
+        {"name": "vue-router2路由","link": "http://router.vuejs.org/zh-cn/index.html?q="},
+        {"name": "Vuex状态管理","link": "http://vuex.vuejs.org/zh-cn/"},
         {"name": "Vue数据请求之axios","link": "https://github.com/mzabriskie/axios"},
         {"name": "axios全攻略","link": "https://ykloveyxk.github.io/2017/02/25/axios%E5%85%A8%E6%94%BB%E7%95%A5/"},
         {"name": " Vue.js 中文教程","link": "http://www.ctolib.com/docs-vue-js-c-index.html"},
-        {"name": " Vue.js 中文社区","link": "http://www.vue-js.com/"}
+        {"name": " Vue.js 中文社区","link": "http://www.vue-js.com/"},
+        {"name": " Vue Api数据化展示","link": "https://vuejs-tips.github.io/cheatsheet/"}
     ],
     "vueDemo":[
         {"name": "基于vue2.0数据展示平台","link": "http://www.jianshu.com/p/da8836c4a4d7","github": "https://github.com/hieeyh/tong2-family"},
@@ -120,7 +121,6 @@
           {"name": "豪情前端作品列表","link": "http://jikeytang.github.io/"},
           {"name": "前端解忧杂货铺","link": "https://zhuanlan.zhihu.com/thinkingInFE"},
           {"name": "ECMAScript 6入门","link": "http://es6.ruanyifeng.com/"},
-          {"name": "ECMAScript 5","link": "http://yanhaijing.com/es5/#null"},
           {"name": "JavaScript Promise迷你书","link": "http://liubin.org/promises-book/"},
           {"name": "JavaScript 原理","link": "http://typeof.net/s/jsmech/"},
           {"name": "JavaScript 秘密花园","link": "http://bonsaiden.github.io/JavaScript-Garden/zh/"},
@@ -128,12 +128,12 @@
           {"name": "JSON风格指南","link": "https://github.com/darcyliu/google-styleguide/blob/master/JSONStyleGuide.md"},
           {"name":"JavaScript资源大全中文版","link":"https://github.com/jobbole/awesome-javascript-cn"},
           {"name": "JS实现十大经典排序算法","link": "https://sort.hust.cc/"},
-          {"name": "Everycode Js","link": "https://github.com/nunnly/everycode/issues"},
+          {"name": "Everycode训练","link": "https://github.com/nunnly/everycode/issues"},
           {"name": "命名函数表达式探秘","link": "http://justjavac.com/named-function-expressions-demystified.html"},
           {"name": "学用 JavaScript 设计模式","link": "http://www.oschina.net/translate/learning-javascript-design-patterns"},
           {"name": "Javascript的12个怪癖","link": "https://github.com/justjavac/12-javascript-quirks/blob/master/cn/content.md"},
-          {"name":"TalkingCoder","link":"https://www.talkingcoder.com/article/list/all"},
-          {"name":"上传图片相关技术","link":"http://www.wdshare.org/article/57ccde4874cf8e270b2c5343"}
+          {"name":"TalkingCoder博客","link":"https://www.talkingcoder.com/article/list/all"}
+
       ],
       "jq1":[
           {"name": "简单易懂的JQuery魔法","link": "http://www.nowamagic.net/librarys/books/contents/jquery"},
@@ -186,10 +186,8 @@
       ]
   },
   "articleBlog": {
-    "art1":[{
-        "name": "前端开发指南",
-        "link": "https://github.com/icepy/Front-End-Develop-Guide#fed_point_recommend"
-      },
+    "art1":[
+        { "name": "前端开发指南","link": "https://github.com/icepy/Front-End-Develop-Guide#fed_point_recommend"},
       {
         "name": "Markdown 新手指南",
         "link": "http://www.jianshu.com/p/q81RER"
@@ -215,13 +213,11 @@
         "link": "http://www.jquery123.com/"
       },
       {
-        "name": "OverAPI",
+        "name": "OverAPI文档",
         "link": "http://overapi.com/"
       },
-      {"name":"超强正则可视化匹配","link":"https://www.regex101.com/"},
-      {"name":"正则文章","link":"http://www.haorooms.com/search?keyword=%E6%AD%A3%E5%88%99"},
-      {"name": "正则可视化工具","link": "https://regexper.com/"},
-      {"name": "Jsfiddle","link": "http://jsfiddle.net/"}
+      {"name": "Jsfiddle工具","link": "http://jsfiddle.net/"},
+      {"name":"上传图片相关技术","link":"http://www.wdshare.org/article/57ccde4874cf8e270b2c5343"}
     ],
     "art2":[{
         "name": "HTML 和 CSS 代码规范",
@@ -257,6 +253,16 @@
          {"name":"前端资源分享1","link":"https://github.com/hacke2/hacke2.github.io/issues/1"},
          {"name":"前端资源分享2","link":"https://github.com/hacke2/hacke2.github.io/issues/3"},
          {"name":"前端开发体系建设日记 ","link":"https://github.com/fouber/blog/issues/2"}
+    ],
+    "art5":[
+        {"name":"超强正则可视化匹配","link":"https://www.regex101.com/"},
+        {"name": "正则可视化工具","link": "https://regexper.com/"},
+        {"name": "正则表达式入门教程","link":"http://www.zjmainstay.cn/my-regexp"},
+        {"name": "深入理解正则表达式高级教程","link": "http://www.zjmainstay.cn/deep-regexp"},
+        {"name": "深入理解正则表达式环视","link": "http://www.zjmainstay.cn/regexp-lookaround"},
+        {"name": "正则表达式在线测试工具","link": "http://regex.zjmainstay.cn/"}
+
+
     ]
   },
   "quietBlog":[
