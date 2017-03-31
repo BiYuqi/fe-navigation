@@ -3,6 +3,10 @@
             {"name": "阮一峰","link": "http://www.ruanyifeng.com/blog/"},
             {"name": "廖雪峰","link": "http://www.liaoxuefeng.com/"},
             {"name": "小胡子哥","link": "http://www.barretlee.com/entry/"},
+            {"name": "司徒正美","link": "http://www.cnblogs.com/rubylouvre"},
+            {"name": "叶小钗","link": "http://www.cnblogs.com/yexiaochai"},
+            {"name": "CSS森林","link": "http://blog.cssforest.org/"},
+            {"name": "朴灵","link": "http://html5ify.com/"},
             {"name": "轩枫阁","link": "http://www.xuanfengge.com/"},
             {"name": "高浩阳","link": "https://gaohaoyang.github.io/"},
             {"name": "小虎下虾鱼","link": "http://www.xiaoboy.com/"},
@@ -13,21 +17,24 @@
             {"name": "教程笔记","link": "http://www.angularjsapi.cn/hetao/"},
             {"name": "咀嚼之味","link": "http://jerryzou.com/"},
             {"name": "十年踪迹","link": "https://www.h5jun.com/archives/" },
-            {"name": "ChokCoco","link": "http://www.cnblogs.com/coco1s/" },
-            {"name": "Kayo","link": "http://kayosite.com/"},
-            {"name": "Ahonn","link": "http://www.ahonn.me/"},
-            {"name":"tw93","link":"http://tw93.github.io/"},
-            {"name":"师少兵","link":"http://www.xiabingbao.com/"},
-            {"name":"亚里士朱德的博客","link":"http://yalishizhude.github.io/"},
-            {"name":"Zjmainstay","link":"http://www.zjmainstay.cn/regexp"},
-            {"name":"Superman Blog","link":"http://www.iamsuperman.cn/"},
-        	{"name":"Beidan","link":"http://www.cnblogs.com/beidan/"},
-        	{"name":"流云诸葛","link":"http://www.cnblogs.com/lyzg/"},
-        	{"name":"肥仔John","link":"http://www.cnblogs.com/fsjohnhuang/"},
-        	{"name":"Jake","link":"http://i.jakeyu.top/"},
-            {"name":"KeenWon","link":"http://keenwon.com/"},
-            {"name":"三水清","link":"http://js8.in/"},
-            {"name":"易建勇","link":"http://www.yi-jy.com/category/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/"}
+            {"name": "ChokCoco博客","link": "http://www.cnblogs.com/coco1s/" },
+            {"name": "Kayo博客","link": "http://kayosite.com/"},
+            {"name": "Ahonn博客","link": "http://www.ahonn.me/"},
+            {"name": "tw93博客","link":"http://tw93.github.io/"},
+            {"name": "师少兵","link":"http://www.xiabingbao.com/"},
+            {"name": "亚里士朱德的博客","link":"http://yalishizhude.github.io/"},
+            {"name": "Zjmainstay博客","link":"http://www.zjmainstay.cn/regexp"},
+            {"name": "Superman Blog博客","link":"http://www.iamsuperman.cn/"},
+        	{"name": "Beidan博客","link":"http://www.cnblogs.com/beidan/"},
+        	{"name": "流云诸葛","link":"http://www.cnblogs.com/lyzg/"},
+        	{"name": "肥仔John","link":"http://www.cnblogs.com/fsjohnhuang/"},
+        	{"name": "Jake博客","link":"http://i.jakeyu.top/"},
+            {"name": "KeenWon博客","link":"http://keenwon.com/"},
+            {"name": "三水清","link":"http://js8.in/"},
+            {"name": "易建勇","link":"http://www.yi-jy.com/category/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/"},
+            {"name": "M.M.F 小屋","link":"https://www.mmxiaowu.com/"},
+            {"name": "临水照影", "link":"http://haoqiao.me/"}
+
       ],
   "teamBlog": [
             {"name": "奇舞团博客","link": "https://75team.com/"},
@@ -42,6 +49,8 @@
             {"name": "DIV.IO","link": "http://div.io/#/welcome"},
             {"name": "前端开发博客","link": "http://caibaojian.com/"},
             {"name": "前端观察","link": "https://www.qianduan.net/"},
+            {"name": "前端圈","link": "https://fequan.com/"},
+            {"name": "V2EX社区","link": "https://www.v2ex.com/"},
             {"name": "前端乱炖","link": "http://www.html-js.com/"}
       ],
   "angularBlog": {
@@ -55,7 +64,9 @@
           {"name": "AngularJs进阶", "link":" http://www.kancloud.cn/digest/angularjs-sunny1989/122834"},
           {"name": "Angularjs范例程序(荐)","link": "http://showcase.ngnice.com/#/home/home"},
           { "name": "Angular的UI库(徐飞)","link": "https://github.com/xufei/ng-control"},
-          { "name": "Angular中文社区","link": "http://angularjs.cn/hots"}
+          { "name": "Angular中文社区","link": "http://angularjs.cn/hots"},
+          {"name":"Angular2系列教程","link":"https://github.com/lewis617/angular2-tutorial"},
+          {"name":"Angular2.0简单教程","link":"http://codin.im/categories/%E6%95%99%E7%A8%8B/"}
       ],
       "angular2":[
           {"name": "Angular路由深入浅出","link": "http://div.io/topic/1096"},
@@ -89,7 +100,8 @@
         {"name": "axios全攻略","link": "https://ykloveyxk.github.io/2017/02/25/axios%E5%85%A8%E6%94%BB%E7%95%A5/"},
         {"name": " Vue.js 中文教程","link": "http://www.ctolib.com/docs-vue-js-c-index.html"},
         {"name": " Vue.js 中文社区","link": "http://www.vue-js.com/"},
-        {"name": " Vue Api数据化展示","link": "https://vuejs-tips.github.io/cheatsheet/"}
+        {"name": " Vue Api数据化展示","link": "https://vuejs-tips.github.io/cheatsheet/"},
+        {"name": "Element Vue2 组件库文档 ","link": "https://www.mmxiaowu.com/article/58482371d4352863efb55468"}
     ],
     "vueDemo":[
         {"name": "基于vue2.0数据展示平台","link": "http://www.jianshu.com/p/da8836c4a4d7","github": "https://github.com/hieeyh/tong2-family"},
@@ -98,6 +110,7 @@
         {"name": "vue2.0单页应用实战 ","link": "http://www.tuicool.com/articles/me6RJfF"},
         {"name": "vue2.0本地记事本 ","link": "https://github.com/lin-xin/notepad"},
         {"name": "vue2.0理财计算器 ","link": "https://github.com/ksky521/welicai"}
+
     ],
     "reactDemo":[
       {"name": "RN 学习指南","link": "https://github.com/reactnativecn/react-native-guide#reactjs","github": "https://github.com/hieeyh/tong2-family"},
@@ -252,7 +265,8 @@
     "art4":[
          {"name":"前端资源分享1","link":"https://github.com/hacke2/hacke2.github.io/issues/1"},
          {"name":"前端资源分享2","link":"https://github.com/hacke2/hacke2.github.io/issues/3"},
-         {"name":"前端开发体系建设日记 ","link":"https://github.com/fouber/blog/issues/2"}
+         {"name":"前端开发体系建设日记 ","link":"https://github.com/fouber/blog/issues/2"},
+         {"name":"Github 前端收藏夹 ","link":"https://www.mmxiaowu.com/article/584820f6d4352863efb55459"}
     ],
     "art5":[
         {"name":"超强正则可视化匹配","link":"https://www.regex101.com/"},
@@ -265,13 +279,21 @@
 
     ]
   },
-  "quietBlog":[
-      {"name":"百度静态资源","link":"http://cdn.code.baidu.com/"},
-      {"name":"BootCDN","link":"http://www.bootcdn.cn/"},
-      {"name":"Web前端资源库","link":"https://www.awesomes.cn/"},
-      {"name":"淘宝NPM镜像","link":"http://npm.taobao.org/"},
-      {"name":"模拟数据Rap","link":"http://rap.taobao.org/org/index.do"}
-  ],
+  "quietBlog":{
+      "static1":[
+          {"name":"百度静态资源","link":"http://cdn.code.baidu.com/"},
+          {"name":"BootCDN","link":"http://www.bootcdn.cn/"},
+          {"name":"Web前端资源库","link":"https://www.awesomes.cn/"},
+          {"name":"淘宝NPM镜像","link":"http://npm.taobao.org/"},
+          {"name":"模拟数据Rap","link":"http://rap.taobao.org/org/index.do"}
+      ],
+      "static2":[
+          {"name":"iScroll 5 API 中文版","link":"https://iiunknown.gitbooks.io/iscroll-5-api-cn/content/index.html"},
+          {"name":"ESLint中文网","link":"http://eslint.cn/"},
+          {"name":"Normalize.css","link":"http://necolas.github.io/normalize.css/"},
+          {"name":"Animate.css","link":"https://daneden.github.io/animate.css/"}
+      ]
+  },
   "gits":{
       "git1":[
           {"name":"Git参考手册","link":"http://gitref.justjavac.com/basic/#rm-mv"},
@@ -285,38 +307,5 @@
           {"name":"Git教程-廖雪峰","link":"http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000"},
           {"name":"程序员自我修养","link":"http://www.kancloud.cn/kancloud/a-programmer-prepares/78160"}
       ]
-  },
-  "mobileBlog": [
-    [{
-        "name": "移动端尺寸基础知识",
-        "link": "http://colachan.com/post/3435"
-      },
-      {
-        "name": "H5项目常见问题汇总及解决方案",
-        "link": "https://github.com/FrontEndZQ/HTML5-FAQ"
-      },
-      {
-        "name": "移动端高清、多屏适配方案",
-        "link": "http://www.html-js.com/article/Mobile-terminal-H5-mobile-terminal-HD-multi-screen-adaptation-scheme%203041"
-      }
-    ],
-    [{
-        "name": "微信的We UI",
-        "link": "https://github.com/weui/weui"
-      },
-      {
-        "name": "淘宝的SUI",
-        "link": "http://m.sui.taobao.org/"
-      }
-    ],
-    [{
-        "name": "移动H5前端性能优化指南",
-        "link": "http://isux.tencent.com/h5-performance.html"
-      },
-      {
-        "name": "权威的前端性能指南",
-        "link": "https://browserdiet.com/zh/#js"
-      }
-    ]
-  ]
+  }
 }
