@@ -101,7 +101,8 @@
         {"name": " Vue.js 中文教程","link": "http://www.ctolib.com/docs-vue-js-c-index.html"},
         {"name": " Vue.js 中文社区","link": "http://www.vue-js.com/"},
         {"name": " Vue Api数据化展示","link": "https://vuejs-tips.github.io/cheatsheet/"},
-        {"name": "Element Vue2 组件库文档 ","link": "https://www.mmxiaowu.com/article/58482371d4352863efb55468"}
+        {"name": "Element Vue2 组件库文档 ","link": "https://www.mmxiaowu.com/article/58482371d4352863efb55468"},
+        {"name":"Element Vue官网","link":"http://element.eleme.io/#/zh-CN"}
     ],
     "vueDemo":[
         {"name": "基于vue2.0数据展示平台","link": "http://www.jianshu.com/p/da8836c4a4d7","github": "https://github.com/hieeyh/tong2-family"},
@@ -193,6 +194,7 @@
           {"name":"Webpack中文指南","link":"http://webpackdoc.com/"},
           {"name":"Webpack经典入门","link":"http://www.tuicool.com/articles/ZjemEbJ"},
           {"name":"Webpack学习资源","link":"https://github.com/lengziyu/learn-webpack"},
+          {"name":"Webpack中文站","link":"https://doc.webpack-china.org/"},
           {"name":"RequireJS常用知识","link":"http://www.cnblogs.com/lyzg/p/4865502.html"}
       ],
       "csss":[
@@ -234,8 +236,7 @@
     "art4":[
          {"name":"前端资源分享1","link":"https://github.com/hacke2/hacke2.github.io/issues/1"},
          {"name":"前端资源分享2","link":"https://github.com/hacke2/hacke2.github.io/issues/3"},
-         {"name":"前端开发体系建设日记 ","link":"https://github.com/fouber/blog/issues/2"},
-         {"name":"Github 前端收藏夹 ","link":"https://www.mmxiaowu.com/article/584820f6d4352863efb55459"}
+         {"name":"前端开发体系建设日记 ","link":"https://github.com/fouber/blog/issues/2"}
     ],
     "art5":[
         {"name":"超强正则可视化匹配","link":"https://www.regex101.com/"},
@@ -253,13 +254,21 @@
           {"name":"Web前端资源库","link":"https://www.awesomes.cn/"},
           {"name":"淘宝NPM镜像","link":"http://npm.taobao.org/"},
           {"name":"模拟数据Rap","link":"http://rap.taobao.org/org/index.do"},
+          {"name":"Github 前端收藏夹 ","link":"https://www.mmxiaowu.com/article/584820f6d4352863efb55459"},
           {"name":"Awesomes-Web前端开发资源库","link":"https://www.awesomes.cn/"}
       ],
       "static2":[
           {"name":"iScroll 5 API 中文版","link":"https://iiunknown.gitbooks.io/iscroll-5-api-cn/content/index.html"},
           {"name":"ESLint中文网","link":"http://eslint.cn/"},
+          {"name":"Loadsh中文文档","link":"http://lodash.think2011.net/"},
+          {"name":"Javascript 中文文档","link":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript"},
+          {"name":"Yarn 文档","link":"https://yarnpkg.com/en/docs/cli/"},
+          {"name":"JQ3.1 API","link":"http://jquery.cuishifeng.cn/"},
+          {"name":"Swiper中文网","link":"http://www.swiper.com.cn/"},
           {"name":"Js模板引擎ArtTemplate","link":"https://github.com/aui/artTemplate"},
-          {"name":"ArtTemplate模板demo","link":"http://aui.github.io/artTemplate/demo/index.html"}
+          {"name":"ArtTemplate模板demo","link":"http://aui.github.io/artTemplate/demo/index.html"},
+          {"name":"免费图标库","link":"http://nagoshiashumari.github.io/Rpg-Awesome/"},
+          {"name":"阿里巴巴矢量图标库","link":"http://www.iconfont.cn/"}
       ]
   },
   "gits":{
