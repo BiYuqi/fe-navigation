@@ -313,5 +313,12 @@
           {"name":"Git教程-廖雪峰","link":"http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000"},
           {"name":"程序员自我修养","link":"http://www.kancloud.cn/kancloud/a-programmer-prepares/78160"}
       ]
+  },
+  "oth":{
+      "o1":[
+          {"name":"Python指南","link":"https://pythonguidecn.readthedocs.io/zh/latest/"},
+          {"name":"Python知乎系列","link":"https://www.zhihu.com/topic/19552832"},
+          {"name":"简明 Python 教程","link":"https://wizardforcel.gitbooks.io/a-byte-of-python/content/"}
+      ]
   }
 }
