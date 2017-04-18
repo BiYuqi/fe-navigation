@@ -110,7 +110,8 @@
         {"name": " Vue.js 中文社区","link": "http://www.vue-js.com/"},
         {"name": " Vue Api数据化展示","link": "https://vuejs-tips.github.io/cheatsheet/"},
         {"name": "Element Vue2 组件库文档 ","link": "https://www.mmxiaowu.com/article/58482371d4352863efb55468"},
-        {"name":"Element Vue官网","link":"http://element.eleme.io/#/zh-CN"}
+        {"name":"Element Vue官网","link":"http://element.eleme.io/#/zh-CN"},
+        {"name":"vue专题","link":"https://www.awesomes.cn/subject/vue"}
     ],
     "vueDemo":[
         {"name": "基于vue2.0数据展示平台","link": "http://www.jianshu.com/p/da8836c4a4d7","github": "https://github.com/hieeyh/tong2-family"},
@@ -150,11 +151,14 @@
           {"name": "JSON风格指南","link": "https://github.com/darcyliu/google-styleguide/blob/master/JSONStyleGuide.md"},
           {"name":"JavaScript资源大全中文版","link":"https://github.com/jobbole/awesome-javascript-cn"},
           {"name": "JS实现十大经典排序算法","link": "https://sort.hust.cc/"},
-          {"name": "Everycode训练","link": "https://github.com/nunnly/everycode/issues"},
+          {"name": "JavaScript30英文","link": "https://github.com/wesbos/JavaScript30"},
+          {"name": "JavaScript30中文","link": "https://github.com/soyaine/JavaScript30"},
+          {"name": "JavaScript30中文2","link": "https://github.com/winar-jin/JavaScript30-Challenge"},
           {"name": "命名函数表达式探秘","link": "http://justjavac.com/named-function-expressions-demystified.html"},
           {"name": "学用 JavaScript 设计模式","link": "http://www.oschina.net/translate/learning-javascript-design-patterns"},
           {"name": "Javascript的12个怪癖","link": "https://github.com/justjavac/12-javascript-quirks/blob/master/cn/content.md"},
-          {"name":"TalkingCoder博客","link":"https://www.talkingcoder.com/article/list/all"}
+          {"name":"TalkingCoder博客","link":"https://www.talkingcoder.com/article/list/all"},
+          {"name":"JavaScript闯关记","link":"https://github.com/stone0090/javascript-lessons"}
 
       ],
       "jq1":[
@@ -295,9 +299,16 @@
           {"name":"imagesLoaded检测图片是否加载完成","link":"https://github.com/desandro/imagesloaded"},
           {"name":"Fort表单填写进度效果","link":"https://github.com/idriskhenchil/Fort.js"},
           {"name":"Quill灵活自定义富文本编辑器","link":"https://github.com/quilljs/quill/"},
-          {"name":"moment Javascript日期处理","link":"https://github.com/moment/moment/"},
+          {"name":"moment Javascript日期处理","link":"http://momentjs.com/"},
           {"name":"hammer一款小巧的手势库","link":"https://github.com/hammerjs/hammer.js/"},
           {"name":"infinite-scroll按需加载","link":"https://github.com/infinite-scroll/infinite-scroll"}
+      ],
+      "static3":[
+          {"name":"vue专题","link":"https://www.awesomes.cn/subject/vue"},
+          {"name":"Bootstrap专题","link":"https://www.awesomes.cn/subject/bootstrap"},
+          {"name":"Angular专题","link":"https://www.awesomes.cn/subject/angular"},
+          {"name":"React专题","link":"https://www.awesomes.cn/subject/react"},
+          {"name":"D3专题","link":"https://www.awesomes.cn/subject/d3"}
       ]
   },
   "gits":{
@@ -319,6 +330,9 @@
           {"name":"Python指南","link":"https://pythonguidecn.readthedocs.io/zh/latest/"},
           {"name":"Python知乎系列","link":"https://www.zhihu.com/topic/19552832"},
           {"name":"简明 Python 教程","link":"https://wizardforcel.gitbooks.io/a-byte-of-python/content/"}
+      ],
+      "o2":[
+          {"name":"深度学习","link":"https://exacity.github.io/deeplearningbook-chinese/"}
       ]
   }
 }
