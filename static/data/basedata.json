@@ -17,7 +17,7 @@
             {"name": "高浩阳","link": "https://gaohaoyang.github.io/"},
             {"name": "小虎虾鱼","link": "http://www.xiaoboy.com/"},
             {"name": "聂卫东","link": "http://www.fefork.com/"},
-            {"name": "张鑫旭","link": "http://www.zhangxinxu.com/wordpress/"},
+            {"name": "张鑫旭","link": "http://www.zhangxinxu.com/"},
             {"name": "玉伯","link": "https://github.com/lifesinger/blog/issues?q=label%3Ablog"},
             {"name": "练小习","link": "https://www.chengrang.com/"},
             {"name": "教程笔记","link": "http://www.angularjsapi.cn/hetao/"},
@@ -61,7 +61,8 @@
             {"name": "前端观察","link": "https://www.qianduan.net/"},
             {"name": "前端圈","link": "https://fequan.com/"},
             {"name": "V2EX社区","link": "https://www.v2ex.com/"},
-            {"name": "前端乱炖","link": "http://www.html-js.com/"}
+            {"name": "前端乱炖","link": "http://www.html-js.com/"},
+            {"name": "创造狮社区","link":"http://chuangzaoshi.com/"}
       ],
   "angularBlog": {
       "angular1":[
@@ -332,8 +333,6 @@
           {"name":"Git Magic","link":"http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_cn/ch01.html"},
           {"name":"Git教程-廖雪峰","link":"http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000"},
           {"name":"实用git命令","link":"http://www.cnblogs.com/fanfan259/p/4810517.html"},
-          {"name":"程序员自我修养","link":"http://www.kancloud.cn/kancloud/a-programmer-prepares/78160"},
-          {"name":"程序员自我修养","link":"http://www.kancloud.cn/kancloud/a-programmer-prepares/78160"},
           {"name":"程序员自我修养","link":"http://www.kancloud.cn/kancloud/a-programmer-prepares/78160"}
       ]
   },
