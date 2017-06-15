@@ -44,7 +44,8 @@
             {"name": "微醺岁月", "link":"https://github.com/jawil/blog"},
             {"name": "HcySunYang博", "link":"http://hcysun.me/"},
             {"name":"路易斯","link":"http://louiszhai.github.io/"},
-            {"name":"晚晴幽草轩","link":"http://jeffjade.com/"}
+            {"name":"晚晴幽草轩","link":"http://jeffjade.com/"},
+            {"name":"CodeSky 代码之空","link":"https://codesky.me/"}
 
       ],
   "teamBlog": [
@@ -65,6 +66,9 @@
             {"name": "前端乱炖","link": "http://www.html-js.com/"},
             {"name": "创造狮社区","link":"http://chuangzaoshi.com/"}
       ],
+  "learnAny":[
+            {"name":"Study Anything交互式脑图","link":"https://learn-anything.xyz/"}
+  ],
   "angularBlog": {
       "angular1":[
           {"name": "NG资源合集", "link":" http://blog.aijc.net/AngularLearning/"},
