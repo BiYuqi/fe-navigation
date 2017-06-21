@@ -45,7 +45,11 @@
             {"name": "HcySunYang博", "link":"http://hcysun.me/"},
             {"name":"路易斯","link":"http://louiszhai.github.io/"},
             {"name":"晚晴幽草轩","link":"http://jeffjade.com/"},
-            {"name":"CodeSky 代码之空","link":"https://codesky.me/"}
+            {"name":"CodeSky 代码之空","link":"https://codesky.me/"},
+            {"name":"Jerry Qu博","link":"https://imququ.com/"},
+            {"name":"牧风","link":"https://mufeng.me/"},
+            {"name":"大猫","link":"http://ooxx.me/"},
+            {"name":"于江水","link":"http://www.yujiangshui.com/"}
 
       ],
   "teamBlog": [
@@ -54,7 +58,8 @@
             {"name": "淘宝前端","link": "http://taobaofed.org/"},
             {"name": "大搜车","link": "http://f2e.souche.com/blog/"},
             {"name": "携程","link": "http://ued.ctrip.com/blog/"},
-            {"name":"奇舞学院","link":"https://t.75team.com/video"}
+            {"name":"奇舞学院","link":"https://t.75team.com/video"},
+            {"name":"FED社区","link":"http://frontenddev.org/?f=qianduanblog.com"}
       ],
   "nationBlog": [
             {"name": "Web技术研究","link": "https://www.web-tinker.com/"},
