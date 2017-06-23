@@ -49,6 +49,14 @@
             {"name":"Jerry Qu博","link":"https://imququ.com/"},
             {"name":"牧风","link":"https://mufeng.me/"},
             {"name":"大猫","link":"http://ooxx.me/"},
+            {"name":"剧中人","link":"http://bh-lay.com/blog/"},
+            {"name":"朱文龙 Mofei","link":"https://www.zhuwenlong.com/blog"},
+            {"name":"Smohan博","link":"https://www.smohan.net/blog/"},
+            {"name":"易翰","link":"http://hankewins.com/"},
+            {"name":"二哲","link":"http://www.meckodo.com/#!/"},
+            {"name":"蜀山客","link":"http://www.zeakhold.com/#"},
+            {"name":"小青年博客","link":"https://zhaomenghuan.github.io/"},
+            {"name":"Dron 博客","link":"http://ucren.com/"},
             {"name":"于江水","link":"http://www.yujiangshui.com/"}
 
       ],
@@ -72,7 +80,8 @@
             {"name": "创造狮社区","link":"http://chuangzaoshi.com/"}
       ],
   "learnAny":[
-            {"name":"Study Anything交互式脑图","link":"https://learn-anything.xyz/"}
+            {"name":"Study Anything交互式脑图","link":"https://learn-anything.xyz/"},
+            {"name":"JS前端开发","link":"https://www.kancloud.cn/jikeytang/qq/81141"}
   ],
   "angularBlog": {
       "angular1":[
