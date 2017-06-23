@@ -57,6 +57,7 @@
             {"name":"蜀山客","link":"http://www.zeakhold.com/#"},
             {"name":"小青年博客","link":"https://zhaomenghuan.github.io/"},
             {"name":"Dron 博客","link":"http://ucren.com/"},
+            {"name":"坚壳","link":"http://www.replace5.com/"},
             {"name":"于江水","link":"http://www.yujiangshui.com/"}
 
       ],
@@ -235,8 +236,10 @@
           {"name":"RequireJS常用知识","link":"http://www.cnblogs.com/lyzg/p/4865502.html"}
       ],
       "csss":[
-          {"name":"Less详细入门","link":"http://www.bootcss.com/p/lesscss/"},
-          {"name":"Sass中文文档","link":"http://peiwen.lu/SassReferenceChineseTranslation/"},
+          {"name":"Less官方文档","link":"http://lesscss.org/"},
+          {"name":"Less详细入门(版本过低)","link":"http://www.bootcss.com/p/lesscss/"},
+          {"name":"Sass中文文档","link":"https://www.sass.hk/"},
+          {"name":"Sass入门指南","link":"https://www.w3cplus.com/sassguide/index.html"},
           {"name":"Normalize.css","link":"http://necolas.github.io/normalize.css/"},
           {"name":"Animate.css","link":"https://daneden.github.io/animate.css/"}
       ]
