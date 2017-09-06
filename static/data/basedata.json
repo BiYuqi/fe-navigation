@@ -75,7 +75,7 @@
       ],
   "nationBlog": [
             {"name": "Web技术研究","link": "https://www.web-tinker.com/"},
-            {"name": "DIV.IO","link": "http://div.io/#/welcome"},
+            {"name": "DIV.IO社区","link": "http://div.io/#/welcome"},
             {"name": "前端开发博客","link": "http://caibaojian.com/"},
             {"name": "前端观察","link": "https://www.qianduan.net/"},
             {"name": "前端圈","link": "https://fequan.com/"},
@@ -85,7 +85,8 @@
       ],
   "learnAny":[
             {"name":"Study Anything交互式脑图","link":"https://learn-anything.xyz/"},
-            {"name":"JS前端开发","link":"https://www.kancloud.cn/jikeytang/qq/81141"}
+            {"name":"JS前端开发","link":"https://www.kancloud.cn/jikeytang/qq/81141"},
+            {"name":"前端导航","link":"http://www.alloyteam.com/nav/"}
   ],
   "angularBlog": {
       "angular1":[
@@ -95,17 +96,17 @@
           {"name": "徐飞", "link":"https://github.com/xufei/blog"},
           {"name": "邹业盛", "link":" https://www.zouyesheng.com/angular.html"},
           {"name": "吕大豹", "link":" http://www.cnblogs.com/lvdabao/tag/AngularJs/"},
-          {"name": "AngularJs进阶", "link":" http://www.kancloud.cn/digest/angularjs-sunny1989/122834"},
-          {"name": "Angularjs范例程序(荐)","link": "http://showcase.ngnice.com/#/home/home"},
-          { "name": "Angular的UI库(徐飞)","link": "https://github.com/xufei/ng-control"},
-          { "name": "Angular中文社区","link": "http://angularjs.cn/hots"},
-          {"name":"Angular2系列教程","link":"https://github.com/lewis617/angular2-tutorial"},
-          {"name":"Angular2.0简单教程","link":"http://codin.im/categories/%E6%95%99%E7%A8%8B/"}
+          {"name": "NG进阶", "link":" http://www.kancloud.cn/digest/angularjs-sunny1989/122834"},
+          {"name": "NG范例程序(荐)","link": "http://showcase.ngnice.com/#/home/home"},
+          { "name": "NG的UI库(徐飞)","link": "https://github.com/xufei/ng-control"},
+          { "name": "NG中文社区","link": "http://angularjs.cn/hots"},
+          {"name":"NG系列教程","link":"https://github.com/lewis617/angular2-tutorial"},
+          {"name":"NG2.0简单教程","link":"http://codin.im/categories/%E6%95%99%E7%A8%8B/"}
       ],
       "angular2":[
-          {"name": "Angular路由深入浅出","link": "http://div.io/topic/1096"},
-          {"name": "AngularJS 最佳实践","link": "http://www.lovelucy.info/angularjs-best-practices.html"},
-          {"name": "AngularJS 开发思维","link": "http://www.infoq.com/cn/news/2013/11/how-to-think-angularjs"},
+          {"name": "NG路由深入浅出","link": "http://div.io/topic/1096"},
+          {"name": "NG最佳实践","link": "http://www.lovelucy.info/angularjs-best-practices.html"},
+          {"name": "NG开发思维","link": "http://www.infoq.com/cn/news/2013/11/how-to-think-angularjs"},
           {"name": "UI Router 详解","link": "http://blog.csdn.net/zcl_love_wx/article/details/52034193"},
           {"name": "UI Router 实现表单向导","link": "http://www.oschina.net/translate/angularjs-multi-step-form-using-ui-router"}
       ]
@@ -191,7 +192,7 @@
       ],
       "jq1":[
           {"name": "简单易懂的JQuery魔法","link": "http://www.nowamagic.net/librarys/books/contents/jquery"},
-          {"name": "How to write jQuery plugin?","link": "http://i5ting.github.io/How-to-write-jQuery-plugin/build/jquery.plugin.html"},
+          {"name": "How to write jQuery plugin?技巧","link": "http://i5ting.github.io/How-to-write-jQuery-plugin/build/jquery.plugin.html"},
           {"name": "Jquery API","link": "https://oscarotero.com/jquery/"},
           {"name": "JQuery 源码解读","link": "http://rapheal.sinaapp.com/tag/jquery-2/"},
           {"name": "JQuery 源码分析","link": "http://www.cnblogs.com/aaronjs/p/3279314.html"},
