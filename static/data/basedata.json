@@ -151,21 +151,40 @@
         {"name": "vue2.0理财计算器 ","link": "https://github.com/ksky521/welicai"}
 
     ],
+    "react":[
+      {"name": "React中文","link": "https://discountry.github.io/react/"},
+      {"name": "React英文","link": "https://facebook.github.io/react/"},
+      {"name": "React 中国","link": "http://react-china.org"},
+      {"name": "react.js入门教程(gitbook)","link": "https://hulufei.gitbooks.io/react-tutorial/content/introduction.html"},
+      {"name": "深入浅出React（一）","link": "http://www.infoq.com/cn/articles/react-art-of-simplity"},
+      {"name": "深入浅出React（二）","link": "http://www.infoq.com/cn/articles/react-and-webpack"},
+      {"name": "深入浅出React（三）","link": "http://www.infoq.com/cn/articles/react-jsx-and-component"},
+      {"name": "深入浅出React（四）","link": "http://www.infoq.com/cn/articles/react-dom-diff"},
+      {"name": "深入浅出React（五）","link": "http://www.infoq.com/cn/articles/react-flux"},
+      {"name": "react-webpack-cookbook中文版","link":"http://fakefish.github.io/react-webpack-cookbook/"},
+      {"name": "React 初探","link":"http://www.alloyteam.com/2015/04/react-explore/"},
+      {"name": "React虚拟DOM浅析 ","link": "http://www.alloyteam.com/2015/10/react-virtual-analysis-of-the-dom/"},
+      {"name": "react组件间通信 ","link": "http://www.alloyteam.com/2015/07/react-zu-jian-jian-tong-xin/"},
+      {"name": "React 数据流管理架构之 Redux 介绍 ","link": "http://www.alloyteam.com/2015/09/react-redux/"}
+
+    ],
     "reactDemo":[
       {"name": "RN 学习指南","link": "https://github.com/reactnativecn/react-native-guide#reactjs","github": "https://github.com/hieeyh/tong2-family"},
       {"name": "RN技术栈系列教程","link": "http://www.ruanyifeng.com/blog/2016/09/react-technology-stack.html"},
-      {"name": "React-Native-lesoon","link": "https://github.com/vczero/react-native-lesson"},
+      {"name": "React-Native入门教程","link": "https://github.com/vczero/react-native-lesson"},
       {"name": "RN学习资源精选仓库","link": "http://www.devio.org/2016/09/05/React-Native-%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E7%B2%BE%E9%80%89%E4%BB%93%E5%BA%93/"},
       {"name": "RN专题(荐)","link": "http://www.lcode.org/react-native/"},
       {"name": "react-navigation库","link": "https://reactnavigation.org/"},
       {"name": "RN中文网","link": "http://reactnative.cn/docs/0.39/getting-started.html"},
       {"name": "Native生态-探索学习","link": "https://github.com/icepy/Front-End-Develop-Guide/blob/master/react/React.md"},
       {"name": "awesome-react 中文版","link": "https://github.com/Pines-Cheng/awesome-react-cn"},
+      {"name": "React Native 之 JSBridg ","link": "http://www.alloyteam.com/2015/05/react-native-zhi-jsbridge/"},
+      {"name": "React Native 研究与实践教程 ","link": "https://github.com/crazycodeboy/RNStudyNotes"},
       {"name": "Babel手册","link": "https://github.com/thejameskyle/babel-handbook/blob/master/translations/zh-Hans/user-handbook.md#toc-babel-cli"},
       {"name": "Genymotion安装及使用教程详解","link": "http://www.devio.org/2016/11/27/Genymotion%E5%AE%89%E8%A3%85%E5%8F%8A%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E8%AF%A6%E8%A7%A3/"}
     ],
     "wechat":[
-      {"name": "小程序开发文档","link": "https://mp.weixin.qq.com/debug/wxadoc/dev/index.html"},
+      {"name": "小程序开发文档","link": "https://mp.weixin.qq.com/debug/wxadoc/dev/framework/MINA.html"},
       {"name": "小程序设计指南","link": "https://mp.weixin.qq.com/debug/wxadoc/design/index.html"},
       {"name": "小程序开发者工具","link": "https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html"},
       {"name": "从搭建一个微信小程序开始(腾讯云)","link": "https://www.qcloud.com/act/event/yingyonghao.html"},
