@@ -20,7 +20,7 @@
             {"name": "张鑫旭","link": "http://www.zhangxinxu.com/"},
             {"name": "玉伯","link": "https://github.com/lifesinger/blog/issues?q=label%3Ablog"},
             {"name": "练小习","link": "https://www.chengrang.com/"},
-            {"name": "教程笔记","link": "http://www.angularjsapi.cn/hetao/"},
+            {"name": "教程笔记","link": "http://www.cnblogs.com/hetaojs/"},
             {"name": "咀嚼之味","link": "http://jerryzou.com/"},
             {"name": "十年踪迹","link": "https://www.h5jun.com/archives/" },
             {"name": "ChokCoco博","link": "http://www.cnblogs.com/coco1s/" },
@@ -424,7 +424,8 @@
           {"name":"《Python标准库》中文版PDF","link":"http://old.sebug.net/paper/books/python/%E3%80%8APython%E6%A0%87%E5%87%86%E5%BA%93%E3%80%8B%E4%B8%AD%E6%96%87%E7%89%88.pdf"},
           {"name":"Python核心编程第二版","link":"https://wizardforcel.gitbooks.io/core-python-2e/content/"},
           {"name":"Python进阶","link":"https://eastlakeside.gitbooks.io/interpy-zh/content/"},
-          {"name":"简明 Python 教程","link":"https://wizardforcel.gitbooks.io/a-byte-of-python/content/"}
+          {"name":"简明 Python 教程","link":"https://wizardforcel.gitbooks.io/a-byte-of-python/content/"},
+          {"name":"Python-Requests中文","link":"http://docs.python-requests.org/zh_CN/latest/user/quickstart.html"}
       ],
       "o2":[
           {"name":"深度学习","link":"https://exacity.github.io/deeplearningbook-chinese/"}
