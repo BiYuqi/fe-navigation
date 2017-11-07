@@ -441,6 +441,10 @@
           {"name": "Lumen中文文档","link":"https://lumen.laravel-china.org/"},
           {"name": "PHPUnit中文文档","link":"https://phpunit.de/manual/current/zh_cn/installation.html"},
           {"name": "Swoole入门教程","link":"https://linkeddestiny.gitbooks.io/easy-swoole/content/"}
+      ],
+      "o4":[
+          {"name": "Python之禅","link":"https://foofish.net/"},
+          {"name": "旷世的忧伤","link":"http://blog.konghy.cn/"}
       ]
   }
 }
