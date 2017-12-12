@@ -60,7 +60,8 @@
             {"name":"坚壳","link":"http://www.replace5.com/"},
             {"name":"Surmon博","link":"https://surmon.me/"},
             {"name":"林鑫","link":"https://github.com/lin-xin/blog/issues"},
-            {"name":"于江水","link":"http://www.yujiangshui.com/"}
+            {"name":"于江水","link":"http://www.yujiangshui.com/"},
+            { "name": "PASSER-BY博", "link": "http://passer-by.com/project.html"}
 
       ],
   "teamBlog": [
@@ -131,6 +132,7 @@
   "vueReact": {
     "vuejs":[
         {"name":"Vue起步","link":"https://vuefe.cn/v2/guide/"},
+        {"name":"Vue起步官网","link":"https://cn.vuejs.org/v2/guide/"},
         {"name": "vue-router2路由","link": "http://router.vuejs.org/zh-cn/index.html?q="},
         {"name": "Vuex状态管理","link": "http://vuex.vuejs.org/zh-cn/"},
         {"name": "Vue数据请求之axios","link": "https://github.com/mzabriskie/axios"},
@@ -140,7 +142,9 @@
         {"name": " Vue Api数据化展示","link": "https://vuejs-tips.github.io/cheatsheet/"},
         {"name": "Element Vue2 组件库文档 ","link": "https://www.mmxiaowu.com/article/58482371d4352863efb55468"},
         {"name":"Element Vue官网","link":"http://element.eleme.io/#/zh-CN"},
-        {"name":"vue专题","link":"https://www.awesomes.cn/subject/vue"}
+        {"name":"vue专题","link":"https://www.awesomes.cn/subject/vue"},
+        {"name":"Vue.js 服务器端渲染指南","link":"https://ssr.vuejs.org/zh/"},
+        {"name":"Vue官方仓库","link":"https://github.com/vuejs"}
     ],
     "vueDemo":[
         {"name": "基于vue2.0数据展示平台","link": "http://www.jianshu.com/p/da8836c4a4d7","github": "https://github.com/hieeyh/tong2-family"},
@@ -277,10 +281,16 @@
       ],
       "webpacks":[
           {"name":"Webpack中文指南","link":"http://webpackdoc.com/"},
+          { "name": "webpack 中文文档(v3.5.5)", "link":"http://www.css88.com/doc/webpack/"},
+          { "name": "webpack 中文官方", "link":"https://doc.webpack-china.org/concepts/"},
           {"name":"Webpack经典入门","link":"http://www.tuicool.com/articles/ZjemEbJ"},
           {"name":"Webpack学习资源","link":"https://github.com/lengziyu/learn-webpack"},
           {"name":"Webpack中文站","link":"https://doc.webpack-china.org/"},
           {"name":"RequireJS常用知识","link":"http://www.cnblogs.com/lyzg/p/4865502.html"}
+      ],
+      "rollup":[
+          {"name":"rollupjs官方文档","link":"https://rollupjs.org/"},
+          {"name":"rollupjs中文文档","link":"https://rollupjs.org/zh"}
       ],
       "csss":[
           {"name":"Less官方文档","link":"http://lesscss.org/"},
