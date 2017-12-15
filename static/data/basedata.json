@@ -156,7 +156,7 @@
 
     ],
     "react":[
-      {"name": "React中文","link": "https://discountry.github.io/react/"},
+      {"name": "React中文","link": "https://doc.react-china.org/"},
       {"name": "React英文","link": "https://facebook.github.io/react/"},
       {"name": "React 中国","link": "http://react-china.org"},
       {"name": "react.js入门教程(gitbook)","link": "https://hulufei.gitbooks.io/react-tutorial/content/introduction.html"},
