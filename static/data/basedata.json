@@ -61,7 +61,10 @@
             {"name":"Surmon博","link":"https://surmon.me/"},
             {"name":"林鑫","link":"https://github.com/lin-xin/blog/issues"},
             {"name":"于江水","link":"http://www.yujiangshui.com/"},
-            { "name": "PASSER-BY博", "link": "http://passer-by.com/project.html"}
+            { "name": "PASSER-BY博", "link": "http://passer-by.com/project.html"},
+            { "name": "Daryl's博客","link":"http://www.cnblogs.com/ghost-xyx/","title":"JS,vue,canvas"},
+            { "name": "kidney's博客","link":"http://www.cnblogs.com/kidney/category/813009.html","title":"JS,vue"},
+            { "name": "OBKoro1's博客","link":"http://obkoro1.com/archives/","title":"JS,vue"}
 
       ],
   "teamBlog": [
@@ -142,6 +145,8 @@
         {"name": " Vue Api数据化展示","link": "https://vuejs-tips.github.io/cheatsheet/"},
         {"name": "Element Vue2 组件库文档 ","link": "https://www.mmxiaowu.com/article/58482371d4352863efb55468"},
         {"name":"Element Vue官网","link":"http://element.eleme.io/#/zh-CN"},
+        {"name":"iview官网","link":"https://www.iviewui.com/"},
+        {"name":"iview-admin模板","link":"https://github.com/iview/iview-admin"},
         {"name":"vue专题","link":"https://www.awesomes.cn/subject/vue"},
         {"name":"Vue.js 服务器端渲染指南","link":"https://ssr.vuejs.org/zh/"},
         {"name":"Vue官方仓库","link":"https://github.com/vuejs"}
