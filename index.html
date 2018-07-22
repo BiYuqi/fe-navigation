@@ -10,7 +10,7 @@
         var firstScript = document.getElementsByTagName('script')[0];
         script.type = 'text/javascript';
         script.async = true;
-        script.src = './sw-worker.js?v=' + 'biyuqi';
+        script.src = './sw-worker.js?v=' + Date.now();
         firstScript.parentNode.insertBefore(script, firstScript);
     };
 </script>
