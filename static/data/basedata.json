@@ -65,7 +65,9 @@
         { "name": "千里的博客", "link": "http://qianlipp.com/"},
         { "name": "Daryl's博客","link":"http://www.cnblogs.com/ghost-xyx/","title":"JS,vue,canvas"},
         { "name": "kidney's博客","link":"http://www.cnblogs.com/kidney/category/813009.html","title":"JS,vue"},
-        { "name": "OBKoro1's博客","link":"http://obkoro1.com/archives/","title":"JS,vue"}
+        { "name": "OBKoro1's博客","link":"http://obkoro1.com/archives/","title":"JS,vue"},
+        { "name": "tobethelight", "link": "https://tobethelight.github.io/"},
+        { "name": "ac黄的博客", "link": "http://blog.acwong.org/archives/"}
   ],
   "teamBlog": [
       {"name": "奇舞团博客","link": "https://75team.com/"},
@@ -90,10 +92,13 @@
   "learnAny":[
       {"name":"Study Anything交互式脑图","link":"https://learn-anything.xyz/"},
       {"name":"JS前端开发","link":"https://www.kancloud.cn/jikeytang/qq/81141"},
-      {"name":"前端导航","link":"http://www.alloyteam.com/nav/"}
+      {"name":"前端导航","link":"http://www.alloyteam.com/nav/"},
+      {"name":"面试宝典","link":"https://yuchengkai.cn/docs/zh/"}
   ],
   "angularBlog": {
     "angular1":[
+        {"name": "Angular英文官网", "link": "https://angularjs.org/"},
+        {"name": "Angular中文官网", "link": "https://www.angular.cn/"},
         {"name": "NG资源合集", "link":" http://blog.aijc.net/AngularLearning/"},
         {"name": "NG菜鸟教程", "link":" http://www.runoob.com/angularjs/angularjs-tutorial.html"},
         {"name": "Ionic文档", "link":" http://www.ionic.wang/js_doc-index.html"},
@@ -218,27 +223,28 @@
   },
   "jsBlog":{
       "js1":[
-          {"name":"JavaScript标准教程","link":"http://javascript.ruanyifeng.com/#oop"},
-          {"name":"原生Js实例练习","link":"http://www.fgm.cc/learn/"},
-          {"name": "JS前端开发群月报","link": "http://www.kancloud.cn/jsfront/month/82796"},
-          {"name": "豪情前端作品列表","link": "http://jikeytang.github.io/"},
-          {"name": "前端解忧杂货铺","link": "https://zhuanlan.zhihu.com/thinkingInFE"},
-          {"name": "ECMAScript 6入门","link": "http://es6.ruanyifeng.com/"},
-          {"name": "JavaScript Promise迷你书","link": "http://liubin.org/promises-book/"},
-          {"name": "JavaScript 原理","link": "http://typeof.net/s/jsmech/"},
-          {"name": "JavaScript 秘密花园","link": "http://bonsaiden.github.io/JavaScript-Garden/zh/"},
-          {"name": "深入理解JavaScript系列","link": "http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html"},
-          {"name": "JSON风格指南","link": "https://github.com/darcyliu/google-styleguide/blob/master/JSONStyleGuide.md"},
-          {"name":"JavaScript资源大全中文版","link":"https://github.com/jobbole/awesome-javascript-cn"},
-          {"name": "JS实现十大经典排序算法","link": "https://sort.hust.cc/"},
-          {"name": "JavaScript30英文","link": "https://github.com/wesbos/JavaScript30"},
-          {"name": "JavaScript30中文","link": "https://github.com/soyaine/JavaScript30"},
-          {"name": "JavaScript30中文2","link": "https://github.com/winar-jin/JavaScript30-Challenge"},
-          {"name": "命名函数表达式探秘","link": "http://justjavac.com/named-function-expressions-demystified.html"},
-          {"name": "学用 JavaScript 设计模式","link": "http://www.oschina.net/translate/learning-javascript-design-patterns"},
-          {"name": "Javascript的12个怪癖","link": "https://github.com/justjavac/12-javascript-quirks/blob/master/cn/content.md"},
-          {"name":"TalkingCoder博客","link":"https://www.talkingcoder.com/article/list/all"},
-          {"name":"JavaScript闯关记","link":"https://github.com/stone0090/javascript-lessons"}
+        {"name":"MDN文档库","link":"https://developer.mozilla.org/zh-CN/docs/Web"},
+        {"name":"JavaScript标准教程","link":"http://javascript.ruanyifeng.com/#oop"},
+        {"name":"原生Js实例练习","link":"http://www.fgm.cc/learn/"},
+        {"name": "JS前端开发群月报","link": "http://www.kancloud.cn/jsfront/month/82796"},
+        {"name": "豪情前端作品列表","link": "http://jikeytang.github.io/"},
+        {"name": "前端解忧杂货铺","link": "https://zhuanlan.zhihu.com/thinkingInFE"},
+        {"name": "ECMAScript 6入门","link": "http://es6.ruanyifeng.com/"},
+        {"name": "JavaScript Promise迷你书","link": "http://liubin.org/promises-book/"},
+        {"name": "JavaScript 原理","link": "http://typeof.net/s/jsmech/"},
+        {"name": "JavaScript 秘密花园","link": "http://bonsaiden.github.io/JavaScript-Garden/zh/"},
+        {"name": "深入理解JavaScript系列","link": "http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html"},
+        {"name": "JSON风格指南","link": "https://github.com/darcyliu/google-styleguide/blob/master/JSONStyleGuide.md"},
+        {"name":"JavaScript资源大全中文版","link":"https://github.com/jobbole/awesome-javascript-cn"},
+        {"name": "JS实现十大经典排序算法","link": "https://sort.hust.cc/"},
+        {"name": "JavaScript30英文","link": "https://github.com/wesbos/JavaScript30"},
+        {"name": "JavaScript30中文","link": "https://github.com/soyaine/JavaScript30"},
+        {"name": "JavaScript30中文2","link": "https://github.com/winar-jin/JavaScript30-Challenge"},
+        {"name": "命名函数表达式探秘","link": "http://justjavac.com/named-function-expressions-demystified.html"},
+        {"name": "学用 JavaScript 设计模式","link": "http://www.oschina.net/translate/learning-javascript-design-patterns"},
+        {"name": "Javascript的12个怪癖","link": "https://github.com/justjavac/12-javascript-quirks/blob/master/cn/content.md"},
+        {"name":"TalkingCoder博客","link":"https://www.talkingcoder.com/article/list/all"},
+        {"name":"JavaScript闯关记","link":"https://github.com/stone0090/javascript-lessons"}
 
       ],
       "jq1":[
@@ -276,35 +282,33 @@
     },
   "makeDeail":{
       "gulps":[
-          {"name":"gulp详细入门教程","link":"http://www.ydcss.com/"},
-          {"name":"gulp中文网","link":"http://www.gulpjs.com.cn/"},
-          {"name":"gulp使用指南","link":"http://www.techug.com/gulp"},
-           {"name":"gulp使用小结","link":"http://www.cnblogs.com/Darren_code/p/gulp.html"},
-           {"name":"gulp 入门指南","link":"http://www.kancloud.cn/thinkphp/gulp-guide/43994"},
-          {"name":"精通gulp常用插件","link":"https://zhuanlan.zhihu.com/p/25243171?group_id=819532884137361408"}
+        {"name":"gulp详细入门教程","link":"http://www.ydcss.com/"},
+        {"name":"gulp中文网","link":"http://www.gulpjs.com.cn/"},
+        {"name":"gulp使用指南","link":"http://www.techug.com/gulp"},
+        {"name":"gulp使用小结","link":"http://www.cnblogs.com/Darren_code/p/gulp.html"},
+        {"name":"gulp 入门指南","link":"http://www.kancloud.cn/thinkphp/gulp-guide/43994"},
+        {"name":"精通gulp常用插件","link":"https://zhuanlan.zhihu.com/p/25243171?group_id=819532884137361408"}
       ],
       "webpacks":[
-          {"name":"Webpack中文指南","link":"http://webpackdoc.com/"},
-          { "name": "webpack 中文文档(v3.5.5)", "link":"http://www.css88.com/doc/webpack/"},
-          { "name": "webpack 中文官方", "link":"https://doc.webpack-china.org/concepts/"},
-          {"name":"Webpack经典入门","link":"http://www.tuicool.com/articles/ZjemEbJ"},
-          {"name":"Webpack学习资源","link":"https://github.com/lengziyu/learn-webpack"},
-          {"name":"Webpack中文站","link":"https://doc.webpack-china.org/"},
-          {"name":"RequireJS常用知识","link":"http://www.cnblogs.com/lyzg/p/4865502.html"}
+        {"name":"Webpack英文官网","link":"https://webpack.js.org/"},
+        { "name": "webpack 中文文档", "link":"http://www.css88.com/doc/webpack/"},
+        {"name":"Webpack学习资源","link":"https://github.com/lengziyu/learn-webpack"},
+        {"name":"Webpack中文站","link":"https://doc.webpack-china.org/"},
+        {"name":"RequireJS常用知识","link":"http://www.cnblogs.com/lyzg/p/4865502.html"}
       ],
       "rollup":[
-          {"name":"rollupjs官方文档","link":"https://rollupjs.org/"},
-          {"name":"rollupjs中文文档","link":"https://rollupjs.org/zh"}
+        {"name":"rollupjs官方文档","link":"https://rollupjs.org/"},
+        {"name":"rollupjs中文文档","link":"https://rollupjs.org/zh"}
       ],
       "csss":[
-          {"name":"Less官方文档","link":"http://lesscss.org/"},
-          {"name":"Less详细入门(版本过低)","link":"http://www.bootcss.com/p/lesscss/"},
-          {"name":"Sass中文文档","link":"https://www.sass.hk/"},
-          {"name":"Sass入门指南","link":"https://www.w3cplus.com/sassguide/index.html"},
-          {"name":"Stylus官方文档","link":"http://stylus-lang.com/"},
-          {"name":"Stylus中文版文档","link":"http://www.zhangxinxu.com/jq/stylus/"},
-          {"name":"Normalize.css","link":"http://necolas.github.io/normalize.css/"},
-          {"name":"Animate.css","link":"https://daneden.github.io/animate.css/"}
+        {"name":"Less官方文档","link":"http://lesscss.org/"},
+        {"name":"Less详细入门(版本过低)","link":"http://www.bootcss.com/p/lesscss/"},
+        {"name":"Sass中文文档","link":"https://www.sass.hk/"},
+        {"name":"Sass入门指南","link":"https://www.w3cplus.com/sassguide/index.html"},
+        {"name":"Stylus官方文档","link":"http://stylus-lang.com/"},
+        {"name":"Stylus中文版文档","link":"http://www.zhangxinxu.com/jq/stylus/"},
+        {"name":"Normalize.css","link":"http://necolas.github.io/normalize.css/"},
+        {"name":"Animate.css","link":"https://daneden.github.io/animate.css/"}
       ]
   },
   "articleBlog": {
@@ -330,6 +334,7 @@
         {"name":"计算机基础","link":"https://hit-alibaba.github.io/interview/basic/network/HTTP.html"}
     ],
     "art3":[
+        {"name": "SpriteJs", "link": "http://spritejs.org/#/", "title": "Sprite.js 是一个跨平台的 2D 绘图对象模型库，它支持 Web、Node、桌面应用和微信小程序的等多端图形绘制及动画实现"},
         {"name": "Underscore","link": "http://www.bootcss.com/p/underscore/"},
         {"name": "undersercore源码分析","link": "https://yoyoyohamapi.gitbooks.io/undersercore-analysis/content/base/index.html"},
         {"name": "undersercore源码分析2","link": "http://www.html-js.com/article/Underscorejs-source-code-analysis-of-underscorejs-source-code-analysis%203031"},
