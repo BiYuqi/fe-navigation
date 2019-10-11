@@ -1,17 +1,24 @@
 const path = require('path')
 const PrerenderSpaPlugin = require('prerender-spa-plugin')
+const prerenderRoutes = require('./prerender-routes')
+
 const resolve = dir => path.join(__dirname, dir)
 const IS_PROD = ['production', 'prod'].includes(process.env.NODE_ENV)
 
 module.exports = {
-  lintOnSave: false,
+  lintOnSave: true,
+  chainWebpack: config => {
+    config.resolve.alias
+      // .set("vue$", "vue/dist/vue.esm.js")
+      .set('@', resolve('src'))
+  },
   configureWebpack: config => {
     const plugins = []
     if (IS_PROD) {
       plugins.push(
         new PrerenderSpaPlugin({
           staticDir: resolve('dist'),
-          routes: ['/', '/about'],
+          routes: prerenderRoutes,
           postProcess (renderedRoute) {
             renderedRoute.route = renderedRoute.originalRoute
             if (renderedRoute.route.endsWith('.html')) {
