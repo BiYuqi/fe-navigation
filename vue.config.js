@@ -6,6 +6,8 @@ const resolve = dir => path.join(__dirname, dir)
 const IS_PROD = ['production', 'prod'].includes(process.env.NODE_ENV)
 
 module.exports = {
+  publicPath: IS_PROD ? process.env.BASE_URL : '/',
+  productionSourceMap: false,
   lintOnSave: true,
   chainWebpack: config => {
     config.resolve.alias
