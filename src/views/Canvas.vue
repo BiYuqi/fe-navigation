@@ -1,7 +1,7 @@
 <template>
-    <div id="canvas">
-        <canvas id="cas"></canvas>
-    </div>
+  <div id="canvas">
+    <canvas id="cas"></canvas>
+  </div>
 </template>
 
 <script>
@@ -74,16 +74,16 @@ export default {
 </script>
 
 <style scoped>
-    #canvas{
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 60px;
-        z-index: 0;
-    }
-    canvas{
-        width: 100%;
-        height: 60px;
-    }
+#canvas{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  z-index: 0;
+}
+canvas{
+  width: 100%;
+  height: 60px;
+}
 </style>

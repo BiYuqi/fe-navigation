@@ -24,8 +24,6 @@ export default {
   border-right: 1px solid #e8e8e8;
   .sidebar-item {
     list-style: none;
-    height: 40px;
-    line-height: 40px;
     position: relative;
     cursor: pointer;
     border-bottom: 1px solid #eee;
@@ -35,7 +33,7 @@ export default {
       text-decoration: none;
       color: #333;
       transition: all .2s;
-      padding-left: 30px;
+      padding: 10px 10px 10px 30px;
       font-size: 14px;
       font-weight: 600;
 
@@ -52,6 +50,29 @@ export default {
           width: 4px;
           height: 40px;
           background-color: #00beb3;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+
+    .sidebar-item {
+      word-break: keep-all;
+      a {
+        display: inline-block;
+        padding: 10px;
+
+        &.router-link-exact-active {
+          color: #00beb3;
+          font-weight: 700;
+
+          &:before {
+            display: none;
+          }
         }
       }
     }

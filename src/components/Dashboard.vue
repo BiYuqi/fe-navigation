@@ -5,7 +5,7 @@
         <p class="content-area__title">{{mappingRule[key]}}</p>
         <ul>
           <li class="content-area__link" v-for="(child, index) in parent" :key="index">
-            <a v-bind:href="child.link" target="_blank">{{child.name}}</a>
+            <a v-bind:title="child.name" v-bind:href="child.link" target="_blank">{{child.name}}</a>
           </li>
         </ul>
       </section>
@@ -47,6 +47,9 @@ export default {
 
   ul {
     margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
   }
 
   &__section {
@@ -73,18 +76,27 @@ export default {
 
   &__link {
     display: inline-block;
-    padding: 8px 12px;
     margin: 6px;
     width: auto;
     text-align: center;
     border-radius: 5px;
     border: 1px solid #00beb3;
     background-color: #fff;
-    transition: all .4s;
+    transition: all .24s;
+    width: 15%;
 
     a {
       color: #666;
       text-decoration: none;
+      display: block;
+      height: 100%;
+      width: 100%;
+      padding: 8px 6px;
+      font-size: 15px;
+      font-weight: 500;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
 
       &:visited,
       &:focus {
@@ -93,14 +105,22 @@ export default {
 
       &:hover {
         color: #00beb3;
-        font-weight: bold;
       }
     }
 
     &:hover {
-      transform: translateY(-4px);
+      transform: translateY(-3px);
     }
+  }
 
+  @media screen and (max-width: 640px) {
+    &__link {
+      width: 45%;
+
+      a {
+        font-size: 14px;
+      }
+    }
   }
 }
 </style>
