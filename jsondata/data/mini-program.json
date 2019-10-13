@@ -1,0 +1,28 @@
+{
+  "mini-program": {
+    "wechat-doc":[
+      {"name": "小程序开发文档","link": "https://mp.weixin.qq.com/debug/wxadoc/dev/framework/MINA.html"},
+      {"name": "小程序设计指南","link": "https://mp.weixin.qq.com/debug/wxadoc/design/index.html"},
+      {"name": "小程序开发者工具","link": "https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html"},
+      {"name": "从搭建一个微信小程序开始(腾讯云)","link": "https://www.qcloud.com/act/event/yingyonghao.html"},
+      {"name":"小程序开发资源","link":"https://github.com/justjavac/awesome-wechat-weapp"}
+    ],
+    "wechat-community":[
+      {"name": "微信小程序社区","link": "http://wxopen.club/"},
+      {"name": "微信小程序联盟","link": "http://www.wxapp-union.com/"},
+      {"name": "微信小程序垂直开发社区","link": "https://weappdev.com/"}
+    ],
+    "wechat-toturial":[
+      {"name": "小程序开发教程(一)","link": "http://www.diycode.cc/topics/311"},
+      {"name": "小程序开发教程(二)","link": "http://www.diycode.cc/topics/312"},
+      {"name": "小程序开发教程(三)","link": "http://www.diycode.cc/topics/316"},
+      {"name": "小程序开发教程(四)","link": "http://www.diycode.cc/topics/325"},
+      {"name": "小程序开发教程(五)","link": "http://www.diycode.cc/topics/328"},
+      {"name": "微信小程序开发视频教程（已更新至第 19 集）","link": "http://wxopen.club/topic/582d4999745f85100cd13a65"},
+      {"name": "小程序架构分析（上）","link": "https://zhuanlan.zhihu.com/p/22754296"},
+      {"name": "小程序架构分析（中）","link": "https://zhuanlan.zhihu.com/p/22765476"},
+      {"name": "小程序架构分析（下）","link": "https://zhuanlan.zhihu.com/p/22932309"},
+      {"name": "小程序开发者教程（掘金）","link": "http://gold.xitu.io/entry/57e34d6bd2030900691e9ad7"}
+    ]
+  }
+}

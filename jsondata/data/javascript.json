@@ -1,0 +1,39 @@
+{
+  "javascript": {
+    "javascript": [
+      {"name":"MDN文档库","link":"https://developer.mozilla.org/zh-CN/docs/Web"},
+      {"name":"JavaScript标准教程","link":"http://javascript.ruanyifeng.com/#oop"},
+      {"name":"原生Js实例练习","link":"http://www.fgm.cc/learn/"},
+      {"name": "JS前端开发群月报","link": "http://www.kancloud.cn/jsfront/month/82796"},
+      {"name": "豪情前端作品列表","link": "http://jikeytang.github.io/"},
+      {"name": "前端解忧杂货铺","link": "https://zhuanlan.zhihu.com/thinkingInFE"},
+      {"name": "ECMAScript 6入门","link": "http://es6.ruanyifeng.com/"},
+      {"name": "JavaScript Promise迷你书","link": "http://liubin.org/promises-book/"},
+      {"name": "JavaScript 原理","link": "http://typeof.net/s/jsmech/"},
+      {"name": "JavaScript 秘密花园","link": "http://bonsaiden.github.io/JavaScript-Garden/zh/"},
+      {"name": "深入理解JavaScript系列","link": "http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html"},
+      {"name": "JSON风格指南","link": "https://github.com/darcyliu/google-styleguide/blob/master/JSONStyleGuide.md"},
+      {"name":"JavaScript资源大全中文版","link":"https://github.com/jobbole/awesome-javascript-cn"},
+      {"name": "JS实现十大经典排序算法","link": "https://sort.hust.cc/"},
+      {"name": "JavaScript30英文","link": "https://github.com/wesbos/JavaScript30"},
+      {"name": "JavaScript30中文","link": "https://github.com/soyaine/JavaScript30"},
+      {"name": "JavaScript30中文2","link": "https://github.com/winar-jin/JavaScript30-Challenge"},
+      {"name": "命名函数表达式探秘","link": "http://justjavac.com/named-function-expressions-demystified.html"},
+      {"name": "学用 JavaScript 设计模式","link": "http://www.oschina.net/translate/learning-javascript-design-patterns"},
+      {"name": "Javascript的12个怪癖","link": "https://github.com/justjavac/12-javascript-quirks/blob/master/cn/content.md"},
+      {"name":"TalkingCoder博客","link":"https://www.talkingcoder.com/article/list/all"},
+      {"name":"JavaScript闯关记","link":"https://github.com/stone0090/javascript-lessons"}
+    ],
+    "jquery": [
+      {"name": "简单易懂的JQuery魔法","link": "http://www.nowamagic.net/librarys/books/contents/jquery"},
+      {"name": "How to write jQuery plugin?技巧","link": "http://i5ting.github.io/How-to-write-jQuery-plugin/build/jquery.plugin.html"},
+      {"name": "Jquery API","link": "https://oscarotero.com/jquery/"},
+      {"name": "JQuery 源码解读","link": "http://rapheal.sinaapp.com/tag/jquery-2/"},
+      {"name": "JQuery 源码分析","link": "http://www.cnblogs.com/aaronjs/p/3279314.html"},
+      {"name": "简单解惑JQuery","link":"http://www.tashan10.com/kan-liao-zhe-ge-cai-fa-xian-jqueryyuan-dai-ma-bu-shi-na-yao-hui-se/"},
+      {"name": "jQuery插件开发","link":"http://www.jianshu.com/p/518d424d4994"},
+      {"name": "如何实现一个类jQuery?","link":"https://github.com/MeCKodo/forchange"},
+      {"name": "YOU MIGHT NOT NEED JQUERY","link":"http://youmightnotneedjquery.com/"}
+    ]
+  }
+}
