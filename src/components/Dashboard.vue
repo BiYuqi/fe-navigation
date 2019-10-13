@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import LinkData from '@/assets/basedata.json'
+import LinkData from '@json/basedata.json'
 import MappingRule from '@/utils/mapping'
 export default {
   data () {

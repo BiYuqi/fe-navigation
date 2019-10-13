@@ -1,0 +1,27 @@
+{
+  "angular": {
+    "angular-doc":[
+      {"name": "Angular英文官网", "link": "https://angularjs.org/"},
+      {"name": "Angular中文官网", "link": "https://www.angular.cn/"},
+      {"name": "NG资源合集", "link":" http://blog.aijc.net/AngularLearning/"},
+      {"name": "NG菜鸟教程", "link":" http://www.runoob.com/angularjs/angularjs-tutorial.html"},
+      {"name": "Ionic文档", "link":" http://www.ionic.wang/js_doc-index.html"},
+      {"name": "徐飞", "link":"https://github.com/xufei/blog"},
+      {"name": "邹业盛", "link":" https://www.zouyesheng.com/angular.html"},
+      {"name": "吕大豹", "link":" http://www.cnblogs.com/lvdabao/tag/AngularJs/"},
+      {"name": "NG进阶", "link":" http://www.kancloud.cn/digest/angularjs-sunny1989/122834"},
+      {"name": "NG范例程序(荐)","link": "http://showcase.ngnice.com/#/home/home"},
+      {"name": "NG的UI库(徐飞)","link": "https://github.com/xufei/ng-control"},
+      {"name": "NG中文社区","link": "http://angularjs.cn/hots"},
+      {"name":"NG系列教程","link":"https://github.com/lewis617/angular2-tutorial"},
+      {"name":"NG2.0简单教程","link":"http://codin.im/categories/%E6%95%99%E7%A8%8B/"}
+    ],
+    "angular-toturial":[
+      {"name": "NG路由深入浅出","link": "http://div.io/topic/1096"},
+      {"name": "NG最佳实践","link": "http://www.lovelucy.info/angularjs-best-practices.html"},
+      {"name": "NG开发思维","link": "http://www.infoq.com/cn/news/2013/11/how-to-think-angularjs"},
+      {"name": "UI Router 详解","link": "http://blog.csdn.net/zcl_love_wx/article/details/52034193"},
+      {"name": "UI Router 实现表单向导","link": "http://www.oschina.net/translate/angularjs-multi-step-form-using-ui-router"}
+    ]
+  }
+}

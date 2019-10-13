@@ -9,9 +9,12 @@ module.exports = {
   publicPath: IS_PROD ? 'vuenotes' : '/',
   productionSourceMap: false,
   lintOnSave: true,
+  devServer: {
+    open: true
+  },
   chainWebpack: config => {
     config.resolve.alias
-      // .set("vue$", "vue/dist/vue.esm.js")
+      .set('@json', resolve('jsondata'))
       .set('@', resolve('src'))
     config.plugins.delete('pwa')
     config.plugins.delete('workbox')

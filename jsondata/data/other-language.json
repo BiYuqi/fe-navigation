@@ -1,0 +1,42 @@
+{
+  "other-language":{
+    "python":[
+        {"name":"Python指南","link":"https://pythonguidecn.readthedocs.io/zh/latest/"},
+        {"name":"零基础学 Python第一版","link":"http://www.kancloud.cn/kancloud/python-basic/41722"},
+        {"name":"零基础学 Python第二版","link":"http://www.kancloud.cn/kancloud/starter-learning-python/61831"},
+        {"name":"Python3.3官方教程中文版","link":"http://www.pythondoc.com/pythontutorial3/index.html"},
+        {"name":"Python3 Cookbook 中文版","link":"http://python3-cookbook.readthedocs.io/zh_CN/latest/"},
+        {"name":"可爱的Python","link":"http://lovelypython.readthedocs.io/en/latest/"},
+        {"name":"深入Python3","link":"http://old.sebug.net/paper/books/dive-into-python3/table-of-contents.html"},
+        {"name":"Python正则表达式","link":"http://wiki.ubuntu.org.cn/Python%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%93%8D%E4%BD%9C%E6%8C%87%E5%8D%97"},
+        {"name":"Twisted与异步编程入门","link":"https://www.gitbook.com/book/likebeta/twisted-intro-cn/details"},
+        {"name":"Scrapy 0.25文档","link":"http://scrapy-chs.readthedocs.io/zh_CN/latest/index.html"},
+        {"name":"Python基础篇","link":"http://www.kuqin.com/docs/pythonbasic.html"},
+        {"name":"Python模块篇","link":"http://www.kuqin.com/docs/pythonmodule.html"},
+        {"name":"《Python标准库》中文版PDF","link":"http://old.sebug.net/paper/books/python/%E3%80%8APython%E6%A0%87%E5%87%86%E5%BA%93%E3%80%8B%E4%B8%AD%E6%96%87%E7%89%88.pdf"},
+        {"name":"Python核心编程第二版","link":"https://wizardforcel.gitbooks.io/core-python-2e/content/"},
+        {"name":"Python进阶","link":"https://eastlakeside.gitbooks.io/interpy-zh/content/"},
+        {"name":"简明 Python 教程","link":"https://wizardforcel.gitbooks.io/a-byte-of-python/content/"},
+        {"name":"Python-Requests中文","link":"http://docs.python-requests.org/zh_CN/latest/user/quickstart.html"}
+    ],
+    "deep-learning":[
+        {"name":"深度学习","link":"https://exacity.github.io/deeplearningbook-chinese/"}
+    ],
+    "PHP":[
+        {"name": "PHP手册","link":"http://php.net/manual/zh/"},
+        {"name": "PHP最佳实践","link":"http://phpbestpractices.justjavac.com/"},
+        {"name": "PHP开发者实践","link":"https://ryancao.gitbooks.io/php-developer-prepares/content/"},
+        {"name": "深入理解PHP内核","link":"http://www.php-internals.com/book/"},
+        {"name": "PHP扩展开发及内核应用","link":"http://www.cunmou.com/phpbook/preface.md"},
+        {"name": "简单易懂的PHP魔法","link":"http://www.nowamagic.net/librarys/books/contents/php"},
+        {"name": "深入理解Yii2.0","link":"http://www.digpage.com/"},
+        {"name": "Lumen中文文档","link":"https://lumen.laravel-china.org/"},
+        {"name": "PHPUnit中文文档","link":"https://phpunit.de/manual/current/zh_cn/installation.html"},
+        {"name": "Swoole入门教程","link":"https://linkeddestiny.gitbooks.io/easy-swoole/content/"}
+    ],
+    "python-blog":[
+        {"name": "Python之禅","link":"https://foofish.net/"},
+        {"name": "旷世的忧伤","link":"http://blog.konghy.cn/"}
+    ]
+  }
+}
