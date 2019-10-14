@@ -3,11 +3,15 @@
     "personal-blog": [
       {
         "name": "阮一峰",
-        "link": "http://www.ruanyifeng.com/blog/"
+        "link": "http://www.ruanyifeng.com/blog/",
+        "description": "阮一峰，70年代生于上海。毕业于上海财经大学，经济学博士，同时也是程序员，个人博客访问量过千万，译有《ECMAScript 6入门》、《黑客与画家》、《软件随想录》。个人博客为阮一峰的网络日志，目前在阿里任职.",
+        "tag": []
       },
       {
         "name": "廖雪峰",
-        "link": "http://www.liaoxuefeng.com/"
+        "link": "http://www.liaoxuefeng.com/",
+        "description": "廖雪峰，技术作家，著有《Spring 2.0核心技术与最佳实践》。廖雪峰的官方网站，研究互联网产品和技术，提供原创中文精品教程。",
+        "tag": []
       },
       {
         "name": "小胡子哥",
@@ -26,8 +30,10 @@
         "link": "http://blog.cssforest.org/"
       },
       {
-        "name": "朴灵",
-        "link": "http://html5ify.com/"
+        "name": "朴灵(田永强)",
+        "link": "http://html5ify.com/",
+        "description": "真名田永强，文艺型码农，就职于阿里巴巴数据平台，资深工程师，Node.js布道者，写了多篇文章介绍Node.js的细节。活跃于CNode社区，是线下会议NodeParty的组织者和JSConf China（沪JS和京JS）的组织者之一。热爱开源，多个Node.js模块的作者。个人GitHub地址：http://github.com/JacksonTian。叩首问路，码梦为生。",
+        "tag": []
       },
       {
         "name": "代码家",
@@ -35,7 +41,9 @@
       },
       {
         "name": "寒冬winter",
-        "link": "http://winter-cn.cnblogs.com/"
+        "link": "http://winter-cn.cnblogs.com/",
+        "description": "winter，本名程劭非，花名寒泉，前端工程师，JavaScript 专家。江湖人称“计算机之子”。先后在微软，盛大，阿里巴巴工作，目前是手机淘宝前端 leader。",
+        "tag": []
       },
       {
         "name": "前端农民工",
@@ -71,11 +79,19 @@
       },
       {
         "name": "张鑫旭",
-        "link": "http://www.zhangxinxu.com/"
+        "link": "http://www.zhangxinxu.com/",
+        "description": "张鑫旭，09年华中科技大学毕业，目前上海，现就职ISUX上海设计中心，热爱web前端，喜爱钓鱼.",
+        "tag": []
       },
       {
         "name": "玉伯",
         "link": "https://github.com/lifesinger/blog/issues?q=label%3Ablog"
+      },
+      {
+        "name": "勾三股四",
+        "link": "http://jiongks.name",
+        "description": "勾三股四，赵锦江，英文名 Jinks Zhao，昵称 勾三股四，淘宝前端开发专家，业内第一美女产品经理的老公.",
+        "tag": []
       },
       {
         "name": "练小习",
@@ -91,7 +107,21 @@
       },
       {
         "name": "十年踪迹",
-        "link": "https://www.h5jun.com/archives/"
+        "link": "https://www.h5jun.com/archives/",
+        "description": "吴亮（月影），十年踪迹，奇虎360高级技术经理，360前端团队 奇舞团 负责人，w3ctech顾问。曾先后在微软亚洲研究院做过访问学生、金蝶软件担任项目经理，百度电子商务事业部担任Web开发项目经理。多年来致力于Web标准和JavaScript技术的推广，活跃于国内各技术社区.",
+        "tag": []
+      },
+      {
+        "name": "李成银",
+        "link": "http://www.cnblogs.com/coco1s/",
+        "description": "李成银，网名 welefen，奇虎360前端技术专家，ThinkJS框架作者，开发了Chrome扩展版的Fiddler，以支持模板语法处理的Fl，等等。目前主要关注 WEB 前端和 Node.js 方面，擅长前端工程化解决方案.",
+        "tag": []
+      },
+      {
+        "name": "工业聚",
+        "link": "https://github.com/Lucifier129",
+        "description": "携程研发高级经理，负责前端框架和基础设施的设计、研发与维护。开源项目react-lite和react-imvc作者。",
+        "tag": []
       },
       {
         "name": "ChokCoco博",
@@ -272,7 +302,9 @@
     "awesome-team": [
       {
         "name": "奇舞团博客",
-        "link": "https://75team.com/"
+        "link": "https://75team.com/",
+        "description": "360奇舞团（奇虎75Team）是 奇虎360公司Web平台部前端工程师 + 部分特约嘉宾 组成的一个前端团队.",
+        "tag": []
       },
       {
         "name": "腾讯前端团队",
