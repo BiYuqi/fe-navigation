@@ -1,6 +1,4 @@
 const path = require('path')
-// const PrerenderSpaPlugin = require('prerender-spa-plugin')
-// const prerenderRoutes = require('./prerender-routes')
 
 const resolve = dir => path.join(__dirname, dir)
 const IS_PROD = ['production', 'prod'].includes(process.env.NODE_ENV)
@@ -19,29 +17,4 @@ module.exports = {
     config.plugins.delete('pwa')
     config.plugins.delete('workbox')
   }
-  // configureWebpack: config => {
-  //   const plugins = []
-  //   if (IS_PROD) {
-  //     plugins.push(
-  //       new PrerenderSpaPlugin({
-  //         staticDir: resolve('dist'),
-  //         routes: prerenderRoutes,
-  //         postProcess (renderedRoute) {
-  //           renderedRoute.route = renderedRoute.originalRoute
-  //           if (renderedRoute.route.endsWith('.html')) {
-  //             renderedRoute.outputPath = path.join(__dirname, 'dist', renderedRoute.route)
-  //           }
-  //           return renderedRoute
-  //         },
-  //         renderer: new PrerenderSpaPlugin.PuppeteerRenderer({
-  //           inject: {
-  //             prerender: true
-  //           },
-  //           headless: false
-  //         })
-  //       })
-  //     )
-  //   }
-  //   config.plugins = [...config.plugins, ...plugins]
-  // }
 }
