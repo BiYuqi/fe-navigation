@@ -1,62 +1,210 @@
 {
   "framework": {
-    "VueJs":[
-      {"name":"Vue起步","link":"https://vuefe.cn/v2/guide/"},
-      {"name":"Vue起步官网","link":"https://cn.vuejs.org/v2/guide/"},
-      {"name": "vue-router2路由","link": "http://router.vuejs.org/zh-cn/index.html?q="},
-      {"name": "Vuex状态管理","link": "http://vuex.vuejs.org/zh-cn/"},
-      {"name": "Vue数据请求之axios","link": "https://github.com/mzabriskie/axios"},
-      {"name": "axios全攻略","link": "https://ykloveyxk.github.io/2017/02/25/axios%E5%85%A8%E6%94%BB%E7%95%A5/"},
-      {"name": " Vue.js 中文教程","link": "http://www.ctolib.com/docs-vue-js-c-index.html"},
-      {"name": " Vue.js 中文社区","link": "http://www.vue-js.com/"},
-      {"name": " Vue Api数据化展示","link": "https://vuejs-tips.github.io/cheatsheet/"},
-      {"name": "Element Vue2 组件库文档 ","link": "https://www.mmxiaowu.com/article/58482371d4352863efb55468"},
-      {"name":"Element Vue官网","link":"http://element.eleme.io/#/zh-CN"},
-      {"name":"iview官网","link":"https://www.iviewui.com/"},
-      {"name":"iview-admin模板","link":"https://github.com/iview/iview-admin"},
-      {"name":"vue专题","link":"https://www.awesomes.cn/subject/vue"},
-      {"name":"Vue.js 服务器端渲染指南","link":"https://ssr.vuejs.org/zh/"},
-      {"name":"Vue官方仓库","link":"https://github.com/vuejs"}
+    "VueJs": [
+      {
+        "name": "Vue起步",
+        "link": "https://vuefe.cn/v2/guide/"
+      },
+      {
+        "name": "Vue起步官网",
+        "link": "https://cn.vuejs.org/v2/guide/"
+      },
+      {
+        "name": "vue-router2路由",
+        "link": "http://router.vuejs.org/zh-cn/index.html?q="
+      },
+      {
+        "name": "Vuex状态管理",
+        "link": "http://vuex.vuejs.org/zh-cn/"
+      },
+      {
+        "name": "Vue数据请求之axios",
+        "link": "https://github.com/mzabriskie/axios"
+      },
+      {
+        "name": "axios全攻略",
+        "link": "https://ykloveyxk.github.io/2017/02/25/axios%E5%85%A8%E6%94%BB%E7%95%A5/"
+      },
+      {
+        "name": " Vue.js 中文教程",
+        "link": "http://www.ctolib.com/docs-vue-js-c-index.html"
+      },
+      {
+        "name": " Vue.js 中文社区",
+        "link": "http://www.vue-js.com/"
+      },
+      {
+        "name": " Vue Api数据化展示",
+        "link": "https://vuejs-tips.github.io/cheatsheet/"
+      },
+      {
+        "name": "Element Vue2 组件库文档 ",
+        "link": "https://www.mmxiaowu.com/article/58482371d4352863efb55468"
+      },
+      {
+        "name": "Element Vue官网",
+        "link": "http://element.eleme.io/#/zh-CN"
+      },
+      {
+        "name": "iview官网",
+        "link": "https://www.iviewui.com/"
+      },
+      {
+        "name": "iview-admin模板",
+        "link": "https://github.com/iview/iview-admin"
+      },
+      {
+        "name": "vue专题",
+        "link": "https://www.awesomes.cn/subject/vue"
+      },
+      {
+        "name": "Vue.js 服务器端渲染指南",
+        "link": "https://ssr.vuejs.org/zh/"
+      },
+      {
+        "name": "Vue官方仓库",
+        "link": "https://github.com/vuejs"
+      }
     ],
-    "VueDemo":[
-      {"name": "基于vue2.0数据展示平台","link": "http://www.jianshu.com/p/da8836c4a4d7","github": "https://github.com/hieeyh/tong2-family"},
-      {"name": "知乎日报 by Vue","link": "https://github.com/pomelo-chuan/Zhihu-Daily-Vue.js"},
-      {"name": "仿饿了么app商家详情","link": "https://github.com/liangxiaojuan/eleme?utm_source=tuicool&utm_medium=referral"},
-      {"name": "vue2.0单页应用实战 ","link": "http://www.tuicool.com/articles/me6RJfF"},
-      {"name": "vue2.0本地记事本 ","link": "https://github.com/lin-xin/notepad"},
-      {"name": "vue2.0理财计算器 ","link": "https://github.com/ksky521/welicai"}
-
+    "VueDemo": [
+      {
+        "name": "基于vue2.0数据展示平台",
+        "link": "http://www.jianshu.com/p/da8836c4a4d7",
+        "github": "https://github.com/hieeyh/tong2-family"
+      },
+      {
+        "name": "知乎日报 by Vue",
+        "link": "https://github.com/pomelo-chuan/Zhihu-Daily-Vue.js"
+      },
+      {
+        "name": "仿饿了么app商家详情",
+        "link": "https://github.com/liangxiaojuan/eleme?utm_source=tuicool&utm_medium=referral"
+      },
+      {
+        "name": "vue2.0单页应用实战 ",
+        "link": "http://www.tuicool.com/articles/me6RJfF"
+      },
+      {
+        "name": "vue2.0本地记事本 ",
+        "link": "https://github.com/lin-xin/notepad"
+      },
+      {
+        "name": "vue2.0理财计算器 ",
+        "link": "https://github.com/ksky521/welicai"
+      }
     ],
-    "React":[
-      {"name": "React中文","link": "https://doc.react-china.org/"},
-      {"name": "React英文","link": "https://facebook.github.io/react/"},
-      {"name": "React 中国","link": "http://react-china.org"},
-      {"name": "react.js入门教程(gitbook)","link": "https://hulufei.gitbooks.io/react-tutorial/content/introduction.html"},
-      {"name": "深入浅出React（一）","link": "http://www.infoq.com/cn/articles/react-art-of-simplity"},
-      {"name": "深入浅出React（二）","link": "http://www.infoq.com/cn/articles/react-and-webpack"},
-      {"name": "深入浅出React（三）","link": "http://www.infoq.com/cn/articles/react-jsx-and-component"},
-      {"name": "深入浅出React（四）","link": "http://www.infoq.com/cn/articles/react-dom-diff"},
-      {"name": "深入浅出React（五）","link": "http://www.infoq.com/cn/articles/react-flux"},
-      {"name": "react-webpack-cookbook中文版","link":"http://fakefish.github.io/react-webpack-cookbook/"},
-      {"name": "React 初探","link":"http://www.alloyteam.com/2015/04/react-explore/"},
-      {"name": "React虚拟DOM浅析 ","link": "http://www.alloyteam.com/2015/10/react-virtual-analysis-of-the-dom/"},
-      {"name": "react组件间通信 ","link": "http://www.alloyteam.com/2015/07/react-zu-jian-jian-tong-xin/"},
-      {"name": "React 数据流管理架构之 Redux 介绍 ","link": "http://www.alloyteam.com/2015/09/react-redux/"}
+    "React": [
+      {
+        "name": "React中文",
+        "link": "https://doc.react-china.org/"
+      },
+      {
+        "name": "React英文",
+        "link": "https://facebook.github.io/react/"
+      },
+      {
+        "name": "React 中国",
+        "link": "http://react-china.org"
+      },
+      {
+        "name": "react.js入门教程(gitbook)",
+        "link": "https://hulufei.gitbooks.io/react-tutorial/content/introduction.html"
+      },
+      {
+        "name": "深入浅出React（一）",
+        "link": "http://www.infoq.com/cn/articles/react-art-of-simplity"
+      },
+      {
+        "name": "深入浅出React（二）",
+        "link": "http://www.infoq.com/cn/articles/react-and-webpack"
+      },
+      {
+        "name": "深入浅出React（三）",
+        "link": "http://www.infoq.com/cn/articles/react-jsx-and-component"
+      },
+      {
+        "name": "深入浅出React（四）",
+        "link": "http://www.infoq.com/cn/articles/react-dom-diff"
+      },
+      {
+        "name": "深入浅出React（五）",
+        "link": "http://www.infoq.com/cn/articles/react-flux"
+      },
+      {
+        "name": "react-webpack-cookbook中文版",
+        "link": "http://fakefish.github.io/react-webpack-cookbook/"
+      },
+      {
+        "name": "React 初探",
+        "link": "http://www.alloyteam.com/2015/04/react-explore/"
+      },
+      {
+        "name": "React虚拟DOM浅析 ",
+        "link": "http://www.alloyteam.com/2015/10/react-virtual-analysis-of-the-dom/"
+      },
+      {
+        "name": "react组件间通信 ",
+        "link": "http://www.alloyteam.com/2015/07/react-zu-jian-jian-tong-xin/"
+      },
+      {
+        "name": "React 数据流管理架构之 Redux 介绍 ",
+        "link": "http://www.alloyteam.com/2015/09/react-redux/"
+      }
     ],
-    "ReactDemo":[
-      {"name": "RN 学习指南","link": "https://github.com/reactnativecn/react-native-guide#reactjs","github": "https://github.com/hieeyh/tong2-family"},
-      {"name": "RN技术栈系列教程","link": "http://www.ruanyifeng.com/blog/2016/09/react-technology-stack.html"},
-      {"name": "React-Native入门教程","link": "https://github.com/vczero/react-native-lesson"},
-      {"name": "RN学习资源精选仓库","link": "http://www.devio.org/2016/09/05/React-Native-%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E7%B2%BE%E9%80%89%E4%BB%93%E5%BA%93/"},
-      {"name": "RN专题(荐)","link": "http://www.lcode.org/react-native/"},
-      {"name": "react-navigation库","link": "https://reactnavigation.org/"},
-      {"name": "RN中文网","link": "http://reactnative.cn/docs/0.39/getting-started.html"},
-      {"name": "Native生态-探索学习","link": "https://github.com/icepy/Front-End-Develop-Guide/blob/master/react/React.md"},
-      {"name": "awesome-react 中文版","link": "https://github.com/Pines-Cheng/awesome-react-cn"},
-      {"name": "React Native 之 JSBridg ","link": "http://www.alloyteam.com/2015/05/react-native-zhi-jsbridge/"},
-      {"name": "React Native 研究与实践教程 ","link": "https://github.com/crazycodeboy/RNStudyNotes"},
-      {"name": "Babel手册","link": "https://github.com/thejameskyle/babel-handbook/blob/master/translations/zh-Hans/user-handbook.md#toc-babel-cli"},
-      {"name": "Genymotion安装及使用教程详解","link": "http://www.devio.org/2016/11/27/Genymotion%E5%AE%89%E8%A3%85%E5%8F%8A%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E8%AF%A6%E8%A7%A3/"}
+    "ReactDemo": [
+      {
+        "name": "RN 学习指南",
+        "link": "https://github.com/reactnativecn/react-native-guide#reactjs",
+        "github": "https://github.com/hieeyh/tong2-family"
+      },
+      {
+        "name": "RN技术栈系列教程",
+        "link": "http://www.ruanyifeng.com/blog/2016/09/react-technology-stack.html"
+      },
+      {
+        "name": "React-Native入门教程",
+        "link": "https://github.com/vczero/react-native-lesson"
+      },
+      {
+        "name": "RN学习资源精选仓库",
+        "link": "http://www.devio.org/2016/09/05/React-Native-%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90%E7%B2%BE%E9%80%89%E4%BB%93%E5%BA%93/"
+      },
+      {
+        "name": "RN专题(荐)",
+        "link": "http://www.lcode.org/react-native/"
+      },
+      {
+        "name": "react-navigation库",
+        "link": "https://reactnavigation.org/"
+      },
+      {
+        "name": "RN中文网",
+        "link": "http://reactnative.cn/docs/0.39/getting-started.html"
+      },
+      {
+        "name": "Native生态-探索学习",
+        "link": "https://github.com/icepy/Front-End-Develop-Guide/blob/master/react/React.md"
+      },
+      {
+        "name": "awesome-react 中文版",
+        "link": "https://github.com/Pines-Cheng/awesome-react-cn"
+      },
+      {
+        "name": "React Native 之 JSBridg ",
+        "link": "http://www.alloyteam.com/2015/05/react-native-zhi-jsbridge/"
+      },
+      {
+        "name": "React Native 研究与实践教程 ",
+        "link": "https://github.com/crazycodeboy/RNStudyNotes"
+      },
+      {
+        "name": "Babel手册",
+        "link": "https://github.com/thejameskyle/babel-handbook/blob/master/translations/zh-Hans/user-handbook.md#toc-babel-cli"
+      },
+      {
+        "name": "Genymotion安装及使用教程详解",
+        "link": "http://www.devio.org/2016/11/27/Genymotion%E5%AE%89%E8%A3%85%E5%8F%8A%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E8%AF%A6%E8%A7%A3/"
+      }
     ]
   }
 }

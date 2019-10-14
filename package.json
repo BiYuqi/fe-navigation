@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "npm run generate-data && vue-cli-service serve",
-    "build": "npm run generate-data && vue-cli-service build",
+    "serve": "npm run ci && vue-cli-service serve",
+    "build": "npm run ci && vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "generate-data": "node generate-data.js"
+    "ci": "npm run format-json && npm run generate-json",
+    "generate-json": "node ./generate-json.js",
+    "format-json": "node ./format-json.js"
   },
   "dependencies": {
     "core-js": "^2.6.5",
@@ -25,6 +27,7 @@
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "glob": "^7.1.4",
+    "json-format": "^1.0.1",
     "lint-staged": "^8.1.5",
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.0",

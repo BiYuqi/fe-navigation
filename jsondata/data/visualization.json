@@ -1,22 +1,22 @@
 {
   "visualization": {
     "d3": [
-        {
-            "name": "Learning D3.JS",
-            "link": "http://d3.decembercafe.org/"
-        },
-        {
-            "name": "官方API文档",
-            "link": "https://github.com/d3/d3/wiki/API--%E4%B8%AD%E6%96%87%E6%89%8B%E5%86%8C"
-        },
-        {
-            "name": "张天旭的D3教程",
-            "link": "http://blog.csdn.net/zhang__tianxu/article/category/1623437"
-        },
-        {
-            "name": "楚狂人的D3教程",
-            "link": "http://www.cnblogs.com/winleisure/tag/D3.js/"
-        }
+      {
+        "name": "Learning D3.JS",
+        "link": "http://d3.decembercafe.org/"
+      },
+      {
+        "name": "官方API文档",
+        "link": "https://github.com/d3/d3/wiki/API--%E4%B8%AD%E6%96%87%E6%89%8B%E5%86%8C"
+      },
+      {
+        "name": "张天旭的D3教程",
+        "link": "http://blog.csdn.net/zhang__tianxu/article/category/1623437"
+      },
+      {
+        "name": "楚狂人的D3教程",
+        "link": "http://www.cnblogs.com/winleisure/tag/D3.js/"
+      }
     ]
   }
 }

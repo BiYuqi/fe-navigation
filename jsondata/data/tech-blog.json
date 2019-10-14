@@ -1,98 +1,359 @@
 {
   "tech-blog": {
     "personal-blog": [
-      {"name": "阮一峰","link": "http://www.ruanyifeng.com/blog/"},
-      {"name": "廖雪峰","link": "http://www.liaoxuefeng.com/"},
-      {"name": "小胡子哥","link": "http://www.barretlee.com/entry/"},
-      {"name": "司徒正美","link": "http://www.cnblogs.com/rubylouvre"},
-      {"name": "叶小钗","link": "http://www.cnblogs.com/yexiaochai"},
-      {"name": "CSS森林","link": "http://blog.cssforest.org/"},
-      {"name": "朴灵","link": "http://html5ify.com/"},
-      {"name": "代码家","link": "https://daimajia.com/"},
-      {"name": "寒冬winter","link": "http://winter-cn.cnblogs.com/"},
-      {"name": "前端农民工","link": "https://github.com/fouber/blog"},
-      {"name": "刘未鹏","link": "http://mindhacks.cn/"},
-      {"name": "前端小武","link": "https://xuexb.com/"},
-      {"name": "轩枫阁","link": "http://www.xuanfengge.com/"},
-      {"name": "CSS魔法","link": "http://www.cssmagic.net/"},
-      {"name": "高浩阳","link": "https://gaohaoyang.github.io/"},
-      {"name": "小虎虾鱼","link": "http://www.xiaoboy.com/"},
-      {"name": "聂卫东","link": "http://www.fefork.com/"},
-      {"name": "张鑫旭","link": "http://www.zhangxinxu.com/"},
-      {"name": "玉伯","link": "https://github.com/lifesinger/blog/issues?q=label%3Ablog"},
-      {"name": "练小习","link": "https://www.chengrang.com/"},
-      {"name": "教程笔记","link": "http://www.cnblogs.com/hetaojs/"},
-      {"name": "咀嚼之味","link": "http://jerryzou.com/"},
-      {"name": "十年踪迹","link": "https://www.h5jun.com/archives/" },
-      {"name": "ChokCoco博","link": "http://www.cnblogs.com/coco1s/" },
-      {"name": "Kayo博","link": "http://kayosite.com/"},
-      {"name": "Ahonn博","link": "http://www.ahonn.me/"},
-      {"name": "Tw93博","link":"http://tw93.github.io/"},
-      {"name": "师少兵","link":"http://www.xiabingbao.com/"},
-      {"name": "亚里士朱德","link":"http://yalishizhude.github.io/"},
-      {"name": "Zjmainstay博","link":"http://www.zjmainstay.cn/regexp"},
-      {"name": "Beidan博","link":"http://www.cnblogs.com/beidan/"},
-      {"name": "流云诸葛","link":"http://www.cnblogs.com/lyzg/"},
-      {"name": "肥仔John","link":"http://www.cnblogs.com/fsjohnhuang/"},
-      {"name": "Jake博客","link":"http://i.jakeyu.top/"},
-      {"name": "KeenWon博","link":"http://keenwon.com/"},
-      {"name": "三水清","link":"http://js8.in/"},
-      {"name": "易建勇","link":"http://www.yi-jy.com/category/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/"},
-      {"name": "M.M.F小屋","link":"https://www.mmxiaowu.com/"},
-      {"name": "临水照影", "link":"http://haoqiao.me/"},
-      {"name": "Thinktxt博", "link":"https://www.thinktxt.com/"},
-      {"name": "微醺岁月", "link":"https://github.com/jawil/blog"},
-      {"name": "HcySunYang博", "link":"http://hcysun.me/"},
-      {"name":"路易斯","link":"http://louiszhai.github.io/"},
-      {"name":"晚晴幽草轩","link":"http://jeffjade.com/"},
-      {"name":"CodeSky 代码之空","link":"https://codesky.me/"},
-      {"name":"Jerry Qu博","link":"https://imququ.com/"},
-      {"name":"牧风","link":"https://mufeng.me/"},
-      {"name":"大猫","link":"http://ooxx.me/"},
-      {"name":"剧中人","link":"http://bh-lay.com/blog/"},
-      {"name":"朱文龙 Mofei","link":"https://www.zhuwenlong.com/blog"},
-      {"name":"Smohan博","link":"https://www.smohan.net/blog/"},
-      {"name":"易翰","link":"http://hankewins.com/"},
-      {"name":"二哲","link":"http://www.meckodo.com/#!/"},
-      {"name":"蜀山客","link":"http://www.zeakhold.com/#"},
-      {"name":"小青年博客","link":"https://zhaomenghuan.github.io/"},
-      {"name":"Dron 博客","link":"http://ucren.com/"},
-      {"name":"坚壳","link":"http://www.replace5.com/"},
-      {"name":"Surmon博","link":"https://surmon.me/"},
-      {"name":"林鑫","link":"https://github.com/lin-xin/blog/issues"},
-      {"name":"于江水","link":"http://www.yujiangshui.com/"},
-      {"name": "PASSER-BY博", "link": "http://passer-by.com/project.html"},
-      {"name": "Daryl's博客","link":"http://www.cnblogs.com/ghost-xyx/","title":"JS,vue,canvas"},
-      {"name": "kidney's博客","link":"http://www.cnblogs.com/kidney/category/813009.html","title":"JS,vue"},
-      {"name": "OBKoro1's博客","link":"http://obkoro1.com/archives/","title":"JS,vue"},
-      {"name": "tobethelight", "link": "https://tobethelight.github.io/"},
-      {"name": "ac黄的博客", "link": "http://blog.acwong.org/archives/"}
+      {
+        "name": "阮一峰",
+        "link": "http://www.ruanyifeng.com/blog/"
+      },
+      {
+        "name": "廖雪峰",
+        "link": "http://www.liaoxuefeng.com/"
+      },
+      {
+        "name": "小胡子哥",
+        "link": "http://www.barretlee.com/entry/"
+      },
+      {
+        "name": "司徒正美",
+        "link": "http://www.cnblogs.com/rubylouvre"
+      },
+      {
+        "name": "叶小钗",
+        "link": "http://www.cnblogs.com/yexiaochai"
+      },
+      {
+        "name": "CSS森林",
+        "link": "http://blog.cssforest.org/"
+      },
+      {
+        "name": "朴灵",
+        "link": "http://html5ify.com/"
+      },
+      {
+        "name": "代码家",
+        "link": "https://daimajia.com/"
+      },
+      {
+        "name": "寒冬winter",
+        "link": "http://winter-cn.cnblogs.com/"
+      },
+      {
+        "name": "前端农民工",
+        "link": "https://github.com/fouber/blog"
+      },
+      {
+        "name": "刘未鹏",
+        "link": "http://mindhacks.cn/"
+      },
+      {
+        "name": "前端小武",
+        "link": "https://xuexb.com/"
+      },
+      {
+        "name": "轩枫阁",
+        "link": "http://www.xuanfengge.com/"
+      },
+      {
+        "name": "CSS魔法",
+        "link": "http://www.cssmagic.net/"
+      },
+      {
+        "name": "高浩阳",
+        "link": "https://gaohaoyang.github.io/"
+      },
+      {
+        "name": "小虎虾鱼",
+        "link": "http://www.xiaoboy.com/"
+      },
+      {
+        "name": "聂卫东",
+        "link": "http://www.fefork.com/"
+      },
+      {
+        "name": "张鑫旭",
+        "link": "http://www.zhangxinxu.com/"
+      },
+      {
+        "name": "玉伯",
+        "link": "https://github.com/lifesinger/blog/issues?q=label%3Ablog"
+      },
+      {
+        "name": "练小习",
+        "link": "https://www.chengrang.com/"
+      },
+      {
+        "name": "教程笔记",
+        "link": "http://www.cnblogs.com/hetaojs/"
+      },
+      {
+        "name": "咀嚼之味",
+        "link": "http://jerryzou.com/"
+      },
+      {
+        "name": "十年踪迹",
+        "link": "https://www.h5jun.com/archives/"
+      },
+      {
+        "name": "ChokCoco博",
+        "link": "http://www.cnblogs.com/coco1s/"
+      },
+      {
+        "name": "Kayo博",
+        "link": "http://kayosite.com/"
+      },
+      {
+        "name": "Ahonn博",
+        "link": "http://www.ahonn.me/"
+      },
+      {
+        "name": "Tw93博",
+        "link": "http://tw93.github.io/"
+      },
+      {
+        "name": "师少兵",
+        "link": "http://www.xiabingbao.com/"
+      },
+      {
+        "name": "亚里士朱德",
+        "link": "http://yalishizhude.github.io/"
+      },
+      {
+        "name": "Zjmainstay博",
+        "link": "http://www.zjmainstay.cn/regexp"
+      },
+      {
+        "name": "Beidan博",
+        "link": "http://www.cnblogs.com/beidan/"
+      },
+      {
+        "name": "流云诸葛",
+        "link": "http://www.cnblogs.com/lyzg/"
+      },
+      {
+        "name": "肥仔John",
+        "link": "http://www.cnblogs.com/fsjohnhuang/"
+      },
+      {
+        "name": "Jake博客",
+        "link": "http://i.jakeyu.top/"
+      },
+      {
+        "name": "KeenWon博",
+        "link": "http://keenwon.com/"
+      },
+      {
+        "name": "三水清",
+        "link": "http://js8.in/"
+      },
+      {
+        "name": "易建勇",
+        "link": "http://www.yi-jy.com/category/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/"
+      },
+      {
+        "name": "M.M.F小屋",
+        "link": "https://www.mmxiaowu.com/"
+      },
+      {
+        "name": "临水照影",
+        "link": "http://haoqiao.me/"
+      },
+      {
+        "name": "Thinktxt博",
+        "link": "https://www.thinktxt.com/"
+      },
+      {
+        "name": "微醺岁月",
+        "link": "https://github.com/jawil/blog"
+      },
+      {
+        "name": "HcySunYang博",
+        "link": "http://hcysun.me/"
+      },
+      {
+        "name": "路易斯",
+        "link": "http://louiszhai.github.io/"
+      },
+      {
+        "name": "晚晴幽草轩",
+        "link": "http://jeffjade.com/"
+      },
+      {
+        "name": "CodeSky 代码之空",
+        "link": "https://codesky.me/"
+      },
+      {
+        "name": "Jerry Qu博",
+        "link": "https://imququ.com/"
+      },
+      {
+        "name": "牧风",
+        "link": "https://mufeng.me/"
+      },
+      {
+        "name": "大猫",
+        "link": "http://ooxx.me/"
+      },
+      {
+        "name": "剧中人",
+        "link": "http://bh-lay.com/blog/"
+      },
+      {
+        "name": "朱文龙 Mofei",
+        "link": "https://www.zhuwenlong.com/blog"
+      },
+      {
+        "name": "Smohan博",
+        "link": "https://www.smohan.net/blog/"
+      },
+      {
+        "name": "易翰",
+        "link": "http://hankewins.com/"
+      },
+      {
+        "name": "二哲",
+        "link": "http://www.meckodo.com/#!/"
+      },
+      {
+        "name": "蜀山客",
+        "link": "http://www.zeakhold.com/#"
+      },
+      {
+        "name": "小青年博客",
+        "link": "https://zhaomenghuan.github.io/"
+      },
+      {
+        "name": "Dron 博客",
+        "link": "http://ucren.com/"
+      },
+      {
+        "name": "坚壳",
+        "link": "http://www.replace5.com/"
+      },
+      {
+        "name": "Surmon博",
+        "link": "https://surmon.me/"
+      },
+      {
+        "name": "林鑫",
+        "link": "https://github.com/lin-xin/blog/issues"
+      },
+      {
+        "name": "于江水",
+        "link": "http://www.yujiangshui.com/"
+      },
+      {
+        "name": "PASSER-BY博",
+        "link": "http://passer-by.com/project.html"
+      },
+      {
+        "name": "Daryl's博客",
+        "link": "http://www.cnblogs.com/ghost-xyx/",
+        "title": "JS,vue,canvas"
+      },
+      {
+        "name": "kidney's博客",
+        "link": "http://www.cnblogs.com/kidney/category/813009.html",
+        "title": "JS,vue"
+      },
+      {
+        "name": "OBKoro1's博客",
+        "link": "http://obkoro1.com/archives/",
+        "title": "JS,vue"
+      },
+      {
+        "name": "tobethelight",
+        "link": "https://tobethelight.github.io/"
+      },
+      {
+        "name": "ac黄的博客",
+        "link": "http://blog.acwong.org/archives/"
+      }
     ],
     "awesome-team": [
-      {"name": "奇舞团博客","link": "https://75team.com/"},
-      {"name": "腾讯前端团队","link": "http://www.alloyteam.com/"},
-      {"name": "淘宝前端","link": "http://taobaofed.org/"},
-      {"name": "大搜车","link": "http://f2e.souche.com/blog/"},
-      {"name": "携程","link": "http://ued.ctrip.com/blog/"},
-      {"name":"奇舞学院","link":"https://t.75team.com/video"},
-      {"name":"人人网FED博客","link":"http://www.renfed.com/"},
-      {"name":"FED社区","link":"http://frontenddev.org/?f=qianduanblog.com"}
+      {
+        "name": "奇舞团博客",
+        "link": "https://75team.com/"
+      },
+      {
+        "name": "腾讯前端团队",
+        "link": "http://www.alloyteam.com/"
+      },
+      {
+        "name": "淘宝前端",
+        "link": "http://taobaofed.org/"
+      },
+      {
+        "name": "大搜车",
+        "link": "http://f2e.souche.com/blog/"
+      },
+      {
+        "name": "携程",
+        "link": "http://ued.ctrip.com/blog/"
+      },
+      {
+        "name": "奇舞学院",
+        "link": "https://t.75team.com/video"
+      },
+      {
+        "name": "人人网FED博客",
+        "link": "http://www.renfed.com/"
+      },
+      {
+        "name": "FED社区",
+        "link": "http://frontenddev.org/?f=qianduanblog.com"
+      }
     ],
     "tech-community": [
-      {"name": "Web技术研究","link": "https://www.web-tinker.com/"},
-      {"name": "DIV.IO社区","link": "http://div.io/#/welcome"},
-      {"name": "前端开发博客","link": "http://caibaojian.com/"},
-      {"name": "前端观察","link": "https://www.qianduan.net/"},
-      {"name": "前端圈","link": "https://fequan.com/"},
-      {"name": "V2EX社区","link": "https://www.v2ex.com/"},
-      {"name": "前端乱炖","link": "http://www.html-js.com/"},
-      {"name": "创造狮社区","link":"http://chuangzaoshi.com/"}
+      {
+        "name": "Web技术研究",
+        "link": "https://www.web-tinker.com/"
+      },
+      {
+        "name": "DIV.IO社区",
+        "link": "http://div.io/#/welcome"
+      },
+      {
+        "name": "前端开发博客",
+        "link": "http://caibaojian.com/"
+      },
+      {
+        "name": "前端观察",
+        "link": "https://www.qianduan.net/"
+      },
+      {
+        "name": "前端圈",
+        "link": "https://fequan.com/"
+      },
+      {
+        "name": "V2EX社区",
+        "link": "https://www.v2ex.com/"
+      },
+      {
+        "name": "前端乱炖",
+        "link": "http://www.html-js.com/"
+      },
+      {
+        "name": "创造狮社区",
+        "link": "http://chuangzaoshi.com/"
+      }
     ],
     "learning-anything": [
-      {"name":"Study Anything交互式脑图","link":"https://learn-anything.xyz/"},
-      {"name":"JS前端开发","link":"https://www.kancloud.cn/jikeytang/qq/81141"},
-      {"name":"前端导航","link":"http://www.alloyteam.com/nav/"},
-      {"name":"面试宝典","link":"https://yuchengkai.cn/docs/zh/"}
+      {
+        "name": "Study Anything交互式脑图",
+        "link": "https://learn-anything.xyz/"
+      },
+      {
+        "name": "JS前端开发",
+        "link": "https://www.kancloud.cn/jikeytang/qq/81141"
+      },
+      {
+        "name": "前端导航",
+        "link": "http://www.alloyteam.com/nav/"
+      },
+      {
+        "name": "面试宝典",
+        "link": "https://yuchengkai.cn/docs/zh/"
+      }
     ]
   }
 }

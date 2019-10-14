@@ -19,4 +19,12 @@ files.forEach(file => {
   }
 })
 
-fs.writeFileSync('./jsondata/basedata.json', JSON.stringify(generateData))
+fs.writeFile('./jsondata/basedata.json', JSON.stringify(generateData), error => {
+  if (error) {
+    console.log(`
+    ${chalk.green('write ./jsondata/basedata.json got error')}:
+    ${chalk.red(error.message)}
+    `)
+  }
+  console.log(chalk.cyanBright(`write json file success: ./jsondata/basedata.json`))
+})

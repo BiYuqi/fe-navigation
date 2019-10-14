@@ -1,33 +1,96 @@
 {
   "build-tool": {
-    "Gulp":[
-      {"name":"gulp详细入门教程","link":"http://www.ydcss.com/"},
-      {"name":"gulp中文网","link":"http://www.gulpjs.com.cn/"},
-      {"name":"gulp使用指南","link":"http://www.techug.com/gulp"},
-      {"name":"gulp使用小结","link":"http://www.cnblogs.com/Darren_code/p/gulp.html"},
-      {"name":"gulp 入门指南","link":"http://www.kancloud.cn/thinkphp/gulp-guide/43994"},
-      {"name":"精通gulp常用插件","link":"https://zhuanlan.zhihu.com/p/25243171?group_id=819532884137361408"}
+    "Gulp": [
+      {
+        "name": "gulp详细入门教程",
+        "link": "http://www.ydcss.com/"
+      },
+      {
+        "name": "gulp中文网",
+        "link": "http://www.gulpjs.com.cn/"
+      },
+      {
+        "name": "gulp使用指南",
+        "link": "http://www.techug.com/gulp"
+      },
+      {
+        "name": "gulp使用小结",
+        "link": "http://www.cnblogs.com/Darren_code/p/gulp.html"
+      },
+      {
+        "name": "gulp 入门指南",
+        "link": "http://www.kancloud.cn/thinkphp/gulp-guide/43994"
+      },
+      {
+        "name": "精通gulp常用插件",
+        "link": "https://zhuanlan.zhihu.com/p/25243171?group_id=819532884137361408"
+      }
     ],
-    "Webpack":[
-      {"name":"Webpack英文官网","link":"https://webpack.js.org/"},
-      {"name": "webpack 中文文档", "link":"http://www.css88.com/doc/webpack/"},
-      {"name":"Webpack学习资源","link":"https://github.com/lengziyu/learn-webpack"},
-      {"name":"Webpack中文站","link":"https://doc.webpack-china.org/"},
-      {"name":"RequireJS常用知识","link":"http://www.cnblogs.com/lyzg/p/4865502.html"}
+    "Webpack": [
+      {
+        "name": "Webpack英文官网",
+        "link": "https://webpack.js.org/"
+      },
+      {
+        "name": "webpack 中文文档",
+        "link": "http://www.css88.com/doc/webpack/"
+      },
+      {
+        "name": "Webpack学习资源",
+        "link": "https://github.com/lengziyu/learn-webpack"
+      },
+      {
+        "name": "Webpack中文站",
+        "link": "https://doc.webpack-china.org/"
+      },
+      {
+        "name": "RequireJS常用知识",
+        "link": "http://www.cnblogs.com/lyzg/p/4865502.html"
+      }
     ],
-    "Rollup":[
-      {"name":"rollupjs官方文档","link":"https://rollupjs.org/"},
-      {"name":"rollupjs中文文档","link":"https://rollupjs.org/zh"}
+    "Rollup": [
+      {
+        "name": "rollupjs官方文档",
+        "link": "https://rollupjs.org/"
+      },
+      {
+        "name": "rollupjs中文文档",
+        "link": "https://rollupjs.org/zh"
+      }
     ],
-    "Css":[
-      {"name":"Less官方文档","link":"http://lesscss.org/"},
-      {"name":"Less详细入门(版本过低)","link":"http://www.bootcss.com/p/lesscss/"},
-      {"name":"Sass中文文档","link":"https://www.sass.hk/"},
-      {"name":"Sass入门指南","link":"https://www.w3cplus.com/sassguide/index.html"},
-      {"name":"Stylus官方文档","link":"http://stylus-lang.com/"},
-      {"name":"Stylus中文版文档","link":"http://www.zhangxinxu.com/jq/stylus/"},
-      {"name":"Normalize.css","link":"http://necolas.github.io/normalize.css/"},
-      {"name":"Animate.css","link":"https://daneden.github.io/animate.css/"}
+    "Css": [
+      {
+        "name": "Less官方文档",
+        "link": "http://lesscss.org/"
+      },
+      {
+        "name": "Less详细入门(版本过低)",
+        "link": "http://www.bootcss.com/p/lesscss/"
+      },
+      {
+        "name": "Sass中文文档",
+        "link": "https://www.sass.hk/"
+      },
+      {
+        "name": "Sass入门指南",
+        "link": "https://www.w3cplus.com/sassguide/index.html"
+      },
+      {
+        "name": "Stylus官方文档",
+        "link": "http://stylus-lang.com/"
+      },
+      {
+        "name": "Stylus中文版文档",
+        "link": "http://www.zhangxinxu.com/jq/stylus/"
+      },
+      {
+        "name": "Normalize.css",
+        "link": "http://necolas.github.io/normalize.css/"
+      },
+      {
+        "name": "Animate.css",
+        "link": "https://daneden.github.io/animate.css/"
+      }
     ]
   }
 }

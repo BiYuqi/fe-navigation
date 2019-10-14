@@ -1,57 +1,198 @@
 {
-  "awesome-library":{
-    "opening-source-tool":[
-      {"name":"百度静态资源","link":"http://cdn.code.baidu.com/"},
-      {"name":"BootCDN","link":"http://www.bootcdn.cn/"},
-      {"name":"Web前端资源库","link":"https://www.awesomes.cn/"},
-      {"name":"淘宝NPM镜像","link":"http://npm.taobao.org/"},
-      {"name":"开放静态文件CDN-七牛","link":"https://staticfile.org/"},
-      {"name":"淘宝NPM镜像","link":"http://npm.taobao.org/"},
-      {"name":"淘宝NPM镜像","link":"http://npm.taobao.org/"},
-      {"name":"淘宝NPM镜像","link":"http://npm.taobao.org/"},
-      {"name":"模拟数据Rap","link":"http://rap.taobao.org/org/index.do"},
-      {"name":"Github 前端收藏夹 ","link":"https://www.mmxiaowu.com/article/584820f6d4352863efb55459"},
-      {"name":"Awesomes-Web前端开发资源库","link":"https://www.awesomes.cn/"}
+  "awesome-library": {
+    "opening-source-tool": [
+      {
+        "name": "百度静态资源",
+        "link": "http://cdn.code.baidu.com/"
+      },
+      {
+        "name": "BootCDN",
+        "link": "http://www.bootcdn.cn/"
+      },
+      {
+        "name": "Web前端资源库",
+        "link": "https://www.awesomes.cn/"
+      },
+      {
+        "name": "淘宝NPM镜像",
+        "link": "http://npm.taobao.org/"
+      },
+      {
+        "name": "开放静态文件CDN-七牛",
+        "link": "https://staticfile.org/"
+      },
+      {
+        "name": "淘宝NPM镜像",
+        "link": "http://npm.taobao.org/"
+      },
+      {
+        "name": "淘宝NPM镜像",
+        "link": "http://npm.taobao.org/"
+      },
+      {
+        "name": "淘宝NPM镜像",
+        "link": "http://npm.taobao.org/"
+      },
+      {
+        "name": "模拟数据Rap",
+        "link": "http://rap.taobao.org/org/index.do"
+      },
+      {
+        "name": "Github 前端收藏夹 ",
+        "link": "https://www.mmxiaowu.com/article/584820f6d4352863efb55459"
+      },
+      {
+        "name": "Awesomes-Web前端开发资源库",
+        "link": "https://www.awesomes.cn/"
+      }
     ],
-    "plugin-library":[
-      {"name":"常用github优秀插件和库","link":"https://github.com/jawil/blog/issues/10"},
-      {"name":"iScroll 5 API 中文版","link":"https://iiunknown.gitbooks.io/iscroll-5-api-cn/content/index.html"},
-      {"name":"ESLint中文网","link":"http://eslint.cn/"},
-      {"name":"Loadsh中文文档","link":"http://lodash.think2011.net/"},
-      {"name":"Javascript 中文文档","link":"https://developer.mozilla.org/zh-CN/docs/Web/JavaScript"},
-      {"name":"Yarn 文档","link":"https://yarnpkg.com/en/docs/cli/"},
-      {"name":"JQ3.1 API","link":"http://jquery.cuishifeng.cn/"},
-      {"name":"Swiper中文网","link":"http://www.swiper.com.cn/"},
-      {"name":"Js模板引擎ArtTemplate","link":"https://github.com/aui/artTemplate"},
-      {"name":"ArtTemplate模板demo","link":"http://aui.github.io/artTemplate/demo/index.html"},
-      {"name":"免费图标库","link":"http://nagoshiashumari.github.io/Rpg-Awesome/"},
-      {"name":"阿里巴巴矢量图标库","link":"http://www.iconfont.cn/"},
-      {"name":"Echo.js图片延迟加载","link":"https://github.com/toddmotto/echo"},
-      {"name":"Lazyr.js图片延迟加载","link":"https://github.com/callmecavs/layzr.js"},
-      {"name":"better-scroll模拟滚动条","link":"https://github.com/ustbhuangyi/better-scroll"},
-      {"name":"better-picker选择器","link":"https://github.com/ustbhuangyi/picker"},
-      {"name":"better-picker选择器DEMO","link":"http://ustbhuangyi.github.io/picker/"},
-      {"name":"Sortable拖拽排序","link":"https://github.com/RubaXa/Sortable"},
-      {"name":"Slideout触摸滑出式WebApp导航","link":"https://github.com/mango/slideout"},
-      {"name":"SweetAlert替代 Alert","link":"https://github.com/t4t5/sweetalert"},
-      {"name":"Awesomplete自动补全","link":"https://github.com/leaverou/awesomplete/"},
-      {"name":"Popmotion js运动引擎","link":"https://github.com/Popmotion/popmotion"},
-      {"name":"Dynamics逼真的物理动画","link":"https://github.com/michaelvillar/dynamics.js"},
-      {"name":"Rainyday雨滴效果","link":"https://github.com/maroslaw/rainyday.js"},
-      {"name":"Snabbt 极简的JavaScript动画库","link":"https://github.com/daniel-lundin/snabbt.js"},
-      {"name":"imagesLoaded检测图片是否加载完成","link":"https://github.com/desandro/imagesloaded"},
-      {"name":"Fort表单填写进度效果","link":"https://github.com/idriskhenchil/Fort.js"},
-      {"name":"Quill灵活自定义富文本编辑器","link":"https://github.com/quilljs/quill/"},
-      {"name":"moment Javascript日期处理","link":"http://momentjs.com/"},
-      {"name":"hammer一款小巧的手势库","link":"https://github.com/hammerjs/hammer.js/"},
-      {"name":"infinite-scroll按需加载","link":"https://github.com/infinite-scroll/infinite-scroll"}
+    "plugin-library": [
+      {
+        "name": "常用github优秀插件和库",
+        "link": "https://github.com/jawil/blog/issues/10"
+      },
+      {
+        "name": "iScroll 5 API 中文版",
+        "link": "https://iiunknown.gitbooks.io/iscroll-5-api-cn/content/index.html"
+      },
+      {
+        "name": "ESLint中文网",
+        "link": "http://eslint.cn/"
+      },
+      {
+        "name": "Loadsh中文文档",
+        "link": "http://lodash.think2011.net/"
+      },
+      {
+        "name": "Javascript 中文文档",
+        "link": "https://developer.mozilla.org/zh-CN/docs/Web/JavaScript"
+      },
+      {
+        "name": "Yarn 文档",
+        "link": "https://yarnpkg.com/en/docs/cli/"
+      },
+      {
+        "name": "JQ3.1 API",
+        "link": "http://jquery.cuishifeng.cn/"
+      },
+      {
+        "name": "Swiper中文网",
+        "link": "http://www.swiper.com.cn/"
+      },
+      {
+        "name": "Js模板引擎ArtTemplate",
+        "link": "https://github.com/aui/artTemplate"
+      },
+      {
+        "name": "ArtTemplate模板demo",
+        "link": "http://aui.github.io/artTemplate/demo/index.html"
+      },
+      {
+        "name": "免费图标库",
+        "link": "http://nagoshiashumari.github.io/Rpg-Awesome/"
+      },
+      {
+        "name": "阿里巴巴矢量图标库",
+        "link": "http://www.iconfont.cn/"
+      },
+      {
+        "name": "Echo.js图片延迟加载",
+        "link": "https://github.com/toddmotto/echo"
+      },
+      {
+        "name": "Lazyr.js图片延迟加载",
+        "link": "https://github.com/callmecavs/layzr.js"
+      },
+      {
+        "name": "better-scroll模拟滚动条",
+        "link": "https://github.com/ustbhuangyi/better-scroll"
+      },
+      {
+        "name": "better-picker选择器",
+        "link": "https://github.com/ustbhuangyi/picker"
+      },
+      {
+        "name": "better-picker选择器DEMO",
+        "link": "http://ustbhuangyi.github.io/picker/"
+      },
+      {
+        "name": "Sortable拖拽排序",
+        "link": "https://github.com/RubaXa/Sortable"
+      },
+      {
+        "name": "Slideout触摸滑出式WebApp导航",
+        "link": "https://github.com/mango/slideout"
+      },
+      {
+        "name": "SweetAlert替代 Alert",
+        "link": "https://github.com/t4t5/sweetalert"
+      },
+      {
+        "name": "Awesomplete自动补全",
+        "link": "https://github.com/leaverou/awesomplete/"
+      },
+      {
+        "name": "Popmotion js运动引擎",
+        "link": "https://github.com/Popmotion/popmotion"
+      },
+      {
+        "name": "Dynamics逼真的物理动画",
+        "link": "https://github.com/michaelvillar/dynamics.js"
+      },
+      {
+        "name": "Rainyday雨滴效果",
+        "link": "https://github.com/maroslaw/rainyday.js"
+      },
+      {
+        "name": "Snabbt 极简的JavaScript动画库",
+        "link": "https://github.com/daniel-lundin/snabbt.js"
+      },
+      {
+        "name": "imagesLoaded检测图片是否加载完成",
+        "link": "https://github.com/desandro/imagesloaded"
+      },
+      {
+        "name": "Fort表单填写进度效果",
+        "link": "https://github.com/idriskhenchil/Fort.js"
+      },
+      {
+        "name": "Quill灵活自定义富文本编辑器",
+        "link": "https://github.com/quilljs/quill/"
+      },
+      {
+        "name": "moment Javascript日期处理",
+        "link": "http://momentjs.com/"
+      },
+      {
+        "name": "hammer一款小巧的手势库",
+        "link": "https://github.com/hammerjs/hammer.js/"
+      },
+      {
+        "name": "infinite-scroll按需加载",
+        "link": "https://github.com/infinite-scroll/infinite-scroll"
+      }
     ],
-    "tech-project":[
-      {"name":"vue专题","link":"https://www.awesomes.cn/subject/vue"},
-      {"name":"Bootstrap专题","link":"https://www.awesomes.cn/subject/bootstrap"},
-      {"name":"Angular专题","link":"https://www.awesomes.cn/subject/angular"},
-      {"name":"React专题","link":"https://www.awesomes.cn/subject/react"},
-      {"name":"D3专题","link":"https://www.awesomes.cn/subject/d3"}
+    "tech-project": [
+      {
+        "name": "vue专题",
+        "link": "https://www.awesomes.cn/subject/vue"
+      },
+      {
+        "name": "Bootstrap专题",
+        "link": "https://www.awesomes.cn/subject/bootstrap"
+      },
+      {
+        "name": "Angular专题",
+        "link": "https://www.awesomes.cn/subject/angular"
+      },
+      {
+        "name": "React专题",
+        "link": "https://www.awesomes.cn/subject/react"
+      },
+      {
+        "name": "D3专题",
+        "link": "https://www.awesomes.cn/subject/d3"
+      }
     ]
   }
 }
