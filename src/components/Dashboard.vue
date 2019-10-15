@@ -49,6 +49,7 @@ export default {
   width: calc(100% - 180px);
   padding: 15px;
   flex: 1;
+  background-color: #f0f0f0;
 
   ul, li {
     list-style: none;
@@ -90,15 +91,15 @@ export default {
     border: 1px solid #ddd;
     background-color: #fff;
     transition: all .24s;
-    width: 15%;
+    width: 19%;
     overflow: hidden;
-    min-height: 86px;
+    min-height: 100px;
 
     &:hover {
       box-shadow: 0 2px 4px 0 rgba(0,0,0,.12), 0 0 3px 0 rgba(0,0,0,.04);
     }
     a {
-      color: #333;
+      color: #5e5e5e;
       text-decoration: none;
       display: block;
       padding: 12px 16px;
@@ -106,15 +107,14 @@ export default {
 
       &:visited,
       &:focus {
-        color: #666;
+        color: #5e5e5e;
       }
     }
   }
 
   &__name {
-    color: #333;
+    color: #4a4848;
     font-size: 16px;
-    font-weight: 600;
   }
 
   &__desc {

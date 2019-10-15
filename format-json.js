@@ -19,11 +19,11 @@ files.forEach(file => {
     fs.writeFile(`./jsondata/data/${fileName}.json`, jsonFormat(content, config), error => {
       if (error) {
         console.log(`
-        ${chalk.green('write json file got error')}:
+        ${chalk.green('formatted json file got error')}:
         ${chalk.red(error.message)}
         `)
       }
-      console.log(chalk.cyanBright(`write json file success: ./jsondata/data/${fileName}.json`))
+      console.log(chalk.cyanBright(`formatted json file success: ./jsondata/data/${fileName}.json`))
     })
   } catch (error) {
     console.log(`
