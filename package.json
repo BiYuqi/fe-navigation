@@ -62,6 +62,7 @@
   "lint-staged": {
     "*.{js,vue}": [
       "vue-cli-service lint",
+      "npm run format-json",
       "git add"
     ]
   }
