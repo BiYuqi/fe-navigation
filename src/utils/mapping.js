@@ -32,6 +32,7 @@ export default {
   'plugin-library': '插件库',
   'tech-project': '技术专题',
   'Git': 'Git',
+  'interview': '面试宝典',
   'python': 'Python',
   'deep-learning': '深度学习',
   'PHP': 'PHP',

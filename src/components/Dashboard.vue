@@ -10,6 +10,9 @@
               <span class="content-area__desc" v-if="child.description">
                 {{child.description}}
               </span>
+              <span class="content-area__desc" v-else>
+                描述正在整理补充中...
+              </span>
               <!-- <p class="content-area__tag" v-if="child.tag">
                 <i v-for="(label, index) in child.tag" :key="index">{{label}}</i>
               </p> -->
@@ -75,7 +78,7 @@ export default {
     &::before {
       position: absolute;
       left: 0;
-      bottom: 0;
+      top: 4px;
       display: block;
       content: "";
       width: 4px;
@@ -99,7 +102,7 @@ export default {
       box-shadow: 0 2px 4px 0 rgba(0,0,0,.12), 0 0 3px 0 rgba(0,0,0,.04);
     }
     a {
-      color: #5e5e5e;
+      color: #757575;
       text-decoration: none;
       display: block;
       padding: 12px 16px;
@@ -107,13 +110,13 @@ export default {
 
       &:visited,
       &:focus {
-        color: #5e5e5e;
+        color: #757575;
       }
     }
   }
 
   &__name {
-    color: #4a4848;
+    color: #3e3c3c;
     font-size: 16px;
   }
 
@@ -128,9 +131,11 @@ export default {
 
   @media screen and (max-width: 640px) {
     width: 100%;
+    padding: 10px;
 
     &__link {
       width: 100%;
+      margin: 0 0 15px;
 
       a {
         font-size: 14px;

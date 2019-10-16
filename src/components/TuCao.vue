@@ -20,5 +20,9 @@
       color: #00beb3;
     }
   }
+
+  @media screen and (max-width: 640px) {
+    top: 140px;
+  }
 }
 </style>

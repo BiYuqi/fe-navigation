@@ -27,7 +27,9 @@
       },
       {
         "name": "叶小钗",
-        "link": "http://www.cnblogs.com/yexiaochai"
+        "link": "http://www.cnblogs.com/yexiaochai",
+        "description": "企鹅医生, 从事开发工作",
+        "tag": []
       },
       {
         "name": "狼叔",
@@ -278,63 +280,80 @@
       },
       {
         "name": "CodeSky 代码之空",
-        "link": "https://codesky.me/"
+        "link": "https://codesky.me/",
+        "description": "饿了么高级前端工程师.",
+        "tag": []
       },
       {
-        "name": "Jerry Qu博",
-        "link": "https://imququ.com/"
+        "name": "Jerry Qu",
+        "link": "https://imququ.com/",
+        "description": "博主名叫屈光宇，网上代号习惯用 JerryQu、qgy18，近几年来朋友们都叫我屈屈或 QuQu。08 年毕业于武汉科技大学自动化专业，湖北黄冈罗田县人。目前专注于 Web 端开发，关注 Web 性能优化与安全。",
+        "tag": []
       },
       {
         "name": "牧风",
-        "link": "https://mufeng.me/"
-      },
-      {
-        "name": "大猫",
-        "link": "http://ooxx.me/"
+        "link": "https://mufeng.me/",
+        "description": "前端开发工程师",
+        "tag": []
       },
       {
         "name": "剧中人",
-        "link": "http://bh-lay.com/blog/"
+        "link": "http://bh-lay.com/blog/",
+        "description": "90后天蝎男，前端工程师、全栈开发尝试者",
+        "tag": []
       },
       {
         "name": "朱文龙 Mofei",
-        "link": "https://www.zhuwenlong.com/blog"
+        "link": "https://www.zhuwenlong.com/blog",
+        "description": "2010年接触前端，10-14年在上海易班刷了4年副本，14-18年坐标北京百度，目前带着走向世界的梦想在Mapbox打拼",
+        "tag": []
       },
       {
-        "name": "Smohan博",
-        "link": "https://www.smohan.net/blog/"
+        "name": "Smohan",
+        "link": "https://www.smohan.net/",
+        "description": "水墨寒，90后双鱼座普通男青年！毕业于成都一所普通大学的电子信息专业，思维欠发达，差点迷失于错综复杂的电路与多维空间信号中……遂改行，从事于WEB前端开发。喜欢敲代码的感觉，相信编程是一门艺术, 自诩为游弋在代码里的人生",
+        "tag": []
       },
       {
         "name": "易翰",
-        "link": "http://hankewins.com/"
+        "link": "http://hankewins.com/",
+        "description": "爱折腾的天秤座，前端工程师，摄影爱好者!",
+        "tag": []
       },
       {
         "name": "二哲",
-        "link": "http://www.meckodo.com/#!/"
+        "link": "http://www.meckodo.com/#!/",
+        "description": "像我这样毫无能力又没有色彩的人, 也就只能在失去中成长了吧",
+        "tag": []
       },
       {
         "name": "蜀山客",
-        "link": "http://www.zeakhold.com/#"
+        "link": "http://www.zeakhold.com/#",
+        "description": "博主网名山客，英文名Zeakhold，这也是本站域名的来由,伪–Web前端开发攻城狮，真–‘会修电脑’的好人, 喜欢音乐与读书，爱生活，爱运动，爱折腾, 将来也许会成为一名合格的电焊工",
+        "tag": []
       },
       {
-        "name": "小青年博客",
-        "link": "https://zhaomenghuan.github.io/"
-      },
-      {
-        "name": "Dron 博客",
-        "link": "http://ucren.com/"
+        "name": "匠心博客",
+        "link": "https://zhaomenghuan.js.org/",
+        "description": "一个有代码洁癖的极客技术宅，目前就任于美团金融服务平台。",
+        "tag": []
       },
       {
         "name": "坚壳",
-        "link": "http://www.replace5.com/"
+        "link": "http://www.replace5.com/",
+        "description": "暂无描述",
+        "tag": []
       },
       {
         "name": "Surmon博",
-        "link": "https://surmon.me/"
+        "link": "https://surmon.me/",
+        "description": "暂无描述",
+        "tag": []
       },
       {
         "name": "林鑫",
-        "link": "https://github.com/lin-xin/blog/issues"
+        "link": "https://github.com/lin-xin/blog/issues",
+        "description": "步步高前端开发."
       },
       {
         "name": "于江水",
@@ -343,35 +362,52 @@
         "tag": []
       },
       {
-        "name": "PASSER-BY博",
-        "link": "http://passer-by.com/project.html"
+        "name": "PASSER-BY",
+        "link": "http://passer-by.com/project.html",
+        "description": "标准的90后，喜欢特立独行，向往简约而不简单的生活。大学期间开始利用课余时间“间歇性”学习前端开发，自此走上程序猿的不归路……这就是我，一个路人甲~",
+        "tag": []
       },
       {
-        "name": "Daryl's博客",
+        "name": "Daryl",
         "link": "http://www.cnblogs.com/ghost-xyx/",
-        "title": "JS,vue,canvas"
+        "description": "暂无描述",
+        "tag": [
+          "JS",
+          "vue",
+          "canvas"
+        ]
       },
       {
-        "name": "kidney's博客",
+        "name": "kidney",
         "link": "http://www.cnblogs.com/kidney/category/813009.html",
-        "title": "JS,vue"
+        "description": "暂无描述",
+        "tag": [
+          "JS",
+          "vue"
+        ]
       },
       {
-        "name": "OBKoro1's博客",
+        "name": "OBKoro1",
         "link": "http://obkoro1.com/archives/",
-        "title": "JS,vue"
+        "description": "在纷乱的前端娱乐圈，专注js基础，打磨核心竞争力，一通百通，无惧工具/框架变迁",
+        "tag": []
       },
       {
         "name": "tobethelight",
-        "link": "https://tobethelight.github.io/"
+        "link": "https://tobethelight.github.io/",
+        "description": "暂无描述.",
+        "tag": []
       },
       {
         "name": "ac黄的博客",
-        "link": "http://blog.acwong.org/archives/"
+        "link": "http://blog.acwong.org/archives/",
+        "description": "暂无描述.",
+        "tag": []
       },
       {
         "name": "核桃大号",
-        "link": "http://www.cnblogs.com/hetaojs/"
+        "link": "http://www.cnblogs.com/hetaojs/",
+        "description": "暂无描述."
       }
     ],
     "awesome-team": [
@@ -448,18 +484,6 @@
       {
         "name": "Study Anything交互式脑图",
         "link": "https://learn-anything.xyz/"
-      },
-      {
-        "name": "JS前端开发",
-        "link": "https://www.kancloud.cn/jikeytang/qq/81141"
-      },
-      {
-        "name": "前端导航",
-        "link": "http://www.alloyteam.com/nav/"
-      },
-      {
-        "name": "面试宝典",
-        "link": "https://yuchengkai.cn/docs/zh/"
       }
     ]
   }

@@ -9,8 +9,8 @@
       </div>
     </a>
     <iframe
-        style="position:absolute;top:23px;right:6px;"
-        frameborder="0" scrolling="0" width="91px" height="20px" class="star-gihub"
+        style="position:absolute;top:35px;right:6px;"
+        frameborder="0" scrolling="0" width="91px" height="20px" class="star-github"
         src="https://ghbtns.com/github-btn.html?user=BiYuqi&repo=vuenotes&type=star&count=true" >
     </iframe>
   </div>
@@ -87,6 +87,25 @@ export default {
     span {
       color: #666;
       font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    padding-left: 15px;
+
+    &__title {
+      img {
+        width: 46px;
+        height: 46px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      span {
+        font-size: 12px;
+      }
     }
   }
 }
