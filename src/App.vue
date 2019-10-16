@@ -17,17 +17,14 @@ html,body{
 }
 
 body{
-    font-family: "Microsoft Yahei";
-    font-size: 14px;
-    width: 100%;
+  font: 14px/1.8 'Microsoft Yahei', Arial,'Hiragino Sans GB';
+  font-size: 14px;
+  width: 100%;
 }
 
 #app {
-  font-family: 'Microsoft Yahei';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-  box-sizing: border-box;
   height: 100%;
   width: 100%;
 }

@@ -1,11 +1,16 @@
 <template>
   <div class="header" :class="{active:isactive}">
     <canvas-bg v-if="isactive"></canvas-bg>
-    <a href="https://loadingmore.com" target="_blank" title="我的博客" class="logo"><img src="~@/assets/logo.png" alt=""></a>
-    <i class="btn_logo">前端导航</i>
+    <a href="https://loadingmore.com" target="_blank" title="前端导航" class="header__title">
+      <img src="~@/assets/logo.png" alt="">
+      <div>
+        <p>前端导航</p>
+        <span>专注于前端开发, 前端开发教程</span>
+      </div>
+    </a>
     <iframe
-        style="position:absolute;top:23px;right:6px;"
-        frameborder="0" scrolling="0" width="91px" height="20px" class="star-gihub"
+        style="position:absolute;top:35px;right:6px;"
+        frameborder="0" scrolling="0" width="91px" height="20px" class="star-github"
         src="https://ghbtns.com/github-btn.html?user=BiYuqi&repo=vuenotes&type=star&count=true" >
     </iframe>
   </div>
@@ -37,17 +42,17 @@ export default {
 </script>
 <style lang="scss">
 .header{
-  height: 60px;
+  height: 80px;
   width: 100%;
   box-sizing: border-box;
-  color: #E9F6FD;
-  padding-left: 70px;
+  padding-left: 30px;
   text-align: left;
   background-color: #FDFDFD;
   position: relative;
   border-bottom: 1px solid #E8E8E8;
   display: flex;
   align-items: center;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.12), 0 0 3px 0 rgba(0,0,0,.04);
 
   &.active {
     background-color: #00beb3;
@@ -64,37 +69,44 @@ export default {
     font-size: 20px;
   }
 
-  img {
-    display: block;
-    width: 44px;
-    height: 44px;
-    position: absolute;
-    top: 50%;
-    margin-top: -24px;
-    left: 12px;
-    z-index: 200;
-  }
-
-  .logo img {
-    animation: change 5s linear infinite;
-    -webkit-animation: change 5s linear infinite;
-    animation-play-state: paused;
-    -webkit-animation-play-state: paused;
-
-    &:hover {
-      animation-play-state: running;
-      -webkit-animation-play-state: running;
+  &__title {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    img {
+      width: 52px;
+      height: 52px;
+      margin-right: 10px;
+    }
+    p {
+      font-size: 20px;
+      color: #5e5e5e;
+      line-height: 1.3;
+    }
+    span {
+      color: #666;
+      font-size: 14px;
     }
   }
-}
-@keyframes change{
-  from{
-    -webkit-transform:rotate(0);
-    transform:rotate(0)
-  }
-  to{
-    -webkit-transform:rotate(360deg);
-    transform:rotate(360deg)
+
+  @media screen and (max-width: 640px) {
+    padding-left: 15px;
+
+    &__title {
+      img {
+        width: 46px;
+        height: 46px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      span {
+        font-size: 12px;
+      }
+    }
   }
 }
 </style>

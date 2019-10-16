@@ -7,17 +7,20 @@
         <router-view></router-view>
       </transition>
     </div>
+    <tu-cao />
   </div>
 </template>
 
 <script>
 import Header from './Header.vue'
 import SideBar from './SideBar.vue'
+import TuCao from '@/components/TuCao.vue'
 
 export default {
   components: {
     Header,
-    SideBar
+    SideBar,
+    TuCao
   }
 }
 </script>

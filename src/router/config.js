@@ -13,6 +13,7 @@ export const routerPage = [
   ['visualization', '可视化'],
   ['awesome-library', '优秀开源库'],
   ['git', '版本控制'],
+  ['interview', '面试宝典'],
   ['other-language', '其他语言'],
   ['about-me', '关于我']
 ]

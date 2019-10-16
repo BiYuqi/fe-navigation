@@ -3,276 +3,419 @@
     "personal-blog": [
       {
         "name": "阮一峰",
-        "link": "http://www.ruanyifeng.com/blog/"
+        "link": "http://www.ruanyifeng.com/blog/",
+        "description": "阮一峰，70年代生于上海。毕业于上海财经大学，经济学博士，同时也是程序员，个人博客访问量过千万，译有《ECMAScript 6入门》、《黑客与画家》、《软件随想录》。个人博客为阮一峰的网络日志，目前在阿里任职.",
+        "tag": []
       },
       {
         "name": "廖雪峰",
-        "link": "http://www.liaoxuefeng.com/"
+        "link": "http://www.liaoxuefeng.com/",
+        "description": "廖雪峰，技术作家，著有《Spring 2.0核心技术与最佳实践》。廖雪峰的官方网站，研究互联网产品和技术，提供原创中文精品教程。",
+        "tag": []
       },
       {
         "name": "小胡子哥",
-        "link": "http://www.barretlee.com/entry/"
+        "link": "http://www.barretlee.com/entry/",
+        "description": "李靖，网名小胡子哥（Barret Lee），混迹于前端社区差不多五年了，毕业前在两家创业公司兼职和学习，先后在百度以及阿里巴巴淘宝网工作，目前仍就职于淘宝网-技术部。技术上侧重于前端，目前在前端领域的深入有两个重点，一为 Node 相关的全栈式开发，另一个是类 Rx 相关的多端开发。有比较丰富的前端自动化测试和工程化经验。同时也关注网络安全，关注技术和业务的结合。无论生活还是工作，都是极端活跃分子，喜欢找人沟通，交流技术，谈谈人生，侃侃理想。思维比较活跃，随机应变，喜欢有激情、有活力、有方向、有爱的弹性管理团队",
+        "tag": []
       },
       {
         "name": "司徒正美",
-        "link": "http://www.cnblogs.com/rubylouvre"
+        "link": "http://www.cnblogs.com/rubylouvre",
+        "description": "钟钦成，网名司徒正美，著名的JavaScript专家，去哪儿网前端架构师，立志做考古学家的日语系工程师，穿梭于二次元与二进制间的“魔法师”，做过陶艺，写过小说，涉猎Java、Ruby、 JavaScript。曾出版《JavaScript框架设计》一书。",
+        "tag": []
       },
       {
         "name": "叶小钗",
-        "link": "http://www.cnblogs.com/yexiaochai"
+        "link": "http://www.cnblogs.com/yexiaochai",
+        "description": "企鹅医生, 从事开发工作",
+        "tag": []
+      },
+      {
+        "name": "狼叔",
+        "link": "https://github.com/i5ting",
+        "description": "Node.js 技术布道者，Node全栈公众号运营者,阿里巴巴技术专家, 去哪儿网前端架构师. 被坑CTO，StuQ 明星讲师，开源项目 Moajs 作者.",
+        "tag": []
       },
       {
         "name": "CSS森林",
-        "link": "http://blog.cssforest.org/"
+        "link": "http://blog.cssforest.org/",
+        "description": "一个页面仔的成长之路, 容易满足却不安于现况的瓶子。 CSS森林创始人；webrebuild.org创始人之一, 微信支付设计中心，负责重构前端团队的管理工作。",
+        "tag": []
       },
       {
-        "name": "朴灵",
-        "link": "http://html5ify.com/"
+        "name": "朴灵(田永强)",
+        "link": "http://html5ify.com/",
+        "description": "真名田永强，文艺型码农，就职于阿里巴巴数据平台，资深工程师，Node.js布道者，写了多篇文章介绍Node.js的细节。活跃于CNode社区，是线下会议NodeParty的组织者和JSConf China（沪JS和京JS）的组织者之一。热爱开源，多个Node.js模块的作者。个人GitHub地址：http://github.com/JacksonTian。叩首问路，码梦为生。",
+        "tag": []
       },
       {
         "name": "代码家",
-        "link": "https://daimajia.com/"
+        "link": "https://daimajia.com/",
+        "description": "代码家在 GitHub 社区拥有超高人气，开源项目被纳入斯坦福计算机讲义课程案例，开源代码覆盖全球数十亿台移动设备。  目前主要在真格基金负责企业服务、科技产业、区块链相关产业投资；曾参与投资 Cobo 钱包、Nervos、Conflux、Ontology、Cocos-Bcx 等项目早期投资.",
+        "tag": []
       },
       {
         "name": "寒冬winter",
-        "link": "http://winter-cn.cnblogs.com/"
+        "link": "http://winter-cn.cnblogs.com/",
+        "description": "winter，本名程劭非，花名寒泉，前端工程师，JavaScript 专家。江湖人称“计算机之子”。先后在微软，盛大，阿里巴巴工作，目前是手机淘宝前端 leader。",
+        "tag": []
       },
       {
         "name": "前端农民工",
-        "link": "https://github.com/fouber/blog"
-      },
-      {
-        "name": "刘未鹏",
-        "link": "http://mindhacks.cn/"
+        "link": "https://github.com/fouber/blog",
+        "description": "张云龙(前端农民工),现为全民TV技术总监，前UC浏览器导航团队前端技术负责人，前FIS团队技术负责人.",
+        "tag": []
       },
       {
         "name": "前端小武",
-        "link": "https://xuexb.com/"
+        "link": "https://xuexb.com/",
+        "description": "曾用名谢亮，91年（阳历）后... 目前任职于某公司，常活跃于海淀西二旗。喜欢各种折腾, 喜欢研究源, 对美好的代码有极强的透视症, 崇尚有强烈技术氛围的UED.",
+        "tag": []
       },
       {
         "name": "轩枫阁",
-        "link": "http://www.xuanfengge.com/"
+        "link": "http://www.xuanfengge.com/",
+        "description": "Web前端开发, 腾讯微信前端工程师.",
+        "tag": []
       },
       {
         "name": "CSS魔法",
-        "link": "http://www.cssmagic.net/"
+        "link": "http://www.cssmagic.net/",
+        "github": "https://github.com/catchen",
+        "description": "Web标准与前端技术杂谈 - CSSMagic.net, 百姓网前端架构师.",
+        "tag": []
+      },
+      {
+        "name": "李晶",
+        "link": "http://jayli.github.io/",
+        "github": "https://github.com/jayli",
+        "description": "2008 年东北大学硕士毕业，一直做前端开发，目前就职于阿里旅行·去啊前端团队。淘宝F2E，“犀牛书(第六版)”译者，“JS Web富应用开发”译者。翻译了这些书：js权威指南，js富应用开发，js设计模式.",
+        "tag": []
+      },
+      {
+        "name": "BYVoid",
+        "link": "http://www.byvoid.com/",
+        "github": "https://github.com/BYVoid",
+        "description": "BYVoid（郭家宝），清华大学计算机系2010级本科生，自由意志主义者。《Node.js开发指南》作者。",
+        "tag": []
+      },
+      {
+        "name": "fengmk2",
+        "link": "http://fengmk2.github.com/",
+        "github": "https://github.com/fengmk2",
+        "description": "袁锋，淘宝网数据产品部资深Web开发工程师，CNode.org社区核心成员，淘宝花名：苏千。参与egg,koa,cnpm等。",
+        "tag": []
+      },
+      {
+        "name": "Cat Chen",
+        "link": "http://cathsfz.cnblogs.com/",
+        "description": "陈广琛，就职于facebook, 前端大牛",
+        "tag": []
       },
       {
         "name": "高浩阳",
-        "link": "https://gaohaoyang.github.io/"
+        "link": "https://gaohaoyang.github.io/",
+        "description": "记录前端学习之路, 淘宝前端工程师.",
+        "tag": []
       },
       {
         "name": "小虎虾鱼",
-        "link": "http://www.xiaoboy.com/"
-      },
-      {
-        "name": "聂卫东",
-        "link": "http://www.fefork.com/"
+        "link": "http://www.xiaoboy.com/",
+        "github": "https://github.com/satrong",
+        "description": "前端工程师",
+        "tag": []
       },
       {
         "name": "张鑫旭",
-        "link": "http://www.zhangxinxu.com/"
+        "link": "http://www.zhangxinxu.com/",
+        "description": "张鑫旭，09年华中科技大学毕业，目前上海，现就职ISUX上海设计中心，热爱web前端，喜爱钓鱼.",
+        "tag": []
       },
       {
         "name": "玉伯",
-        "link": "https://github.com/lifesinger/blog/issues?q=label%3Ablog"
+        "link": "https://github.com/lifesinger/blog/issues?q=label%3Ablog",
+        "description": "玉伯（王保平），淘宝前端类库 KISSY、前端模块化开发框架SeaJS、前端基础类库Arale的创始人。2003-2006 年，中科院物理所研究生，Fortran 与 C 程序员，喜爱实验模拟和数值计算。 2006-2008 年，在中科院软件所互联网实验室从事项目管理软件的研发，C# 与 Java 爱好者。 2008 年 4 月份加入淘宝，就职于 UED 部门。2009 年起，组建前端架构团队，在首页维护、全网性能优化、类库研发、知识沉淀、工具应用等方面取得了丰硕成果。",
+        "tag": []
+      },
+      {
+        "name": "勾三股四",
+        "link": "http://jiongks.name",
+        "description": "勾三股四，赵锦江，英文名 Jinks Zhao，昵称 勾三股四，淘宝前端开发专家，业内第一美女产品经理的老公.",
+        "tag": []
       },
       {
         "name": "练小习",
-        "link": "https://www.chengrang.com/"
-      },
-      {
-        "name": "教程笔记",
-        "link": "http://www.cnblogs.com/hetaojs/"
+        "link": "https://www.chengrang.com/",
+        "description": "腾讯前端开发工程师",
+        "tag": []
       },
       {
         "name": "咀嚼之味",
-        "link": "http://jerryzou.com/"
+        "link": "http://jerryzou.com/",
+        "description": "我是邹润阳，是一名生活在上海的程序员，同时梦想成为一名独立游戏开发者。我曾经在 Microsoft GBS、淘票票 和 LeetCode 担任前端实习生，毕业后有幸加入了 Teambition，全职开发 Thoughts。目前我在 力扣 担任高级打杂工程师",
+        "tag": []
       },
       {
         "name": "十年踪迹",
-        "link": "https://www.h5jun.com/archives/"
+        "link": "https://www.h5jun.com/archives/",
+        "description": "吴亮（月影），十年踪迹，奇虎360高级技术经理，360前端团队 奇舞团 负责人，w3ctech顾问。曾先后在微软亚洲研究院做过访问学生、金蝶软件担任项目经理，百度电子商务事业部担任Web开发项目经理。多年来致力于Web标准和JavaScript技术的推广，活跃于国内各技术社区.",
+        "tag": []
       },
       {
-        "name": "ChokCoco博",
-        "link": "http://www.cnblogs.com/coco1s/"
+        "name": "李成银",
+        "link": "http://www.cnblogs.com/coco1s/",
+        "description": "李成银，网名 welefen，奇虎360前端技术专家，ThinkJS框架作者，开发了Chrome扩展版的Fiddler，以支持模板语法处理的Fl，等等。目前主要关注 WEB 前端和 Node.js 方面，擅长前端工程化解决方案.",
+        "tag": []
       },
       {
-        "name": "Kayo博",
-        "link": "http://kayosite.com/"
+        "name": "工业聚",
+        "link": "https://github.com/Lucifier129",
+        "description": "携程研发高级经理，负责前端框架和基础设施的设计、研发与维护。开源项目react-lite和react-imvc作者。",
+        "tag": []
       },
       {
-        "name": "Ahonn博",
-        "link": "http://www.ahonn.me/"
+        "name": "ChokCoco",
+        "link": "http://www.cnblogs.com/coco1s/",
+        "github": "https://github.com/chokcoco",
+        "description": "腾讯禽前端开发工程师, CSS大牛.",
+        "tag": []
       },
       {
-        "name": "Tw93博",
-        "link": "http://tw93.github.io/"
+        "name": "Tw93",
+        "link": "http://tw93.github.io/",
+        "github": "https://github.com/tw93",
+        "description": "阿里飞猪前端开发工程师",
+        "tag": []
       },
       {
-        "name": "师少兵",
-        "link": "http://www.xiabingbao.com/"
+        "name": "Wenzi",
+        "link": "http://www.xiabingbao.com/",
+        "description": "师少兵, 目前是一名前端开发工程师，主要负责前端规划、框架与架构、前端性能优化。专注前端技术，关注交互体验，擅长web ajax开发。坚信前端工程师的价值是最终能把技术和设计完美结合在一起。用最新的技术方案巧妙地帮助这些设计得以实现。",
+        "tag": []
+      },
+      {
+        "name": "AHONN'S BLOG",
+        "link": "https://www.ahonn.me/",
+        "description": "前端开发工程师",
+        "tag": []
       },
       {
         "name": "亚里士朱德",
-        "link": "http://yalishizhude.github.io/"
-      },
-      {
-        "name": "Zjmainstay博",
-        "link": "http://www.zjmainstay.cn/regexp"
-      },
-      {
-        "name": "Beidan博",
-        "link": "http://www.cnblogs.com/beidan/"
-      },
-      {
-        "name": "流云诸葛",
-        "link": "http://www.cnblogs.com/lyzg/"
+        "link": "http://yalishizhude.github.io/",
+        "description": "web工程师，效率控、技术狂。",
+        "tag": []
       },
       {
         "name": "肥仔John",
-        "link": "http://www.cnblogs.com/fsjohnhuang/"
+        "link": "http://www.cnblogs.com/fsjohnhuang/",
+        "description": "偏前端的临栈工程师@Midea/QMS 阿里云栖社区认证专家",
+        "tag": []
       },
       {
         "name": "Jake博客",
-        "link": "http://i.jakeyu.top/"
+        "link": "http://i.jakeyu.top/",
+        "description": "2016年3月，决定要找一个自己喜欢并以后工作的事业，偶然接触到前端，于是开始学习、研究。一直到现在，如今也是主要从事前端职业.",
+        "tag": []
       },
       {
         "name": "KeenWon博",
-        "link": "http://keenwon.com/"
+        "link": "http://keenwon.com/",
+        "description": "现居上海，大学读的是化学专业，2012年毕业后做前端开发，没事喜欢瞎折腾。",
+        "tag": []
       },
       {
         "name": "三水清",
-        "link": "http://js8.in/"
+        "link": "http://js8.in/",
+        "description": "我是王永清，网名“三水清”，目前从事前端开发工作。主职工作是web前端开发工程师。喜欢关注用户体验，评论下交互设计等前端涉及的领域",
+        "tag": []
       },
       {
         "name": "易建勇",
-        "link": "http://www.yi-jy.com/category/%E5%89%8D%E7%AB%AF%E6%8A%80%E6%9C%AF/"
+        "link": "https://yi-jy.com/",
+        "description": "前端开发博客",
+        "tag": []
       },
       {
         "name": "M.M.F小屋",
-        "link": "https://www.mmxiaowu.com/"
+        "link": "https://www.mmxiaowu.com/",
+        "description": "前端开发博客",
+        "tag": []
       },
       {
         "name": "临水照影",
-        "link": "http://haoqiao.me/"
+        "link": "http://haoqiao.me/",
+        "description": "前端开发博客",
+        "tag": []
       },
       {
         "name": "Thinktxt博",
-        "link": "https://www.thinktxt.com/"
+        "link": "https://www.thinktxt.com/",
+        "description": "前端开发博客",
+        "tag": []
       },
       {
         "name": "微醺岁月",
-        "link": "https://github.com/jawil/blog"
+        "link": "https://github.com/jawil/blog",
+        "description": "前端开发博客",
+        "tag": []
       },
       {
         "name": "HcySunYang博",
-        "link": "http://hcysun.me/"
+        "link": "http://hcysun.me/homepage/",
+        "description": "学习的目的是创造。",
+        "tag": []
       },
       {
         "name": "路易斯",
-        "link": "http://louiszhai.github.io/"
+        "link": "http://louiszhai.github.io/",
+        "description": "坚持原著, 深度思考, 力求简单通俗叙事",
+        "tag": []
       },
       {
         "name": "晚晴幽草轩",
-        "link": "http://jeffjade.com/"
+        "link": "http://jeffjade.com/",
+        "description": "侧重『效率』和『质量』，有志成为一名「浪漫极客」",
+        "tag": []
       },
       {
         "name": "CodeSky 代码之空",
-        "link": "https://codesky.me/"
+        "link": "https://codesky.me/",
+        "description": "饿了么高级前端工程师.",
+        "tag": []
       },
       {
-        "name": "Jerry Qu博",
-        "link": "https://imququ.com/"
+        "name": "Jerry Qu",
+        "link": "https://imququ.com/",
+        "description": "博主名叫屈光宇，网上代号习惯用 JerryQu、qgy18，近几年来朋友们都叫我屈屈或 QuQu。08 年毕业于武汉科技大学自动化专业，湖北黄冈罗田县人。目前专注于 Web 端开发，关注 Web 性能优化与安全。",
+        "tag": []
       },
       {
         "name": "牧风",
-        "link": "https://mufeng.me/"
-      },
-      {
-        "name": "大猫",
-        "link": "http://ooxx.me/"
+        "link": "https://mufeng.me/",
+        "description": "前端开发工程师",
+        "tag": []
       },
       {
         "name": "剧中人",
-        "link": "http://bh-lay.com/blog/"
+        "link": "http://bh-lay.com/blog/",
+        "description": "90后天蝎男，前端工程师、全栈开发尝试者",
+        "tag": []
       },
       {
         "name": "朱文龙 Mofei",
-        "link": "https://www.zhuwenlong.com/blog"
+        "link": "https://www.zhuwenlong.com/blog",
+        "description": "2010年接触前端，10-14年在上海易班刷了4年副本，14-18年坐标北京百度，目前带着走向世界的梦想在Mapbox打拼",
+        "tag": []
       },
       {
-        "name": "Smohan博",
-        "link": "https://www.smohan.net/blog/"
+        "name": "Smohan",
+        "link": "https://www.smohan.net/",
+        "description": "水墨寒，90后双鱼座普通男青年！毕业于成都一所普通大学的电子信息专业，思维欠发达，差点迷失于错综复杂的电路与多维空间信号中……遂改行，从事于WEB前端开发。喜欢敲代码的感觉，相信编程是一门艺术, 自诩为游弋在代码里的人生",
+        "tag": []
       },
       {
         "name": "易翰",
-        "link": "http://hankewins.com/"
+        "link": "http://hankewins.com/",
+        "description": "爱折腾的天秤座，前端工程师，摄影爱好者!",
+        "tag": []
       },
       {
         "name": "二哲",
-        "link": "http://www.meckodo.com/#!/"
+        "link": "http://www.meckodo.com/#!/",
+        "description": "像我这样毫无能力又没有色彩的人, 也就只能在失去中成长了吧",
+        "tag": []
       },
       {
         "name": "蜀山客",
-        "link": "http://www.zeakhold.com/#"
+        "link": "http://www.zeakhold.com/#",
+        "description": "博主网名山客，英文名Zeakhold，这也是本站域名的来由,伪–Web前端开发攻城狮，真–‘会修电脑’的好人, 喜欢音乐与读书，爱生活，爱运动，爱折腾, 将来也许会成为一名合格的电焊工",
+        "tag": []
       },
       {
-        "name": "小青年博客",
-        "link": "https://zhaomenghuan.github.io/"
-      },
-      {
-        "name": "Dron 博客",
-        "link": "http://ucren.com/"
+        "name": "匠心博客",
+        "link": "https://zhaomenghuan.js.org/",
+        "description": "一个有代码洁癖的极客技术宅，目前就任于美团金融服务平台。",
+        "tag": []
       },
       {
         "name": "坚壳",
-        "link": "http://www.replace5.com/"
+        "link": "http://www.replace5.com/",
+        "description": "暂无描述",
+        "tag": []
       },
       {
         "name": "Surmon博",
-        "link": "https://surmon.me/"
+        "link": "https://surmon.me/",
+        "description": "暂无描述",
+        "tag": []
       },
       {
         "name": "林鑫",
-        "link": "https://github.com/lin-xin/blog/issues"
+        "link": "https://github.com/lin-xin/blog/issues",
+        "description": "步步高前端开发."
       },
       {
         "name": "于江水",
-        "link": "http://www.yujiangshui.com/"
+        "link": "http://www.yujiangshui.com/",
+        "description": "喜欢后摇、简约设计的前端工程师。淘宝UED.",
+        "tag": []
       },
       {
-        "name": "PASSER-BY博",
-        "link": "http://passer-by.com/project.html"
+        "name": "PASSER-BY",
+        "link": "http://passer-by.com/project.html",
+        "description": "标准的90后，喜欢特立独行，向往简约而不简单的生活。大学期间开始利用课余时间“间歇性”学习前端开发，自此走上程序猿的不归路……这就是我，一个路人甲~",
+        "tag": []
       },
       {
-        "name": "Daryl's博客",
+        "name": "Daryl",
         "link": "http://www.cnblogs.com/ghost-xyx/",
-        "title": "JS,vue,canvas"
+        "description": "暂无描述",
+        "tag": [
+          "JS",
+          "vue",
+          "canvas"
+        ]
       },
       {
-        "name": "kidney's博客",
+        "name": "kidney",
         "link": "http://www.cnblogs.com/kidney/category/813009.html",
-        "title": "JS,vue"
+        "description": "暂无描述",
+        "tag": [
+          "JS",
+          "vue"
+        ]
       },
       {
-        "name": "OBKoro1's博客",
+        "name": "OBKoro1",
         "link": "http://obkoro1.com/archives/",
-        "title": "JS,vue"
+        "description": "在纷乱的前端娱乐圈，专注js基础，打磨核心竞争力，一通百通，无惧工具/框架变迁",
+        "tag": []
       },
       {
         "name": "tobethelight",
-        "link": "https://tobethelight.github.io/"
+        "link": "https://tobethelight.github.io/",
+        "description": "暂无描述.",
+        "tag": []
       },
       {
         "name": "ac黄的博客",
-        "link": "http://blog.acwong.org/archives/"
+        "link": "http://blog.acwong.org/archives/",
+        "description": "暂无描述.",
+        "tag": []
+      },
+      {
+        "name": "核桃大号",
+        "link": "http://www.cnblogs.com/hetaojs/",
+        "description": "暂无描述."
       }
     ],
     "awesome-team": [
       {
         "name": "奇舞团博客",
-        "link": "https://75team.com/"
+        "link": "https://75team.com/",
+        "description": "360奇舞团（奇虎75Team）是 奇虎360公司Web平台部前端工程师 + 部分特约嘉宾 组成的一个前端团队.",
+        "tag": []
       },
       {
         "name": "腾讯前端团队",
@@ -341,18 +484,6 @@
       {
         "name": "Study Anything交互式脑图",
         "link": "https://learn-anything.xyz/"
-      },
-      {
-        "name": "JS前端开发",
-        "link": "https://www.kancloud.cn/jikeytang/qq/81141"
-      },
-      {
-        "name": "前端导航",
-        "link": "http://www.alloyteam.com/nav/"
-      },
-      {
-        "name": "面试宝典",
-        "link": "https://yuchengkai.cn/docs/zh/"
       }
     ]
   }

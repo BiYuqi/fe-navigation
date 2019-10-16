@@ -3,7 +3,8 @@ const path = require('path')
 const chalk = require('chalk')
 const glob = require('glob')
 
-const jsonPath = path.resolve(__dirname, './jsondata/data/*.json')
+const resolve = dir => path.resolve(__dirname, dir)
+const jsonPath = resolve('../jsondata/data/*.json')
 const generateData = {}
 const files = glob.sync(jsonPath)
 
@@ -19,12 +20,12 @@ files.forEach(file => {
   }
 })
 
-fs.writeFile('./jsondata/basedata.json', JSON.stringify(generateData), error => {
+fs.writeFile(resolve('../jsondata/basedata.json'), JSON.stringify(generateData), error => {
   if (error) {
     console.log(`
-    ${chalk.green('write ./jsondata/basedata.json got error')}:
+    ${chalk.green('Write /jsondata/basedata.json got error')}:
     ${chalk.red(error.message)}
     `)
   }
-  console.log(chalk.cyanBright(`write json file success: ./jsondata/basedata.json`))
+  console.log(chalk.cyanBright(`Write json file success: /jsondata/basedata.json`))
 })

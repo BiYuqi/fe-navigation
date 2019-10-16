@@ -79,11 +79,11 @@ export default {
   top: 0;
   left: 0;
   width: 100%;
-  height: 60px;
+  height: 80px;
   z-index: 0;
 }
 canvas{
   width: 100%;
-  height: 60px;
+  height: 80px;
 }
 </style>
