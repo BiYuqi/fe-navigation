@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main-wrapper">
     <Header />
     <div class="main-content">
       <SideBar />
@@ -26,12 +26,18 @@ export default {
 </script>
 
 <style lang="scss">
-.main-content {
-  display: flex;
-}
-@media screen and (max-width: 640px) {
+.main-wrapper {
+  height: 100%;
   .main-content {
-    flex-direction: column;
+    display: flex;
+    height: calc(100% - 80px);
+  }
+
+  @media screen and (max-width: 640px) {
+    .main-content {
+      flex-direction: column;
+      height: auto;
+    }
   }
 }
 .no-mode-translate-fade-enter-active,
