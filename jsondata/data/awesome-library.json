@@ -171,28 +171,6 @@
         "name": "infinite-scroll按需加载",
         "link": "https://github.com/infinite-scroll/infinite-scroll"
       }
-    ],
-    "tech-project": [
-      {
-        "name": "vue专题",
-        "link": "https://www.awesomes.cn/subject/vue"
-      },
-      {
-        "name": "Bootstrap专题",
-        "link": "https://www.awesomes.cn/subject/bootstrap"
-      },
-      {
-        "name": "Angular专题",
-        "link": "https://www.awesomes.cn/subject/angular"
-      },
-      {
-        "name": "React专题",
-        "link": "https://www.awesomes.cn/subject/react"
-      },
-      {
-        "name": "D3专题",
-        "link": "https://www.awesomes.cn/subject/d3"
-      }
     ]
   }
 }

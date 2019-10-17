@@ -2,48 +2,70 @@
   "git": {
     "Git": [
       {
+        "name": "Git飞行规则(Flight Rules)",
+        "link": "https://github.com/k88hudson/git-flight-rules/blob/master/README_zh-CN.md",
+        "description": "这是一篇给宇航员（这里就是指使用Git的程序员们）的指南，用来指导问题出现后的应对之法。",
+        "tag": [
+          "git问题",
+          "git issue",
+          "git skill"
+        ]
+      },
+      {
         "name": "Git参考手册",
-        "link": "http://gitref.justjavac.com/basic/#rm-mv"
+        "link": "http://gitref.justjavac.com/",
+        "description": "本站为 Git 参考手册。目的是为学习与记忆 Git 使用中最重要、最普遍的命令提供快速翻阅。 这些命令以你可能需要的操作类型划分，并且将提供日常使用中需要的一些常用的命令以及参数",
+        "tag": [
+          "git手册"
+        ]
       },
       {
         "name": "GitHub秘籍",
-        "link": "https://snowdream86.gitbooks.io/github-cheat-sheet/content/zh/"
+        "link": "https://snowdream86.gitbooks.io/github-cheat-sheet/content/zh/",
+        "description": "本秘籍收录了一些Git和Github非常酷同时又少有人知的功能。",
+        "tag": [
+          "git skill"
+        ]
       },
       {
         "name": "Git-简明指南",
-        "link": "http://rogerdudler.github.io/git-guide/index.zh.html"
+        "link": "http://rogerdudler.github.io/git-guide/index.zh.html",
+        "description": "助你入门 git 的简明指南，木有高深内容 ;)",
+        "tag": [
+          "git入门"
+        ]
       },
       {
         "name": "猴子都能懂的Git入门",
-        "link": "http://backlogtool.com/git-guide/cn/"
+        "link": "http://backlogtool.com/git-guide/cn/",
+        "description": "欢迎来到超级简单的Git入门，让我们一起学习如何使用Git进行版本管理吧！",
+        "tag": [
+          "git入门"
+        ]
       },
       {
         "name": "沉浸式学 Git",
-        "link": "http://igit.linuxtoy.org/contents.html"
-      },
-      {
-        "name": "Git Cheat Sheet 中文版",
-        "link": "https://github.com/flyhigher139/Git-Cheat-Sheet"
+        "link": "http://igit.linuxtoy.org/contents.html",
+        "description": "内容如其名,沉浸式学习Git。",
+        "tag": []
       },
       {
         "name": "Git Community Book 中文版",
-        "link": "http://gitbook.liuhui998.com/index.html"
+        "link": "http://gitbook.liuhui998.com/index.html",
+        "description": "这本书汇聚了Git社区的很多精华,  其目的就是帮助你尽快的掌握Git.",
+        "tag": []
       },
       {
         "name": "Git Magic",
-        "link": "http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_cn/ch01.html"
+        "link": "http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/zh_cn/ch01.html",
+        "description": "将用类比的方式来介绍版本控制的概念.",
+        "tag": []
       },
       {
         "name": "Git教程-廖雪峰",
-        "link": "http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000"
-      },
-      {
-        "name": "实用git命令",
-        "link": "http://www.cnblogs.com/fanfan259/p/4810517.html"
-      },
-      {
-        "name": "程序员自我修养",
-        "link": "http://www.kancloud.cn/kancloud/a-programmer-prepares/78160"
+        "link": "https://www.liaoxuefeng.com/wiki/896043488029600",
+        "description": "据说是史上最浅显易懂的Git教程!",
+        "tag": []
       }
     ]
   }

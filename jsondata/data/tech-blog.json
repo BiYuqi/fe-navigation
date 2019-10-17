@@ -408,6 +408,12 @@
         "name": "核桃大号",
         "link": "http://www.cnblogs.com/hetaojs/",
         "description": "暂无描述."
+      },
+      {
+        "name": "浩麟的博客",
+        "link": "http://wuhaolin.cn/",
+        "description": "实用、前沿、深入、原创",
+        "tag": []
       }
     ],
     "awesome-team": [
@@ -478,6 +484,28 @@
       {
         "name": "创造狮社区",
         "link": "http://chuangzaoshi.com/"
+      }
+    ],
+    "tech-project": [
+      {
+        "name": "vue专题",
+        "link": "https://www.awesomes.cn/subject/vue"
+      },
+      {
+        "name": "Bootstrap专题",
+        "link": "https://www.awesomes.cn/subject/bootstrap"
+      },
+      {
+        "name": "Angular专题",
+        "link": "https://www.awesomes.cn/subject/angular"
+      },
+      {
+        "name": "React专题",
+        "link": "https://www.awesomes.cn/subject/react"
+      },
+      {
+        "name": "D3专题",
+        "link": "https://www.awesomes.cn/subject/d3"
       }
     ],
     "learning-anything": [
