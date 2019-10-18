@@ -11,11 +11,6 @@
   padding: 0;
 }
 
-html,body{
-  height: 100%;
-  width: 100%;
-}
-
 body{
   font: 14px/1.8 'Microsoft Yahei', Arial,'Hiragino Sans GB';
   font-size: 14px;

@@ -23,9 +23,9 @@ files.forEach(file => {
 fs.writeFile(resolve('../jsondata/basedata.json'), JSON.stringify(generateData), error => {
   if (error) {
     console.log(`
-    ${chalk.green('Write /jsondata/basedata.json got error')}:
+    ${chalk.green('Generate /jsondata/basedata.json got error')}:
     ${chalk.red(error.message)}
     `)
   }
-  console.log(chalk.cyanBright(`Write json file success: /jsondata/basedata.json`))
+  console.log(chalk.cyanBright(`Generate json file success: /jsondata/basedata.json`))
 })
