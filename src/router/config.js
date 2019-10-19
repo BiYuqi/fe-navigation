@@ -5,7 +5,6 @@ export const routerPage = [
   ['javascript', 'Javascript'],
   ['framework', '主流框架'],
   ['mini-program', '小程序'],
-  ['angular', 'Angular'],
   ['nodejs', 'NodeJs'],
   ['mobile-develop', '移动端开发'],
   ['build-tool', '构建工具'],
