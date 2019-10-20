@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import { routerPage } from '@/router/config'
+import { routerPage } from '@config/routerConfig'
 export default {
   data () {
     return {

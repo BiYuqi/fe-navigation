@@ -112,36 +112,6 @@
         "name": "前端开发体系建设日记 ",
         "link": "https://github.com/fouber/blog/issues/2"
       }
-    ],
-    "regexp": [
-      {
-        "name": "超强正则可视化匹配",
-        "link": "https://www.regex101.com/"
-      },
-      {
-        "name": "正则可视化工具",
-        "link": "https://regexper.com/"
-      },
-      {
-        "name": "正则表达式入门教程",
-        "link": "http://www.zjmainstay.cn/my-regexp"
-      },
-      {
-        "name": "深入理解正则表达式高级教程",
-        "link": "http://www.zjmainstay.cn/deep-regexp"
-      },
-      {
-        "name": "深入理解正则表达式环视",
-        "link": "http://www.zjmainstay.cn/regexp-lookaround"
-      },
-      {
-        "name": "正则表达式在线测试工具",
-        "link": "http://regex.zjmainstay.cn/"
-      },
-      {
-        "name": "正则表达式前端使用手册",
-        "link": "http://louiszhai.github.io/2016/06/13/regexp/#respond"
-      }
     ]
   }
 }

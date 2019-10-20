@@ -1,4 +1,4 @@
-export default {
+export const headMapping = {
   'personal-blog': '个人博客',
   'awesome-team': '优秀团队',
   'tech-community': '技术社区',
@@ -26,11 +26,11 @@ export default {
   'develop-rule': '代码规范',
   'open-source': '开源库',
   'frontend-toturial': '前端教程总结',
-  'regexp': '正则教程',
+  'regexp-topic': '正则专题',
   'd3': 'D3.Js',
   'opening-source-tool': '开源工具',
   'plugin-library': '插件库',
-  'tech-project': '技术专题',
+  'framework-topic': '框架专题',
   'Git': 'Git',
   'interview': '面试宝典',
   'python': 'Python',

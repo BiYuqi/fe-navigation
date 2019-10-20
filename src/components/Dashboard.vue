@@ -2,7 +2,7 @@
   <div class="content-area">
     <template v-for="(parent, key) in initialData">
       <section class="content-area__section" :key="key">
-        <p class="content-area__title">{{mappingRule[key]}}</p>
+        <p class="content-area__title">{{mappingRule[key] || key}}</p>
         <ul>
           <li class="content-area__link" v-for="(child, index) in parent" :key="index">
             <a v-bind:title="child.description || child.name" v-bind:href="child.link" target="_blank">
@@ -26,13 +26,13 @@
 
 <script>
 import LinkData from '@json/basedata.json'
-import MappingRule from '@/utils/mapping'
+import { headMapping } from '@config/headMapping'
 export default {
   data () {
     return {
       initialRouter: this.$router.currentRoute.name,
       initialData: LinkData[this.$router.currentRoute.name],
-      mappingRule: MappingRule
+      mappingRule: headMapping
     }
   },
   watch: {

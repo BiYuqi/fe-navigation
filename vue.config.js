@@ -14,6 +14,7 @@ module.exports = {
     config.resolve.alias
       .set('@json', resolve('jsondata'))
       .set('@', resolve('src'))
+      .set('@config', resolve('config'))
     config.plugins.delete('pwa')
     config.plugins.delete('workbox')
   }

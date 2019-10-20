@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Main from '@/views/Main.vue'
 import NotFoundComponent from '@/components/NotExist'
-import { generateRouter } from './config'
+import { generateRoutes } from './generateRoutes'
 
 Vue.use(Router)
 
@@ -12,7 +12,7 @@ export const routes = [
     name: 'main-entry',
     component: Main,
     redirect: '/tech-blog',
-    children: generateRouter
+    children: generateRoutes
   },
   {
     path: '*',
