@@ -1,5 +1,6 @@
-# [vuenotes](http://loadingmore.com/vuenotes)
-## 前言
+
+# [前端导航网](http://loadingmore.com/vuenotes)
+<img src="https://travis-ci.org/BiYuqi/vuenotes.svg?branch=master">
 
 > 前端导航云集高质量前端网站的内容，云集大量前端网站。优秀的前端资讯网站
 
@@ -7,6 +8,7 @@
 - fork当前库
 - clone到本地
 - 创建分支
+- 新增数据或功能
 
 重点: 
 - 添加数据（`required`）
