@@ -6,9 +6,6 @@
 
 <script>
 export default {
-  data () {
-    return {}
-  },
   methods: {
     start () {
       const $ = (el) => document.querySelector(el)
@@ -73,17 +70,19 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+@import '../styles/common.scss';
+
 #canvas{
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 80px;
+  height: $height;
   z-index: 0;
 }
 canvas{
   width: 100%;
-  height: 80px;
+  height: $height;
 }
 </style>

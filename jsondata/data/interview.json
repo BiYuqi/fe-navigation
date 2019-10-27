@@ -30,7 +30,7 @@
         ]
       },
       {
-        "name": "reactjs面试问题(英语原版)",
+        "name": "reactjs面试问题(英)",
         "link": "https://github.com/sudheerj/reactjs-interview-questions",
         "description": "排名前500位ReactJS面试问题与答案的列表...编码练习问题即将推出！",
         "tag": [
@@ -39,7 +39,7 @@
         ]
       },
       {
-        "name": "reactjs面试问题(中文翻译)",
+        "name": "reactjs面试问题(中)",
         "link": "https://github.com/semlinker/reactjs-interview-questions",
         "description": "排名前304位ReactJS面试问题与答案的列表,正在翻译中",
         "tag": [
