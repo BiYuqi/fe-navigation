@@ -30,7 +30,13 @@
 如果只是更新原有内容, 那就不必在乎路由这一环节，如果是想新增一级路由(新建了json文件)，则需要添加对应路由名称到`/config/routerConfig.js` 添加对应路由，以及侧边栏显示名字,此处用二维数组 `['javascript', 'Javascript']`
 
 - 本地测试
-至此，启动`npm run serve` 来验证是否正确渲染
+```js
+// start vue project
+npm run serve
+
+// watch the JSON file change then automatically create jsondata
+npm run watch
+```
 ## 本地使用
 
 ``` bash
