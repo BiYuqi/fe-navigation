@@ -8,16 +8,13 @@
         <span>专注于前端开发, 前端开发教程</span>
       </div>
     </a>
-    <iframe
-        style="position:absolute;top:35px;right:6px;"
-        frameborder="0" scrolling="0" width="91px" height="20px" class="star-github"
-        src="https://ghbtns.com/github-btn.html?user=BiYuqi&repo=vuenotes&type=star&count=true" >
-    </iframe>
+    <github class="header-github" href="https://github.com/BiYuqi/vuenotes" :height="30" :width="30" />
   </div>
 </template>
 
 <script>
-import canvasBg from '@/views/Canvas.vue'
+import canvasBg from '@/views/Canvas'
+import Github from '@/components/Github'
 export default {
   data () {
     return {
@@ -36,7 +33,8 @@ export default {
     }
   },
   components: {
-    canvasBg
+    canvasBg,
+    Github
   }
 }
 </script>
@@ -88,6 +86,11 @@ export default {
       color: #666;
       font-size: 14px;
     }
+  }
+
+  &-github {
+    position: absolute;
+    right: 20px;
   }
 
   @media screen and (max-width: 640px) {

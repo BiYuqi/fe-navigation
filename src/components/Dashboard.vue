@@ -5,8 +5,11 @@
         <p class="content-area__title">{{mappingRule[key] || key}}</p>
         <ul>
           <li class="content-area__link" v-for="(child, index) in parent" :key="index">
-            <a v-bind:title="child.description || child.name" v-bind:href="child.link" target="_blank">
-              <p class="content-area__name">{{child.name}}</p>
+            <a class="content-area__link-a" v-bind:title="child.description || child.name" v-bind:href="child.link" target="_blank">
+              <p class="content-area__name">
+                <span>{{child.name}}</span>
+                <github v-if="isShowGithub(child)" :href="child.github" :height="20" :width="20" />
+              </p>
               <span class="content-area__desc" v-if="child.description">
                 {{child.description}}
               </span>
@@ -25,6 +28,7 @@
 </template>
 
 <script>
+import Github from './Github'
 import LinkData from '@json/basedata.json'
 import { headMapping } from '@config/headMapping'
 export default {
@@ -41,9 +45,17 @@ export default {
       this.initialData = LinkData[this.$router.currentRoute.name]
     }
   },
+  methods: {
+    isShowGithub (data) {
+      return data.github && data.github !== ''
+    }
+  },
   mounted () {
     this.initialRouter = this.$router.currentRoute.name
     this.initialData = LinkData[this.$router.currentRoute.name]
+  },
+  components: {
+    Github
   }
 }
 </script>
@@ -53,6 +65,7 @@ export default {
   padding: 15px;
   flex: 1;
   background-color: #f0f0f0;
+  min-height: 1024px;
 
   ul, li {
     list-style: none;
@@ -90,27 +103,27 @@ export default {
   &__link {
     display: inline-block;
     margin: 6px;
-    border-radius: 3px;
+    width: 19%;
+    height: 85px;
+    border-radius: 5px;
     border: 1px solid #ddd;
     background-color: #fff;
     transition: all .24s;
-    width: 19%;
-    overflow: hidden;
-    min-height: 100px;
 
     &:hover {
       box-shadow: 0 2px 4px 0 rgba(0,0,0,.12), 0 0 3px 0 rgba(0,0,0,.04);
     }
-    a {
-      color: #757575;
+
+    &-a {
+      color: #8e8c8c;
       text-decoration: none;
       display: block;
-      padding: 12px 16px;
-      font-size: 14px;
+      padding: 8px 12px;
+      font-size: 12px;
 
       &:visited,
       &:focus {
-        color: #757575;
+        color: #8e8c8c;
       }
     }
   }
@@ -118,6 +131,9 @@ export default {
   &__name {
     color: #3e3c3c;
     font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   &__desc {
@@ -137,8 +153,8 @@ export default {
       width: 100%;
       margin: 0 0 15px;
 
-      a {
-        font-size: 14px;
+      &-a {
+        font-size: 12px;
       }
     }
   }
