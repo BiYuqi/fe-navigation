@@ -57,6 +57,8 @@ export default {
 
 .tu-chao {
   font-size: 14px;
+  display: flex;
+  justify-content: space-between;
 
   &__feature {
     color: $baseColor;
