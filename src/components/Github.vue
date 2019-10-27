@@ -1,6 +1,12 @@
 <template>
-  <a class="v-n-github" :href="href" target="_blank">
-    <slot></slot>
+  <a class="v-n-github" :href="href">
+    <svg
+      class="v-n-octicon"
+      version="1.1"
+      aria-hidden="true"
+      v-bind="svg">
+      <slot></slot>
+    </svg>
   </a>
 </template>
 
@@ -18,6 +24,9 @@ export default {
     href: {
       type: String,
       default: '#'
+    },
+    svg: {
+      type: Object
     }
   }
 }
