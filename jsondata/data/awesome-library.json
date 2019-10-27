@@ -46,7 +46,7 @@
         "link": "https://www.awesomes.cn/"
       }
     ],
-    "plugin-library": [
+    "npm-library": [
       {
         "name": "常用github优秀插件和库",
         "link": "https://github.com/jawil/blog/issues/10"
@@ -170,6 +170,31 @@
       {
         "name": "infinite-scroll按需加载",
         "link": "https://github.com/infinite-scroll/infinite-scroll"
+      },
+      {
+        "name": "SpriteJs",
+        "link": "http://spritejs.org/#/",
+        "title": "Sprite.js 是一个跨平台的 2D 绘图对象模型库，它支持 Web、Node、桌面应用和微信小程序的等多端图形绘制及动画实现"
+      },
+      {
+        "name": "Underscore",
+        "link": "http://www.bootcss.com/p/underscore/"
+      },
+      {
+        "name": "undersercore源码分析",
+        "link": "https://yoyoyohamapi.gitbooks.io/undersercore-analysis/content/base/index.html"
+      },
+      {
+        "name": "undersercore源码分析2",
+        "link": "http://www.html-js.com/article/Underscorejs-source-code-analysis-of-underscorejs-source-code-analysis%203031"
+      },
+      {
+        "name": "undersercore源码分析3",
+        "link": "http://yalishizhude.github.io/tags/underscore/"
+      },
+      {
+        "name": "Chrome扩展及应用开发",
+        "link": "http://www.ituring.com.cn/article/60223"
       }
     ]
   }

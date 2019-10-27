@@ -29,12 +29,13 @@ export const headMapping = {
   'regexp-topic': '正则专题',
   'd3': 'D3.Js',
   'opening-source-tool': '开源工具',
-  'plugin-library': '插件库',
+  'npm-library': 'npm常用组件库',
   'framework-topic': '框架专题',
   'Git': 'Git',
   'interview': '面试宝典',
   'python': 'Python',
   'deep-learning': '深度学习',
   'PHP': 'PHP',
-  'python-blog': 'Python博客'
+  'python-blog': 'Python博客',
+  'online-h5': '在线H5制作平台'
 }

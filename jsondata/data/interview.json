@@ -21,12 +21,30 @@
         ]
       },
       {
-        "name": "前端面试每日 3+1（每日三问）",
+        "name": "前端面试每日 3+1",
         "link": "https://github.com/haizlin/fe-interview",
         "description": "以面试题来驱动学习，提倡每日学习与思考，每天进步一点！每天早上5点纯手工发布面试题（死磕自己，愉悦大家）",
         "tag": [
           "面试",
           "思考"
+        ]
+      },
+      {
+        "name": "reactjs面试问题(英语原版)",
+        "link": "https://github.com/sudheerj/reactjs-interview-questions",
+        "description": "排名前500位ReactJS面试问题与答案的列表...编码练习问题即将推出！",
+        "tag": [
+          "面试",
+          "react"
+        ]
+      },
+      {
+        "name": "reactjs面试问题(中文翻译)",
+        "link": "https://github.com/semlinker/reactjs-interview-questions",
+        "description": "排名前304位ReactJS面试问题与答案的列表,正在翻译中",
+        "tag": [
+          "面试",
+          "react"
         ]
       }
     ]
