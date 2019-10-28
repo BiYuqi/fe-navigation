@@ -25,5 +25,6 @@ export default {
 <style lang="scss">
 .container {
   display: flex;
+  width: 100%;
 }
 </style>

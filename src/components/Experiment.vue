@@ -1,6 +1,6 @@
 <template>
   <div class="experiment-container">
-    实验....
+    静待开启😮
   </div>
 </template>
 
@@ -12,7 +12,9 @@ export default {
 
 <style lang="scss">
 .experiment-container {
-  min-height: 900px;
   width: 100%;
+  min-height: 555px;
+  box-shadow: 0 4px 18px -4px rgba(0,0,0,.1);
+  background-color: #fff;
 }
 </style>

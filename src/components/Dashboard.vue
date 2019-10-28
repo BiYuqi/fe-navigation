@@ -76,7 +76,6 @@ export default {
 .content-area {
   width: calc(100% - 180px);
   flex: 1;
-  padding-top: 20px;
 
   ul, li {
     list-style: none;

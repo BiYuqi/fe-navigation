@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" :class="{'app-experiment': isShowGrayBg}">
     <Header />
     <div class="main-content">
       <router-view/>
@@ -9,22 +9,40 @@
 <script>
 import Header from './views/Header'
 export default {
+  data () {
+    return {
+      isShowGrayBg: true
+    }
+  },
+  watch: {
+    '$route.name' () {
+      this.isShowGrayBg = this.$route.name === 'experiment'
+    }
+  },
+  mounted () {
+    this.isShowGrayBg = this.$route.name === 'experiment'
+  },
   components: {
     Header
   }
 }
 </script>>
 <style lang="scss">
+@import './styles/common.scss';
+
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
+html {
+  height: 100%;
+}
 body{
   font: 14px/1.8 'Microsoft Yahei', Arial,'Hiragino Sans GB';
   font-size: 14px;
   width: 100%;
+  height: 100%;
 }
 
 #app {
@@ -37,6 +55,7 @@ body{
     display: flex;
     width: 960px;
     margin: 0 auto;
+    padding-top: 25px;
 
     @media screen and (max-width: 960px) {
       width: 760px;
@@ -52,5 +71,8 @@ body{
       width: 100%;
     }
   }
+}
+.app-experiment {
+  background-color: $expBg;
 }
 </style>
