@@ -2,12 +2,12 @@
   <div class="header" :class="{active:isactive}">
     <canvas-bg v-if="isactive"></canvas-bg>
     <div class="header__inner">
-      <a href="https://github.com/BiYuqi/vuenotes" target="_blank" title="前端导航" class="header__title">
+      <router-link to="/" title="前端导航" class="header__title">
         <div>
           <p>前端导航</p>
           <span>专注于前端开发, 前端开发资源</span>
         </div>
-      </a>
+      </router-link>
       <div class="header__feature">
         <github
           :svg="svgExperiment"

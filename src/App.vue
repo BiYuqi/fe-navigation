@@ -1,9 +1,19 @@
 <template>
   <div id="app">
-    <router-view/>
+    <Header />
+    <div class="main-content">
+      <router-view/>
+    </div>
   </div>
 </template>
-
+<script>
+import Header from './views/Header'
+export default {
+  components: {
+    Header
+  }
+}
+</script>>
 <style lang="scss">
 *{
   box-sizing: border-box;
@@ -22,5 +32,25 @@ body{
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
   width: 100%;
+
+  .main-content {
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+
+    @media screen and (max-width: 960px) {
+      width: 760px;
+    }
+
+    @media screen and (max-width: 760px) {
+      width: 560px;
+    }
+
+    @media screen and (max-width: 640px) {
+      flex-direction: column;
+      height: auto;
+      width: 100%;
+    }
+  }
 }
 </style>
