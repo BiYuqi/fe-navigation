@@ -1,5 +1,5 @@
 
-# [前端导航网](http://loadingmore.com/vuenotes)
+# [前端导航网](http://fe.loadingmore.com/)
 <img src="https://travis-ci.org/BiYuqi/vuenotes.svg?branch=master">
 
 > 前端导航云集高质量前端网站的内容，云集大量前端网站。优秀的前端资讯网站
