@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Main from '@/views/Main'
-import NotFoundComponent from '@/components/NotExist'
 import Experiment from '@/components/Experiment'
 import { generateRoutes } from './generateRoutes'
 
@@ -22,7 +21,7 @@ export const routes = [
   },
   {
     path: '*',
-    component: NotFoundComponent
+    redirect: '/tech-blog'
   }
 ]
 
