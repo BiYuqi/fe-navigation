@@ -13,6 +13,7 @@ module.exports = {
       .set('@json', resolve('jsondata'))
       .set('@', resolve('src'))
       .set('@config', resolve('config'))
+      .set('@helper', resolve('helper'))
     config.plugins.delete('pwa')
     config.plugins.delete('workbox')
   }

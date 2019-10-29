@@ -1,0 +1,56 @@
+.left-side {
+  width: 240px;
+  border-right: 1px solid #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__container {
+    margin-top: 20px;
+  }
+
+  &__item {
+    font-size: 16px;
+    color: #4b4b4e;
+    padding-left: 40px;
+    line-height: 3.6;
+    cursor: pointer;
+    font-weight: 700;
+
+    &:hover {
+      background-color: rgba(0,0,0,.05);
+    }
+
+    &.active {
+      background-color: rgba(0,0,0,.05);
+    }
+  }
+
+  &__lab-img {
+    img {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    width: 100%;
+
+    &__container {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 10px;
+    }
+
+    &__item {
+      padding: 0 10px;
+      width: 50%;
+      text-align: center;
+    }
+
+    &__lab-img {
+      img {
+        display: none;
+      }
+    }
+  }
+}
