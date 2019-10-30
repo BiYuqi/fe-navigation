@@ -7,7 +7,7 @@
         v-for="(item, index) in menus"
         :key="index"
         @click="setCurrentLab(item.value)">
-        {{item.name}}
+        {{item.title}}
       </div>
     </div>
     <div class="left-side__lab-img">
