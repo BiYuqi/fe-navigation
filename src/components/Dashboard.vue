@@ -23,9 +23,6 @@
               <span class="content-area__desc" v-else>
                 描述正在整理补充中...
               </span>
-              <!-- <p class="content-area__tag" v-if="child.tag">
-                <i v-for="(label, index) in child.tag" :key="index">{{label}}</i>
-              </p> -->
             </a>
           </li>
         </ul>

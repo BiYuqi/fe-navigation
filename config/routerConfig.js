@@ -1,9 +1,9 @@
 export const routerPage = [
   ['tech-blog', '技术博客'],
-  ['javascript', 'Javascript'],
-  ['framework', '主流框架'],
+  ['framework', '框架类库'],
   ['mini-program', '小程序'],
-  ['nodejs', 'NodeJs'],
+  ['javascript', 'Javascript'],
+  ['nodejs', 'Node.js'],
   ['mobile-develop', '移动开发'],
   ['build-tool', '构建工具'],
   ['tools-menu', '工具手册'],

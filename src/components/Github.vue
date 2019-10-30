@@ -1,5 +1,17 @@
 <template>
-  <a class="v-n-github" :href="href">
+  <router-link
+    :to="href"
+    class="v-n-github"
+    v-if="usingRoute">
+    <svg
+        class="v-n-octicon"
+        version="1.1"
+        aria-hidden="true"
+        v-bind="svg">
+        <slot></slot>
+    </svg>
+  </router-link>
+  <a class="v-n-github" :href="href" v-else>
     <svg
       class="v-n-octicon"
       version="1.1"
@@ -27,6 +39,10 @@ export default {
     },
     svg: {
       type: Object
+    },
+    usingRoute: {
+      type: Boolean,
+      default: false
     }
   }
 }
