@@ -2,10 +2,6 @@
   "framework": {
     "VueJs": [
       {
-        "name": "Vue起步",
-        "link": "https://vuefe.cn/v2/guide/"
-      },
-      {
         "name": "Vue起步官网",
         "link": "https://cn.vuejs.org/v2/guide/"
       },
