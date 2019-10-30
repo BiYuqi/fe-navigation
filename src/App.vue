@@ -69,6 +69,7 @@ body{
       flex-direction: column;
       height: auto;
       width: 100%;
+      padding-top: 0;
     }
   }
 }

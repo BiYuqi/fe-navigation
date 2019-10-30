@@ -161,7 +161,7 @@ export default {
 
   @media screen and (max-width: 640px) {
     width: 100%;
-    padding: 50px 10px 0;
+    padding: 45px 10px 0;
 
     &__link {
       width: 100%;
