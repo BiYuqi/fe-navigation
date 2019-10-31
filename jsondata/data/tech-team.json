@@ -1,0 +1,74 @@
+{
+  "tech-team": {
+    "awesome-team": [
+      {
+        "name": "奇舞团博客",
+        "link": "https://75team.com/",
+        "description": "360奇舞团（奇虎75Team）是 奇虎360公司Web平台部前端工程师 + 部分特约嘉宾 组成的一个前端团队.",
+        "tag": []
+      },
+      {
+        "name": "腾讯前端团队",
+        "link": "http://www.alloyteam.com/"
+      },
+      {
+        "name": "淘宝前端",
+        "link": "http://taobaofed.org/"
+      },
+      {
+        "name": "大搜车",
+        "link": "http://f2e.souche.com/blog/"
+      },
+      {
+        "name": "携程",
+        "link": "http://ued.ctrip.com/blog/"
+      },
+      {
+        "name": "奇舞学院",
+        "link": "https://t.75team.com/video"
+      },
+      {
+        "name": "人人网FED博客",
+        "link": "http://www.renfed.com/"
+      },
+      {
+        "name": "FED社区",
+        "link": "http://frontenddev.org/?f=qianduanblog.com"
+      }
+    ],
+    "tech-community": [
+      {
+        "name": "Web技术研究",
+        "link": "https://www.web-tinker.com/"
+      },
+      {
+        "name": "DIV.IO社区",
+        "link": "http://div.io/#/welcome"
+      },
+      {
+        "name": "前端开发博客",
+        "link": "http://caibaojian.com/"
+      },
+      {
+        "name": "前端观察",
+        "link": "https://www.qianduan.net/"
+      },
+      {
+        "name": "前端圈",
+        "link": "https://fequan.com/"
+      },
+      {
+        "name": "V2EX社区",
+        "link": "https://www.v2ex.com/"
+      },
+      {
+        "name": "前端乱炖",
+        "link": "http://www.html-js.com/"
+      },
+      {
+        "name": "创造狮社区",
+        "link": "http://chuangzaoshi.com/"
+      }
+    ]
+  }
+}
