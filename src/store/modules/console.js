@@ -2,7 +2,8 @@ import { storage } from '../../helper/storage'
 
 const state = {
   theme: storage.get('theme') === 'true',
-  search: storage.get('search') === 'true'
+  search: storage.get('search') === 'true',
+  iframe: storage.get('iframe') === 'true'
 }
 
 const mutations = {

@@ -5,7 +5,7 @@
     </div>
     <div class="radio-label__content">
       <div class="title">{{item.desc}}</div>
-      <div class="desc">{{isOpen ? '已打开': '已关闭'}}</div>
+      <div class="desc">{{isOpen ? '已开启': '已关闭'}}</div>
     </div>
     <div
       class="radio-label__switch-bar"

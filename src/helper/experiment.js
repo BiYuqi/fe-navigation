@@ -14,11 +14,15 @@ export const experimentMenu = [
 export const CONSOLE_FEATURES = [
   {
     name: 'theme',
-    desc: '设置全局样式'
+    desc: '开启随机样式模式'
   },
   {
     name: 'search',
-    desc: '打开搜索功能'
+    desc: '开启搜索功能'
+  },
+  {
+    name: 'iframe',
+    desc: '开启Iframe中打开链接'
   }
 ]
 
