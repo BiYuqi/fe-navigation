@@ -2,24 +2,28 @@
   "framework": {
     "VueJs": [
       {
-        "name": "Vue起步官网",
-        "link": "https://cn.vuejs.org/v2/guide/"
+        "name": "Vue官网",
+        "link": "https://cn.vuejs.org/v2/guide/",
+        "description": "Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。"
       },
       {
-        "name": "vue-router2路由",
+        "name": "Vue CLI",
+        "link": "https://cli.vuejs.org/",
+        "description": "🛠️ Vue.js 开发的标准工具"
+      },
+      {
+        "name": "Vue Router",
         "link": "http://router.vuejs.org/zh-cn/index.html?q="
       },
       {
-        "name": "Vuex状态管理",
-        "link": "http://vuex.vuejs.org/zh-cn/"
+        "name": "Vuex",
+        "link": "http://vuex.vuejs.org/zh-cn/",
+        "description": "Vuex 是一个专为 Vue.js 应用程序开发的状态管理模式。它采用集中式存储管理应用的所有组件的状态，并以相应的规则保证状态以一种可预测的方式发生变化."
       },
       {
-        "name": "Vue数据请求之axios",
-        "link": "https://github.com/mzabriskie/axios"
-      },
-      {
-        "name": "axios全攻略",
-        "link": "https://ykloveyxk.github.io/2017/02/25/axios%E5%85%A8%E6%94%BB%E7%95%A5/"
+        "name": "Axios",
+        "link": "https://github.com/mzabriskie/axios",
+        "description": "基于HTTP客户端浏览器和node.js"
       },
       {
         "name": " Vue.js 中文教程",
