@@ -69,17 +69,6 @@ export default {
       &.router-link-exact-active {
         color: $baseColor;
         font-weight: 700;
-
-        &:before {
-          position: absolute;
-          left: 0;
-          bottom: 0;
-          display: block;
-          content: "";
-          width: 4px;
-          height: 40px;
-          background-color: $baseColor;
-        }
       }
     }
   }

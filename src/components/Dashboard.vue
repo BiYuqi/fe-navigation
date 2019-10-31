@@ -99,7 +99,7 @@ export default {
     &::before {
       position: absolute;
       left: 0;
-      top: 4px;
+      top: 1px;
       display: block;
       content: "";
       width: 4px;
