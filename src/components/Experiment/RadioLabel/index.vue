@@ -5,18 +5,30 @@
     </div>
     <div class="radio-label__content">
       <div class="title">{{item.desc}}</div>
-      <div class="desc">{{isOpen ? '已设置': '已关闭'}}</div>
+      <div class="desc">{{isOpen ? '已打开': '已关闭'}}</div>
     </div>
-    <div class="radio-label__switch-bar" :class="{checked: isOpen}" @click="switchFeature(type)"></div>
+    <div
+      class="radio-label__switch-bar"
+      :class="{checked: $store.state.console[item.name] || isOpen}"
+      @click="switchFeature(type)">
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  props: ['type', 'item'],
+  props: {
+    type: {
+      type: String
+    },
+    item: {
+      type: Object
+    }
+  },
   data () {
     return {
-      isOpen: false
+      isOpen: false,
+      items: this.item
     }
   },
   methods: {
@@ -27,6 +39,10 @@ export default {
         status: this.isOpen
       })
     }
+  },
+  mounted () {
+    // initial set isOpen value
+    this.isOpen = this.$store.state.console[this.items.name]
   }
 }
 </script>

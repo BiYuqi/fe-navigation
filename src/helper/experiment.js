@@ -11,6 +11,17 @@ export const experimentMenu = [
   }
 ]
 
+export const CONSOLE_FEATURES = [
+  {
+    name: 'theme',
+    desc: '设置全局样式'
+  },
+  {
+    name: 'search',
+    desc: '打开搜索功能'
+  }
+]
+
 export const getExperimentMenuName = (value) => {
   const target = experimentMenu.filter(item => item.value === value)
   return target.length && target[0]

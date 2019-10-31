@@ -15,28 +15,23 @@
 </template>
 
 <script>
+import { mapMutations } from 'vuex'
 import Title from './Title'
 import RadioLabel from '../RadioLabel'
-import { getExperimentMenuName } from '../../../helper/experiment'
+import { getExperimentMenuName, CONSOLE_FEATURES } from '../../../helper/experiment'
 export default {
   data () {
     return {
       getExperimentMenuName,
-      features: [
-        {
-          name: 'theme',
-          desc: '设置全局样式'
-        },
-        {
-          name: 'search',
-          desc: '打开搜索功能'
-        }
-      ]
+      features: CONSOLE_FEATURES
     }
   },
   methods: {
+    ...mapMutations('console', [
+      'setFeature'
+    ]),
     switchEvent (data) {
-      console.log(data)
+      this.setFeature(data)
     }
   },
   components: {
