@@ -37,5 +37,6 @@ export const headMapping = {
   'deep-learning': '深度学习',
   'PHP': 'PHP',
   'python-blog': 'Python博客',
-  'online-h5': '在线H5制作平台'
+  'online-h5': '在线H5制作平台',
+  'code-named': ' 变量命名'
 }

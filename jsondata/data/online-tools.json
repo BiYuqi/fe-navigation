@@ -21,6 +21,26 @@
           "vue拖拽平台"
         ]
       }
+    ],
+    "code-named": [
+      {
+        "name": "CODE IF",
+        "link": "https://unbug.github.io/codelf",
+        "github": "https://github.com/unbug/codelf",
+        "description": "变量命名网站, 主流编程语言目前都可以支持，比如 JS、Python、HTML、Java、PHP、C++、Go 等等",
+        "tag": [
+          "代码命名"
+        ]
+      },
+      {
+        "name": "CODE IF(CN)",
+        "link": "https://codeif.xinke.org.cn/",
+        "github": "https://github.com/unbug/codelf",
+        "description": "变量命名网站, 主流编程语言目前都可以支持，比如 JS、Python、HTML、Java、PHP、C++、Go 等等",
+        "tag": [
+          "代码命名"
+        ]
+      }
     ]
   }
 }
