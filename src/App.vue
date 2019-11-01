@@ -4,10 +4,12 @@
     <div class="main-content">
       <router-view/>
     </div>
+    <Footer />
   </div>
 </template>
 <script>
 import Header from './views/Header'
+import Footer from './views/Footer'
 export default {
   data () {
     return {
@@ -23,7 +25,8 @@ export default {
     this.isShowGrayBg = this.$route.name === 'experiment'
   },
   components: {
-    Header
+    Header,
+    Footer
   }
 }
 </script>>
@@ -35,16 +38,12 @@ export default {
   margin: 0;
   padding: 0;
 }
-html {
-  height: 100%;
-}
+
 body{
   font-size: 14px;
   width: 100%;
-  height: 100%;
   line-height: 1.5;
   font-family: PingFang SC,Tahoma,Helvetica,Arial,Hiragino Sans GB,Microsoft YaHei,Heiti SC,WenQuanYi Micro Hei,sans-serif;
-
 }
 
 #app {
@@ -57,6 +56,7 @@ body{
     display: flex;
     width: 960px;
     margin: 0 auto;
+    min-height: 666px;
     padding-top: 25px;
 
     @media screen and (max-width: 960px) {

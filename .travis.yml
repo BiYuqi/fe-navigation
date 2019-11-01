@@ -25,7 +25,7 @@ install:
 
 script:
   - npm run build
-  - npm run upload ${AppId} ${Region} ${SecretId} ${SecretKeym} ${Bucket}
+  - npm run upload "${AppId}" "${Region}" "${SecretId}" "${SecretKey}" "${Bucket}"
 
 after_script:
   - cd ./dist

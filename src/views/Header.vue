@@ -68,7 +68,7 @@ export default {
   width: 100%;
   background-color: #fff;
   position: relative;
-  border-bottom: 1px solid #E8E8E8;
+  border-bottom: 1px solid $borderColor;
   display: flex;
   align-items: center;
   &__inner {
