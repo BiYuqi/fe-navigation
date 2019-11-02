@@ -111,7 +111,7 @@ export default {
   &__link {
     display: inline-block;
     margin: 6px;
-    width: 170px;
+    width: 235px;
     height: 85px;
     border-radius: 5px;
     border: 1px solid #ddd;
@@ -137,8 +137,9 @@ export default {
   }
 
   &__name {
-    color: #3e3c3c;
-    font-size: 16px;
+    color: $baseColor;
+    font-size: 14px;
+    font-weight: 500;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -156,7 +157,13 @@ export default {
     text-overflow: ellipsis;
   }
 
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 960px) {
+    &__link {
+      width: 260px;
+    }
+  }
+
+  @media screen and (max-width: 760px) {
     width: 100%;
     padding: 45px 10px 0;
 

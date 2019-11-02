@@ -73,6 +73,7 @@ export default {
   align-items: center;
   &__inner {
     width: 960px;
+    height: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -125,7 +126,11 @@ export default {
       margin: 0 4px;
     }
   }
-
+  @media screen and (max-width: 960px){
+    &__inner {
+      width: 760px;
+    }
+  }
   @media screen and (max-width: 640px) {
     padding: 0 15px;
 

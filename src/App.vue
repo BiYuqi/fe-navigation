@@ -64,10 +64,6 @@ body{
     }
 
     @media screen and (max-width: 760px) {
-      width: 560px;
-    }
-
-    @media screen and (max-width: 640px) {
       flex-direction: column;
       height: auto;
       width: 100%;

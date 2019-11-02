@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <div class="footer__github-repo">
-        <span>fe.loadingcom.com 2019</span>
+        <span>© 2019, 前端导航</span>
         <github
           :svg="svgGithub"
           target="_blank"
@@ -39,7 +39,6 @@ export default {
   line-height: 50px;
   margin-top: 30px;
   background-color: #fff;
-  border-top: 1px solid $borderColor;
   color: $text;
   text-align: center;
   .github-link {

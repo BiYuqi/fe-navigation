@@ -25,7 +25,6 @@ export default {
 @import '../styles/common.scss';
 .sidebar {
   width: 190px;
-  padding-top: 20px;
   background-color: #fff;
 
   h2 {
@@ -38,7 +37,7 @@ export default {
   &-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   &-item {
@@ -54,8 +53,8 @@ export default {
       text-decoration: none;
       color: $text;
       transition: all .2s;
-      font-size: 14px;
-      font-weight: 600;
+      font-size: 16px;
+      font-weight: 700;
 
       &:hover {
         color: $baseColor;
@@ -78,14 +77,6 @@ export default {
   }
 
   @media screen and (max-width: 760px) {
-    width: 140px;
-
-    .sidebar-item {
-      width: 100%;
-    }
-  }
-
-  @media screen and (max-width: 640px) {
     width: 100%;
     display: flex;
     overflow-x: auto;
