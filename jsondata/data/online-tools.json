@@ -41,6 +41,12 @@
           "代码命名"
         ]
       }
+    ],
+    "learning-anything": [
+      {
+        "name": "Study Anything交互式脑图",
+        "link": "https://learn-anything.xyz/"
+      }
     ]
   }
 }

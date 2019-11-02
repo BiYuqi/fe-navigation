@@ -2,7 +2,7 @@ export const headMapping = {
   'personal-blog': '个人博客',
   'awesome-team': '优秀团队',
   'tech-community': '技术社区',
-  'learning-anything': 'Learning Anything',
+  'learning-anything': '交互式脑图',
   'javascript': 'Javascript',
   'jquery': 'JQuery',
   'VueJs': 'VueJs',
