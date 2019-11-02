@@ -32,7 +32,7 @@
 </template>
 
 <script>
-import Github from './Github'
+import Github from '../Github'
 import LinkData from '@json/basedata.json'
 import { headMapping } from '@config/headMapping'
 export default {
@@ -69,7 +69,7 @@ export default {
 }
 </script>
 <style lang="scss">
-@import '../styles/common.scss';
+@import '../../styles/common.scss';
 .content-area {
   width: calc(100% - 180px);
   flex: 1;

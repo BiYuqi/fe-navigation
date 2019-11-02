@@ -1,10 +1,10 @@
-import Dashboard from '@/components/Dashboard.vue'
+import NavBox from '@/components/NavBox'
 import { routerPage } from '@config/routerConfig'
 
 export const generateRoutes = routerPage.map(([en, _]) => {
   return {
     path: en,
     name: en,
-    component: Dashboard
+    component: NavBox
   }
 })

@@ -1,28 +1,4 @@
-<template>
-  <div class="sidebar">
-    <h2>分类</h2>
-    <ul class="sidebar-content">
-      <li class="sidebar-item" v-for="(router, index) in initialData" :key="index">
-          <router-link :to="'/' + router[0]">{{router[1]}}</router-link>
-      </li>
-    </ul>
-  </div>
-
-</template>
-
-<script>
-import { routerPage } from '@config/routerConfig'
-export default {
-  data () {
-    return {
-      initialData: routerPage
-    }
-  }
-}
-</script>
-
-<style lang="scss">
-@import '../styles/common.scss';
+@import '../../styles/common.scss';
 .sidebar {
   width: 190px;
   background-color: #fff;
@@ -37,7 +13,7 @@ export default {
   &-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   &-item {
@@ -52,17 +28,22 @@ export default {
       display: block;
       text-decoration: none;
       color: $text;
-      transition: all .2s;
-      font-size: 16px;
+      transition: all .3s;
+      font-size: 14px;
       font-weight: 700;
+      text-align: center;
+      border-radius: 6px;
+      padding: 2px;
+      background-color: #f3f3f3;
 
       &:hover {
         color: $baseColor;
       }
 
       &.router-link-exact-active {
-        color: $baseColor;
+        color: #fff;
         font-weight: 700;
+        background-color: $baseColor;
       }
     }
   }
@@ -99,13 +80,14 @@ export default {
       height: auto;
       margin-bottom: 0;
       width: auto;
+      margin: 2px 4px;
 
       a {
         display: inline-block;
-        padding: 10px;
+        padding: 2px;
 
         &.router-link-exact-active {
-          color: $baseColor;
+          color: #fff;
           font-weight: 700;
 
           &:before {
@@ -116,4 +98,3 @@ export default {
     }
   }
 }
-</style>

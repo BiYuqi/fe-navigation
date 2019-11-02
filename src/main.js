@@ -6,7 +6,6 @@ import store from './store'
 Vue.config.productionTip = false
 
 // 百度统计code
-console.log(process.env, 'BUILD_TIME')
 if (process.env.NODE_ENV === 'production') {
   // eslint-disable-next-line no-use-before-define
   const _hmt = _hmt || [];

@@ -19,7 +19,7 @@
   </div>
 </template>
 <script>
-import Github from '@/components/Github'
+import Github from '../Github'
 export default {
   data () {
     return {
@@ -41,7 +41,7 @@ export default {
 }
 </script>
 <style lang="scss">
-@import '../styles/common.scss';
+@import '../../styles/common.scss';
 
 .tu-chao {
   font-size: 14px;

@@ -21,7 +21,7 @@
 
 <script>
 import { mapMutations } from 'vuex'
-import TuCao from '@/components/TuCao.vue'
+import TuCao from '../../TuCao'
 import Title from './Title'
 import RadioLabel from '../RadioLabel'
 import { getExperimentMenuName, CONSOLE_FEATURES } from '../../../helper/experiment'

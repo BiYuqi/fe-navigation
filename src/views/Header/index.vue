@@ -25,8 +25,8 @@
 
 <script>
 import canvasBg from '@/views/Canvas'
-import Github from '@/components/Github'
-import { featuresToggle } from '../helper/toggle'
+import Github from '../../components/Github'
+import { featuresToggle } from '../../helper/toggle'
 export default {
   data () {
     return {
@@ -62,92 +62,5 @@ export default {
 }
 </script>
 <style lang="scss">
-@import '../styles/common.scss';
-.header{
-  height: $height;
-  width: 100%;
-  background-color: #fff;
-  position: relative;
-  border-bottom: 1px solid $borderColor;
-  display: flex;
-  align-items: center;
-  &__inner {
-    width: 960px;
-    height: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  &.active {
-    background-color: $baseColor;
-
-    p, span {
-      color: #fff;
-    }
-  }
-
-  i {
-    font-style: normal;
-    display: inline-block;
-    color: #2B2B2B;
-    font-size: 18px;
-  }
-
-  &__title {
-    text-decoration: none;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    img {
-      width: 52px;
-      height: 52px;
-      margin-right: 10px;
-    }
-    p {
-      font-size: 18px;
-      color: $baseColor;
-      font-weight: 700;
-      line-height: 1.3;
-    }
-    span {
-      color: $text;
-      font-size: 14px;
-    }
-  }
-
-  &__feature {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-
-    &-github {
-      margin: 0 4px;
-    }
-  }
-  @media screen and (max-width: 960px){
-    &__inner {
-      width: 760px;
-    }
-  }
-  @media screen and (max-width: 640px) {
-    padding: 0 15px;
-
-    &__title {
-      img {
-        width: 46px;
-        height: 46px;
-      }
-
-      p {
-        font-size: 16px;
-      }
-
-      span {
-        font-size: 12px;
-      }
-    }
-  }
-}
+@import './index.scss';
 </style>

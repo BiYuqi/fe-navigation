@@ -49,8 +49,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../styles/common.scss';
-
+@import '../../styles/common.scss';
 .v-n {
   &-octicon{
     display: inline-block;
