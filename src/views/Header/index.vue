@@ -8,6 +8,7 @@
           <span>专注于前端开发, 前端开发资源</span>
         </div>
       </router-link>
+      <search-box v-if="featuresToggle('experiment')" />
       <div class="header__feature">
         <github
           :svg="svgExperiment"
@@ -26,6 +27,7 @@
 <script>
 import canvasBg from '@/views/Canvas'
 import Github from '../../components/Github'
+import SearchBox from '../../components/SearchBox'
 import { featuresToggle } from '../../helper/toggle'
 export default {
   data () {
@@ -57,7 +59,8 @@ export default {
   },
   components: {
     canvasBg,
-    Github
+    Github,
+    SearchBox
   }
 }
 </script>
