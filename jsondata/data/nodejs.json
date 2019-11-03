@@ -2,6 +2,11 @@
   "nodejs": {
     "nodejs": [
       {
+        "name": "CNode",
+        "link": "https://cnodejs.org/",
+        "description": "Node.js专业中文社区"
+      },
+      {
         "name": "Nodejs入门",
         "link": "http://www.yiibai.com/nodejs/nodejs_first_application.html"
       },

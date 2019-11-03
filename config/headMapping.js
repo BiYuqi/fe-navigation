@@ -6,9 +6,9 @@ export const headMapping = {
   'javascript': 'Javascript',
   'jquery': 'JQuery',
   'VueJs': 'VueJs',
-  'VueDemo': 'Vue教程',
+  'vue-around': 'Vue周边',
   'React': 'ReactJs',
-  'ReactDemo': 'React教程',
+  'react-native': 'React Native',
   'wechat-doc': '小程序文档',
   'wechat-community': '小程序社区',
   'wechat-toturial': '小程序教程',
@@ -18,9 +18,7 @@ export const headMapping = {
   'mobile-develop': '移动端开发',
   'mobile-ui': '移动UI',
   'mobile-toturial': '移动端教程',
-  'Gulp': 'Gulp',
   'Webpack': 'Webpack',
-  'Rollup': 'Rollup',
   'Css': 'CSS',
   'develop-tool': '开发工具',
   'develop-rule': '代码规范',
@@ -38,5 +36,8 @@ export const headMapping = {
   'PHP': 'PHP',
   'python-blog': 'Python博客',
   'online-h5': '在线H5制作平台',
-  'code-named': ' 变量命名'
+  'code-named': ' 变量命名',
+  'only-tool': '实用工具',
+  'online-coding': '在线编程',
+  'build-tool': '构建工具'
 }

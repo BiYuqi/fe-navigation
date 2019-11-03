@@ -1,54 +1,39 @@
 {
   "build-tool": {
-    "Gulp": [
-      {
-        "name": "gulp详细入门教程",
-        "link": "http://www.ydcss.com/"
-      },
-      {
-        "name": "gulp中文网",
-        "link": "http://www.gulpjs.com.cn/"
-      },
-      {
-        "name": "gulp使用指南",
-        "link": "http://www.techug.com/gulp"
-      },
-      {
-        "name": "gulp使用小结",
-        "link": "http://www.cnblogs.com/Darren_code/p/gulp.html"
-      },
-      {
-        "name": "gulp 入门指南",
-        "link": "http://www.kancloud.cn/thinkphp/gulp-guide/43994"
-      },
-      {
-        "name": "精通gulp常用插件",
-        "link": "https://zhuanlan.zhihu.com/p/25243171?group_id=819532884137361408"
-      }
-    ],
     "Webpack": [
       {
         "name": "Webpack英文官网",
-        "link": "https://webpack.js.org/"
-      },
-      {
-        "name": "webpack 中文文档",
-        "link": "http://www.css88.com/doc/webpack/"
-      },
-      {
-        "name": "Webpack学习资源",
-        "link": "https://github.com/lengziyu/learn-webpack"
+        "link": "https://webpack.js.org/",
+        "tag": [
+          "webpack"
+        ]
       },
       {
         "name": "Webpack中文站",
-        "link": "https://doc.webpack-china.org/"
+        "link": "https://doc.webpack-china.org/",
+        "tag": [
+          "webpack"
+        ]
       },
       {
-        "name": "RequireJS常用知识",
-        "link": "http://www.cnblogs.com/lyzg/p/4865502.html"
+        "name": "Webpack Demo",
+        "link": "https://xin-tan.com/passages/2018-07-29-webpack-demos-introduction",
+        "github": "https://xin-tan.com/passages/2018-07-29-webpack-demos-introduction/",
+        "description": "webpack教程，从第一步开始",
+        "tag": [
+          "webpack"
+        ]
+      },
+      {
+        "name": "深入浅出Webpack",
+        "link": "https://webpack.wuhaolin.cn/",
+        "github": "https://github.com/gwuhaolin/dive-into-webpack",
+        "tag": [
+          "webpack"
+        ]
       }
     ],
-    "Rollup": [
+    "build-tool": [
       {
         "name": "rollupjs官方文档",
         "link": "https://rollupjs.org/"
@@ -56,6 +41,75 @@
       {
         "name": "rollupjs中文文档",
         "link": "https://rollupjs.org/zh"
+      },
+      {
+        "name": "Yarn",
+        "link": "https://www.yarnpkg.com/zh-Hans/",
+        "description": "facebook出品新型包管理器"
+      },
+      {
+        "name": "Babel",
+        "link": "https://babeljs.io/"
+      },
+      {
+        "name": "ESlint",
+        "link": "https://cn.eslint.org/"
+      },
+      {
+        "name": "PostCSS",
+        "link": "https://www.postcss.com.cn/"
+      },
+      {
+        "name": "Parceljs",
+        "link": "https://www.parceljs.cn/"
+      },
+      {
+        "name": "Browserify",
+        "link": "http://browserify.org/"
+      },
+      {
+        "name": "Yeoman",
+        "link": "http://yeoman.io/",
+        "description": "前端构建脚手架"
+      },
+      {
+        "name": "Gulp",
+        "link": "https://gulpjs.com/",
+        "description": "基于流的自动化构建工具"
+      },
+      {
+        "name": "Gulp(中)",
+        "link": "http://www.gulpjs.com.cn/"
+      },
+      {
+        "name": "FIS3",
+        "link": "https://fex-team.github.io/fis3/"
+      },
+      {
+        "name": "Pug",
+        "link": "https://pugjs.org/"
+      },
+      {
+        "name": "Liquid",
+        "link": "https://liquid.bootcss.com/"
+      },
+      {
+        "name": "Handlebars",
+        "link": "http://handlebarsjs.com/"
+      },
+      {
+        "name": "EJS",
+        "link": "https://ejs.co/"
+      },
+      {
+        "name": "Nunjucks",
+        "link": "https://mozilla.github.io/nunjucks/",
+        "github": "https://github.com/mozilla/nunjucks"
+      },
+      {
+        "name": "Bower",
+        "link": "https://bower.io/",
+        "description": "客户端技术的软件包管理器"
       }
     ]
   }

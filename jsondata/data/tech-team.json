@@ -38,32 +38,38 @@
     ],
     "tech-community": [
       {
-        "name": "Web技术研究",
-        "link": "https://www.web-tinker.com/"
+        "name": "掘金",
+        "link": "https://juejin.im/",
+        "description": "高质量的技术社区"
+      },
+      {
+        "name": "Segmentfault",
+        "link": "https://segmentfault.com/",
+        "description": "编程爱好者技术交流的平台"
+      },
+      {
+        "name": "V2EX",
+        "link": "https://www.v2ex.com/",
+        "description": "IT创意工作者社区"
+      },
+      {
+        "name": "Stackoverflow",
+        "link": "https://stackoverflow.com/",
+        "description": "全球专业的程序员IT技术问答社区"
+      },
+      {
+        "name": "力扣(LeetCode)",
+        "link": "https://leetcode-cn.com/",
+        "description": "力扣（LeetCode）官网 - 全球极客挚爱的技术成长平台"
+      },
+      {
+        "name": "codewars",
+        "link": "https://www.codewars.com/",
+        "description": "Codewars is where developers achieve code mastery through challenge. Train on kata in the dojo and reach your highest potential."
       },
       {
         "name": "DIV.IO社区",
         "link": "http://div.io/#/welcome"
-      },
-      {
-        "name": "前端开发博客",
-        "link": "http://caibaojian.com/"
-      },
-      {
-        "name": "前端观察",
-        "link": "https://www.qianduan.net/"
-      },
-      {
-        "name": "前端圈",
-        "link": "https://fequan.com/"
-      },
-      {
-        "name": "V2EX社区",
-        "link": "https://www.v2ex.com/"
-      },
-      {
-        "name": "前端乱炖",
-        "link": "http://www.html-js.com/"
       },
       {
         "name": "创造狮社区",

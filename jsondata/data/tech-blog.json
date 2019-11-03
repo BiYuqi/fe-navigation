@@ -415,6 +415,14 @@
         "link": "http://wuhaolin.cn/",
         "description": "实用、前沿、深入、原创",
         "tag": []
+      },
+      {
+        "name": "心谭博客",
+        "link": "https://xin-tan.com/",
+        "description": "专注前端与可视化",
+        "tag": [
+          "可视化"
+        ]
       }
     ]
   }

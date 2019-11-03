@@ -22,6 +22,53 @@
         ]
       }
     ],
+    "online-coding": [
+      {
+        "name": "Codecast",
+        "link": "http://codecast.me/launch/",
+        "description": "在线实时编程预览"
+      },
+      {
+        "name": "JSfiddle",
+        "link": "https://jsfiddle.net",
+        "description": "在线实时JS测试编程"
+      },
+      {
+        "name": "Codepen",
+        "link": "http://codepen.io/",
+        "description": "前端炫酷样式技能效果"
+      },
+      {
+        "name": "CSS按钮生成",
+        "link": "http://www.cssbuttongenerator.com/",
+        "description": "CSS按钮样式在线生成"
+      },
+      {
+        "name": "CSS按钮生成",
+        "link": "http://www.cssbuttongenerator.com/",
+        "description": "CSS按钮样式在线生成"
+      },
+      {
+        "name": "CSS Gradient",
+        "link": "https://www.colorzilla.com/gradient-editor/",
+        "description": "CSS渐变在线生成器"
+      },
+      {
+        "name": "CSS Animista",
+        "link": "http://animista.net/",
+        "description": "CSS动态效果样式在线自定义"
+      },
+      {
+        "name": "CubicBezier",
+        "link": "https://cubic-bezier.com/#.17,.67,.83,.67",
+        "description": "CSS3贝塞尔曲线在线调试工具"
+      },
+      {
+        "name": "CSSGenerator",
+        "link": "https://cssgenerator.org/",
+        "description": "CSS各种对象样式和效果在线生成"
+      }
+    ],
     "code-named": [
       {
         "name": "CODE IF",
@@ -46,6 +93,106 @@
       {
         "name": "Study Anything交互式脑图",
         "link": "https://learn-anything.xyz/"
+      }
+    ],
+    "only-tool": [
+      {
+        "name": "ProcessOn",
+        "link": "https://www.processon.com/",
+        "description": "ProcessOn 支持流程图、思维导图、原型图、UML、网络拓扑图、组织结构图等.",
+        "tag": []
+      },
+      {
+        "name": "Draw.io",
+        "link": "https://www.draw.io/",
+        "description": "draw.io is free online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams"
+      },
+      {
+        "name": "Moodjoy",
+        "link": "https://moodjoy.com/"
+      },
+      {
+        "name": "Github短网址",
+        "link": "https://git.io/"
+      },
+      {
+        "name": "短链生成",
+        "link": "http://www.dh6.ink/"
+      },
+      {
+        "name": "GetEmoji",
+        "link": "https://emoji.svend.cc/",
+        "description": "Get Emoji"
+      },
+      {
+        "name": "CanIUse",
+        "link": "https://caniuse.com/"
+      },
+      {
+        "name": "Regx101",
+        "link": "https://regex101.com/",
+        "description": "超强可视化正则编写网站",
+        "tag": [
+          "正则",
+          "regex"
+        ]
+      },
+      {
+        "name": "Carbon",
+        "link": "https://carbon.now.sh/",
+        "description": "一个能生成漂亮的代码截图工具",
+        "tag": [
+          "code"
+        ]
+      },
+      {
+        "name": "Tinypng",
+        "link": "https://tinypng.com/",
+        "description": "Smart PNG and JPEG compression",
+        "tag": [
+          "png",
+          "jpg",
+          "压缩"
+        ]
+      },
+      {
+        "name": "Gif添加字幕",
+        "link": "http://www.yingjingtu.com/",
+        "description": "",
+        "tag": [
+          "gif"
+        ]
+      },
+      {
+        "name": "Photoshop投影转换为CSS3",
+        "link": "https://psd2css.mezw.com/",
+        "description": "",
+        "tag": [
+          "css3"
+        ]
+      },
+      {
+        "name": "Bigjpg",
+        "link": "http://bigjpg.com/",
+        "github": "",
+        "description": "使用开源waifu2x人工智能深度卷积神经网络（CNN）智能无损免费放大图片，可放大4K级超高清分辨率（4000x4000）图片，最大32倍放大,效果秒杀PhotoZoom放大。"
+      },
+      {
+        "name": "I ❤️PDF",
+        "link": "https://www.ilovepdf.com/zh-cn",
+        "description": "完全免费、易于使用、丰富的PDF处理工具，包括：合并、拆分、压缩、转换、旋转和解锁PDF文件，以及给PDF文件添加水印的工具等。仅需几秒钟即可完成。",
+        "tag": [
+          "pdf"
+        ]
+      },
+      {
+        "name": "TableConvert",
+        "link": "https://tableconvert.com/",
+        "description": "A powerful online table editor and generator that converts between csv, html and markdown. easy to convert html tables to sql, json, xml, excel, latex tables and text, making the table easier to use.",
+        "tag": [
+          "mardown",
+          "cvs"
+        ]
       }
     ]
   }
