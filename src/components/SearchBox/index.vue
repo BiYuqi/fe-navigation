@@ -1,24 +1,94 @@
 <template>
   <div class="search-container">
-    <input type="text" placeholder="请输入查询关键字...">
+    <input
+      type="text"
+      @blur="handleSearchEvent"
+      v-model="searchVal"
+      placeholder="请输入查询关键字..." />
   </div>
 </template>
 
 <script>
+import navData from '@json/basedata.json'
 export default {
-  mounted () {
-    const works = `
-        onmessage = (event) => {
-          console.log('worker', event.data)
-          postMessage('怎么办')
-        }`
-    const blob = new Blob([works])
-    const URL = window.URL.createObjectURL(blob)
-    const myWorker = new Worker(URL)
-    myWorker.onmessage = (e) => {
-      console.log('main', e)
+  data () {
+    return {
+      searchVal: '',
+      worker: null
     }
-    myWorker.postMessage('我是main, 发送消息999')
+  },
+  methods: {
+    handleSearchEvent (e) {
+      this.worker.postMessage({
+        type: 'searchVal',
+        data: e.target.value
+      })
+    },
+    generageWorkerLogic () {
+      return `
+        function generageData(allData) {
+          let combineData = []
+          const flatData = (allData) => {
+            if (Object.keys(allData).length) {
+              Object.keys(allData).forEach(item => {
+                if (Array.isArray(allData[item])) {
+                  combineData = [...combineData, ...allData[item]]
+                } else {
+                  flatData(allData[item])
+                }
+              })
+            }
+          }
+          flatData(allData)
+          return combineData
+        }
+
+        onmessage = (event) => {
+          const { type, data } = event.data
+          if (type === 'initial') {
+            self.result = generageData(data)
+          }
+
+          if (type === 'searchVal') {
+            if (!data) return
+            self.result.filter(item => {
+              if (item.name.indexOf(data) > -1) {
+                postMessage({
+                  type: 'returnVal',
+                  data: item
+                })
+              }
+
+              if (item.description && item.description.indexOf(data) > -1) {
+                postMessage({
+                  type: 'returnVal',
+                  data: item
+                })
+              }
+
+              if (item.tag && item.tag.length > 1 && item.tag.includes(data)) {
+                postMessage({
+                  type: 'returnVal',
+                  data: item
+                })
+              }
+            })
+          }
+        }`
+    }
+  },
+  mounted () {
+    const blob = new Blob([this.generageWorkerLogic()])
+    const URL = window.URL.createObjectURL(blob)
+    this.worker = new Worker(URL)
+    this.worker.onmessage = (e) => {
+      const { type, data } = e.data
+      console.log(type, data, this.searchVal)
+    }
+    this.worker.postMessage({
+      type: 'initial',
+      data: navData
+    })
   }
 }
 </script>

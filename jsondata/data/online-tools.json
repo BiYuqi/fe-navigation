@@ -193,6 +193,15 @@
           "mardown",
           "cvs"
         ]
+      },
+      {
+        "name": "Linux命令搜索",
+        "link": "https://wangchujiang.com/linux-command/",
+        "description": "Linux命令搜索引擎，内容包含Linux命令手册、详解、学习，值得收藏的Linux命令速查手册。 - 最专业的Linux命令大全，内容包含Linux命令手册、详解、学习，值得收藏的Linux命令速查手册。",
+        "github": "https://github.com/jaywcjlove/linux-command",
+        "tag": [
+          "linux"
+        ]
       }
     ]
   }
