@@ -1,6 +1,6 @@
 <template>
-  <div id="canvas">
-    <canvas id="cas"></canvas>
+  <div class="extra-scene">
+    <canvas id="extra-scene__canvas"></canvas>
   </div>
 </template>
 
@@ -70,19 +70,18 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-@import '../styles/common.scss';
-
-#canvas{
+<style lang="scss">
+@import '../../styles/common.scss';
+.extra-scene{
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: $height;
   z-index: 0;
-}
-canvas{
-  width: 100%;
-  height: $height;
+  &__canvas {
+    width: 100%;
+    height: $height;
+  }
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="header" :class="{active:isactive}">
-    <canvas-bg v-if="isactive"></canvas-bg>
+    <extra-scene v-if="isactive" />
     <div class="header__inner">
       <router-link to="/" title="前端导航" class="header__title">
         <div>
@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import canvasBg from '@/views/Canvas'
+import ExtraScene from '../../components/ExtraScene'
 import Github from '../../components/Github'
 import SearchBox from '../../components/SearchBox'
 import { featuresToggle } from '../../helper/toggle'
@@ -50,15 +50,17 @@ export default {
     const m = new Date().getMonth() + 1
     const d = new Date().getDate()
     const newYear = m === 1 && d === 1
-    const birth = d === 29 || d === 26 || d === 27 || d === 25
     if (m === 12) {
-      if (d === 25 || newYear || birth) {
+      if (d === 25) {
         this.isactive = true
       }
     }
+    if (newYear) {
+      this.isactive = true
+    }
   },
   components: {
-    canvasBg,
+    ExtraScene,
     Github,
     SearchBox
   }
