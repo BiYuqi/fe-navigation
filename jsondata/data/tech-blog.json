@@ -4,12 +4,14 @@
       {
         "name": "阮一峰",
         "link": "http://www.ruanyifeng.com/blog/",
+        "github": "https://github.com/ruanyf",
         "description": "阮一峰，70年代生于上海。毕业于上海财经大学，经济学博士，同时也是程序员，个人博客访问量过千万，译有《ECMAScript 6入门》、《黑客与画家》、《软件随想录》。个人博客为阮一峰的网络日志，目前在阿里任职.",
         "tag": []
       },
       {
         "name": "廖雪峰",
         "link": "http://www.liaoxuefeng.com/",
+        "github": "https://github.com/michaelliao",
         "description": "廖雪峰，技术作家，著有《Spring 2.0核心技术与最佳实践》。廖雪峰的官方网站，研究互联网产品和技术，提供原创中文精品教程。",
         "tag": []
       },
@@ -34,25 +36,22 @@
       },
       {
         "name": "狼叔",
-        "link": "https://github.com/i5ting",
+        "link": "http://i5ting.com/",
+        "github": "https://github.com/i5ting",
         "description": "Node.js 技术布道者，Node全栈公众号运营者,阿里巴巴技术专家, 去哪儿网前端架构师. 被坑CTO，StuQ 明星讲师，开源项目 Moajs 作者.",
         "tag": []
       },
       {
         "name": "CSS森林",
         "link": "http://blog.cssforest.org/",
+        "github": "http://github.com/ghostzhang",
         "description": "一个页面仔的成长之路, 容易满足却不安于现况的瓶子。 CSS森林创始人；webrebuild.org创始人之一, 微信支付设计中心，负责重构前端团队的管理工作。",
-        "tag": []
-      },
-      {
-        "name": "朴灵(田永强)",
-        "link": "http://html5ify.com/",
-        "description": "真名田永强，文艺型码农，就职于阿里巴巴数据平台，资深工程师，Node.js布道者，写了多篇文章介绍Node.js的细节。活跃于CNode社区，是线下会议NodeParty的组织者和JSConf China（沪JS和京JS）的组织者之一。热爱开源，多个Node.js模块的作者。个人GitHub地址：http://github.com/JacksonTian。叩首问路，码梦为生。",
         "tag": []
       },
       {
         "name": "代码家",
         "link": "https://daimajia.com/",
+        "github": "https://github.com/daimajia",
         "description": "代码家在 GitHub 社区拥有超高人气，开源项目被纳入斯坦福计算机讲义课程案例，开源代码覆盖全球数十亿台移动设备。  目前主要在真格基金负责企业服务、科技产业、区块链相关产业投资；曾参与投资 Cobo 钱包、Nervos、Conflux、Ontology、Cocos-Bcx 等项目早期投资.",
         "tag": []
       },
@@ -71,6 +70,7 @@
       {
         "name": "前端小武",
         "link": "https://xuexb.com/",
+        "github": "https://github.com/xuexb/",
         "description": "曾用名谢亮，91年（阳历）后... 目前任职于某公司，常活跃于海淀西二旗。喜欢各种折腾, 喜欢研究源, 对美好的代码有极强的透视症, 崇尚有强烈技术氛围的UED.",
         "tag": []
       },

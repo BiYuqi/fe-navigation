@@ -9,31 +9,33 @@
       },
       {
         "name": "腾讯前端团队",
-        "link": "http://www.alloyteam.com/"
+        "link": "http://www.alloyteam.com/",
+        "description": "腾讯 Web 前端团队 - Alloy Team  来自于腾讯 SNG(社交网络事业群)，源于 2008 年成立的腾讯 WebQQ 团队，于 2011 年 10.24 正式对公司外以< 腾讯 AlloyTeam> 为团队名称进行对外交流，AlloyTeam 的寓意是：像合金一样将各种技术，以及各个成员的聪明才智聚合在一起，从而产生更强的合金特性，未来我们也希望通过聚合业界的各大前端牛人，来共同推动 Web 前端技术在中国的发展！我们致力于 Web 前端技术的研究，热衷 HTML5、移动 Web 技术，用最酷的新技术开发各种有趣的开源项目"
       },
       {
         "name": "淘宝前端",
-        "link": "http://taobaofed.org/"
+        "link": "http://taobaofed.org/",
+        "description": "前端的世界一直在变化着，在各种熟悉的语言进化中迅速的化学反应。也许你和我们一样，对前端的理解也在不断刷新。"
       },
       {
         "name": "大搜车",
-        "link": "http://f2e.souche.com/blog/"
+        "link": "http://f2e.souche.com/blog/",
+        "description": "搜车大无线团队博客, 相信技术改变世界，这里是我们的点滴思考和总结。"
       },
       {
         "name": "携程",
-        "link": "http://ued.ctrip.com/blog/"
+        "link": "http://ued.ctrip.com/",
+        "description": "我们是携程UED的一群小伙伴，我们一起制定携程产品的设计规范。做人性的网站，让在线预订过程成为一种享受，一种愉悦的经验。"
       },
       {
-        "name": "奇舞学院",
-        "link": "https://t.75team.com/video"
-      },
-      {
-        "name": "人人网FED博客",
-        "link": "http://www.renfed.com/"
+        "name": "人人FED",
+        "link": "https://www.rrfed.com/",
+        "description": "人人FED前端团队"
       },
       {
         "name": "FED社区",
-        "link": "http://frontenddev.org/?f=qianduanblog.com"
+        "link": "https://f-e-d.club/",
+        "description": "FED社区（前端开发社区 The Front-End Development community）是为前端开发者提供的一个专业技术服务社区。为前端开发者提供文章发表、智慧提问、链接分享、交流分享等专业技术服务。"
       }
     ],
     "tech-community": [
