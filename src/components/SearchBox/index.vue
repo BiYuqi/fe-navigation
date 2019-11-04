@@ -107,6 +107,16 @@ export default {
     outline: none;
     border: 1px solid $lightColor;
     color: $textActive;
+    transition: all .2s;
+
+    &:focus {
+      border: 1px solid $baseColor;
+      box-shadow: 0 0 2px 2px #93d0ff;
+    }
+  }
+
+  @media screen and (max-width: 760px) {
+    display: none;
   }
 }
 </style>

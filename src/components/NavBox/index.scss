@@ -1,0 +1,108 @@
+@import '../../styles/common.scss';
+.content-area {
+  width: calc(100% - 180px);
+  flex: 1;
+
+  ul, li {
+    list-style: none;
+  }
+
+  ul {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  &__section {
+    margin-bottom: 15px;
+  }
+
+  &__title {
+    position: relative;
+    padding-left: 8px;
+    color: $text;
+    font-weight: 700;
+    text-align: left;
+
+    &::before {
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: block;
+      content: "";
+      width: 4px;
+      height: 100%;
+      background-color: $baseColor;
+    }
+  }
+
+  &__link {
+    display: inline-block;
+    margin: 6px;
+    width: 235px;
+    height: 85px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    transition: all .24s;
+
+    &:hover {
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,.12), 0 0 3px 0 rgba(0,0,0,.04);
+    }
+
+    &-a {
+      color: #8e8c8c;
+      text-decoration: none;
+      display: block;
+      padding: 8px 12px;
+      font-size: 12px;
+
+      &:visited,
+      &:focus {
+        color: #8e8c8c;
+      }
+    }
+  }
+
+  &__name {
+    color: $baseColor;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap
+  }
+
+  &__desc {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+  }
+
+  @media screen and (max-width: 960px) {
+    &__link {
+      width: 260px;
+    }
+  }
+
+  @media screen and (max-width: 760px) {
+    width: 100%;
+    padding: 45px 10px 0;
+
+    &__link {
+      width: 100%;
+      margin: 0 0 15px;
+
+      &-a {
+        font-size: 12px;
+      }
+    }
+  }
+}

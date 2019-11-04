@@ -57,9 +57,5 @@ export default {
       color: $baseColor;
     }
   }
-
-  @media screen and (max-width: 640px) {
-    display: none;
-  }
 }
 </style>

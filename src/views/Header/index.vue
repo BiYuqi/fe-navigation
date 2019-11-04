@@ -8,7 +8,7 @@
           <span>专注于前端开发, 前端开发资源</span>
         </div>
       </router-link>
-      <search-box v-if="$store.state.console.search" />
+      <search-box v-if="featuresToggle('experiment')" />
       <div class="header__feature">
         <github
           :svg="svgExperiment"

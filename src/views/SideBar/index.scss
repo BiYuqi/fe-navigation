@@ -33,14 +33,15 @@
       font-weight: 700;
       text-align: center;
       border-radius: 6px;
-      padding: 2px;
+      padding: 3px;
       background-color: #f3f3f3;
 
       &:hover {
         color: $baseColor;
       }
 
-      &.router-link-exact-active {
+      &.router-link-exact-active,
+      &.router-link-active {
         color: #fff;
         font-weight: 700;
         background-color: $baseColor;
@@ -84,7 +85,7 @@
 
       a {
         display: inline-block;
-        padding: 2px;
+        padding: 3px;
 
         &.router-link-exact-active {
           color: #fff;
