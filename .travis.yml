@@ -20,6 +20,9 @@ cache:
   directories:
     - node_modules
 
+before_install:
+  - export TZ='Asia/Shanghai'
+
 install:
   - npm install
 
@@ -28,12 +31,17 @@ script:
   - npm run upload "${AppId}" "${Region}" "${SecretId}" "${SecretKey}" "${Bucket}"
 
 after_script:
+  - git clone https://${GH_REF} .deploy_git
+  - cd .deploy_git
+  - git checkout master
+  - cd ../
+  - mv .deploy_git/.git/ ./public/
   - cd ./dist
   - git init 
   - git config user.name "BiYuqi"
   - git config user.email "biyuqiwan@163.com"
   - git add .
-  - git commit -m "Deployed by travis-ci"
+  - git commit -m "Travis CI Auto Builder at `date +"%Y-%m-%d %H:%M"`"
   - git push --force --quiet "https://${VueNotes}@${GH_REF}" master:gh-pages
 
 branches:
