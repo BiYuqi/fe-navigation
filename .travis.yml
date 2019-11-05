@@ -35,7 +35,7 @@ after_script:
   - cd .deploy_git
   - git checkout master
   - cd ../
-  - mv .deploy_git/.git/ ./public/
+  - mv .deploy_git/.git/ ./dist/
   - cd ./dist
   - git init 
   - git config user.name "BiYuqi"
