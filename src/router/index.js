@@ -25,6 +25,15 @@ export const routes = [
   }
 ]
 
-export default new Router({
+const router = new Router({
   routes
 })
+
+router.beforeEach((to, from, next) => {
+  if (process.env.NODE_ENV === 'production') {
+    if (to.path) window._hmt.push(['_trackPageview', '/#' + to.fullPath])
+  }
+  next()
+})
+
+export default router

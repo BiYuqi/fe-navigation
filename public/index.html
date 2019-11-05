@@ -13,6 +13,17 @@
       <strong>We're sorry but Frontend Navigation doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
+    <% if (NODE_ENV === 'production') { %>
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?9779c99a607404bc232447e3472ed199";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+    <% } %>
     <!-- built files will be auto injected -->
   </body>
 </html>
