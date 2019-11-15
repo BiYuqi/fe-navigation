@@ -31,11 +31,6 @@ script:
   - npm run upload "${AppId}" "${Region}" "${SecretId}" "${SecretKey}" "${Bucket}"
 
 after_script:
-  - git clone https://${GH_REF} .deploy_git
-  - cd .deploy_git
-  - git checkout master
-  - cd ../
-  - mv .deploy_git/.git/ ./dist/
   - cd ./dist
   - git init 
   - git config user.name "BiYuqi"
