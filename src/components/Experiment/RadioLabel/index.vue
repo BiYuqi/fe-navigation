@@ -9,8 +9,8 @@
     </div>
     <div
       class="radio-label__switch-bar"
-      :class="{checked: $store.state.console[item.name] || isOpen}"
-      @click="switchFeature(type)">
+      :class="{checked: $store.state.console[item.name] || isOpen, disabled: disabled}"
+      @click="switchFeature(type, disabled)">
     </div>
   </div>
 </template>
@@ -23,6 +23,10 @@ export default {
     },
     item: {
       type: Object
+    },
+    disabled: {
+      type: Boolean,
+      default: false
     }
   },
   data () {
@@ -32,7 +36,10 @@ export default {
     }
   },
   methods: {
-    switchFeature (type) {
+    switchFeature (type, disabled) {
+      if (disabled) {
+        return
+      }
       this.isOpen = !this.isOpen
       this.$emit('switch-event', {
         type,
@@ -107,6 +114,10 @@ export default {
       &:before {
         border-color: #4581bc;
       }
+    }
+
+    &.disabled {
+      cursor: not-allowed;
     }
 
     &:before {

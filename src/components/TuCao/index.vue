@@ -46,13 +46,11 @@ export default {
 .tu-chao {
   font-size: 14px;
   display: flex;
-  justify-content: space-between;
   padding-top: 30px;
 
   &__feature {
     color: $baseColor;
-    margin-right: 15px;
-    width: 50%;
+    margin-right: 30px;
     &:hover {
       color: $baseColor;
     }

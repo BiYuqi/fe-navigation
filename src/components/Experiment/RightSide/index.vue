@@ -5,12 +5,13 @@
       :desc="getExperimentMenuName($store.state.lab).desc" />
     <div class="right-side__content">
       <template v-for="(item, index) in features">
-      <RadioLabel
-        @switch-event="switchEvent"
-        :key="index"
-        :type="item.name"
-        :item="item"
-        v-if="$store.state.lab === 'console'" />
+        <RadioLabel
+          @switch-event="switchEvent"
+          :key="index"
+          :type="item.name"
+          :item="item"
+          :disabled="item.disabled"
+          v-if="$store.state.lab === 'console'" />
       </template>
       <template>
         <tu-cao v-if="$store.state.lab === 'contribution'" />
