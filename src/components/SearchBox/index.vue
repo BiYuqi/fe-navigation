@@ -2,9 +2,9 @@
   <div class="search-container">
     <input
       type="text"
-      @keyup.enter="handleSearchEvent"
+      @input="handleSearchEvent"
       v-model="searchVal"
-      placeholder="请输入查询关键字, 回车查询..." />
+      placeholder="请输入查询关键字查询..." />
       <button class="search-container__clear" @click="reset">重置</button>
     <ul class="search-container__list" v-if="searchResult">
       <li
@@ -30,7 +30,7 @@ export default {
     handleSearchEvent (e) {
       this.worker.postMessage({
         type: 'searchVal',
-        data: e.target.value
+        data: e.target.value.toLowerCase()
       })
     },
     reset () {
@@ -39,7 +39,7 @@ export default {
     },
     generageWorkerLogic () {
       return `
-        function generageData(allData) {
+        function flattenBlogData(allData) {
           let combineData = []
           const flatData = (allData) => {
             if (Object.keys(allData).length) {
@@ -56,18 +56,30 @@ export default {
           return combineData
         }
 
+        function toLowerCase(value) {
+          if (typeof value === 'string') {
+            return value.toLowerCase()
+          }
+
+          if (Array.isArray(value)) {
+            return value.map(v => v.toLowerCase())
+          }
+
+          return value
+        }
+
         onmessage = (event) => {
           const { type, data } = event.data
           if (type === 'initial') {
-            self.result = generageData(data)
+            self.result = flattenBlogData(data)
           }
 
           if (type === 'searchVal') {
             if (!data) return
             const result = self.result.filter(item => {
               if (
-                item.name.indexOf(data) > -1 ||
-                (item.description && item.description.indexOf(data) > -1) ||
+                toLowerCase(item.name).indexOf(data) > -1 ||
+                (item.description && toLowerCase(item.description).indexOf(data) > -1) ||
                 (item.tag && item.tag.length > 1 && item.tag.includes(data))
                 ) {
                 return true

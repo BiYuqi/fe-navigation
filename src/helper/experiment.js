@@ -13,17 +13,17 @@ export const experimentMenu = [
 
 export const CONSOLE_FEATURES = [
   {
-    name: 'theme',
+    name: 'fe-theme',
     desc: '开启随机样式模式',
     disabled: true
   },
   {
-    name: 'search',
+    name: 'fe-search',
     desc: '开启搜索功能',
     disabled: false
   },
   {
-    name: 'iframe',
+    name: 'fe-iframe',
     desc: '开启Iframe中打开链接',
     disabled: true
   }

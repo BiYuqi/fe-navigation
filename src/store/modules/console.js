@@ -1,9 +1,10 @@
 import { storage } from '../../helper/storage'
+import { FE_THEME, FE_SEARCH, FE_IFRAME } from './console-types'
 
 const state = {
-  theme: storage.get('theme') === 'true',
-  search: storage.get('search') === 'true',
-  iframe: storage.get('iframe') === 'true'
+  [FE_THEME]: storage.get(FE_THEME) === 'true',
+  [FE_SEARCH]: storage.get(FE_SEARCH) === 'true',
+  [FE_IFRAME]: storage.get(FE_IFRAME) === 'true'
 }
 
 const mutations = {

@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <div class="footer__github-repo">
-        <span>© 2019 前端导航</span>
+        <span>© 2019 ~ {{date}} 前端导航</span>
         <github
           :svg="svgGithub"
           target="_blank"
@@ -22,7 +22,8 @@ export default {
         height: '20',
         width: '20',
         viewBox: '0 0 16 16'
-      }
+      },
+      date: new Date().getFullYear()
     }
   },
   components: {

@@ -8,7 +8,7 @@
           <span>专注于前端开发, 前端开发资源</span>
         </div>
       </router-link>
-      <search-box v-if="$store.state.console.search" />
+      <search-box v-if="$store.state.console[FE_SEARCH]" />
       <div class="header__feature">
         <github
           :svg="svgExperiment"
@@ -28,6 +28,7 @@ import ExtraScene from '../../components/ExtraScene'
 import Github from '../../components/Github'
 import SearchBox from '../../components/SearchBox'
 import { featuresToggle } from '../../helper/toggle'
+import { FE_SEARCH } from '../../store/modules/console-types'
 export default {
   data () {
     return {
@@ -42,7 +43,8 @@ export default {
         width: '30',
         viewBox: '0 0 1024 1024'
       },
-      featuresToggle
+      featuresToggle,
+      FE_SEARCH
     }
   },
   mounted () {

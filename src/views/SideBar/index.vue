@@ -6,17 +6,22 @@
           <router-link :to="'/' + router[0]">{{router[1]}}</router-link>
       </li>
     </ul>
+    <ad />
   </div>
 
 </template>
 
 <script>
+import Ad from '../Ad'
 import { routerPage } from '@config/routerConfig'
 export default {
   data () {
     return {
       initialData: routerPage
     }
+  },
+  components: {
+    Ad
   }
 }
 </script>

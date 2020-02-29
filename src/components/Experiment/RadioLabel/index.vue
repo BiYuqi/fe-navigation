@@ -10,6 +10,7 @@
     <div
       class="radio-label__switch-bar"
       :class="{checked: $store.state.console[item.name] || isOpen, disabled: disabled}"
+      :title="isOpen ? '已开启' : '已关闭'"
       @click="switchFeature(type, disabled)">
     </div>
   </div>
