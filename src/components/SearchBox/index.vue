@@ -91,8 +91,6 @@ export default {
       if (type === 'returnVal') {
         this.searchResult = data
       }
-
-      console.log(this.searchResult)
     }
     this.worker.postMessage({
       type: 'initial',
@@ -129,7 +127,7 @@ export default {
   &__clear {
     border: 1px solid $baseColor;
     outline: none;
-    padding: 7px 15px;
+    padding: 8px 15px;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
     background-color: #fff;

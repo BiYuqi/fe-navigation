@@ -68,6 +68,14 @@
       {
         "name": "Python-Requests中文",
         "link": "http://docs.python-requests.org/zh_CN/latest/user/quickstart.html"
+      },
+      {
+        "name": "《Think Python 2e》中译本",
+        "link": "https://codingpy.com/books/thinkpython2/foreword.html?from=timeline#python-3"
+      },
+      {
+        "name": " 精品IT资源分享",
+        "link": "https://codingpy.com/"
       }
     ],
     "deep-learning": [
