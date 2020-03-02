@@ -80,7 +80,7 @@ export default {
               if (
                 toLowerCase(item.name).indexOf(data) > -1 ||
                 (item.description && toLowerCase(item.description).indexOf(data) > -1) ||
-                (item.tag && item.tag.length > 1 && item.tag.includes(data))
+                (item.tag && item.tag.length > 1 && toLowerCase(item.tag).includes(data))
                 ) {
                 return true
               }
