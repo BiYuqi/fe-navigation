@@ -1,0 +1,128 @@
+{
+  "zhihu-zhuanlan": {
+    "zhihu-frontend": [
+      {
+        "name": "不止前端",
+        "link": "https://zhuanlan.zhihu.com/morethanfrontend",
+        "description": "More than Frontend"
+      },
+      {
+        "name": "FE FAME",
+        "link": "https://zhuanlan.zhihu.com/fefame",
+        "description": "记录互联网前端领域工作的点滴"
+      },
+      {
+        "name": "前端新能源",
+        "link": "https://zhuanlan.zhihu.com/ne-fe",
+        "description": "分享前端有深度的新思想和新方法"
+      },
+      {
+        "name": "Web开发实践",
+        "link": "https://zhuanlan.zhihu.com/webqianduan",
+        "description": "关注前端开发核心技术"
+      },
+      {
+        "name": "腾讯技术",
+        "link": "https://zhuanlan.zhihu.com/tencent-TEG",
+        "description": "跟腾讯技术相关的文章都在这里了"
+      },
+      {
+        "name": "面向工资编程",
+        "link": "https://zhuanlan.zhihu.com/auxten",
+        "description": "面向工资编程"
+      },
+      {
+        "name": "花呗借呗前端团队",
+        "link": "https://zhuanlan.zhihu.com/richlab",
+        "description": "来自蚂蚁金服花呗借呗的全能型前端团队"
+      },
+      {
+        "name": "前端之家",
+        "link": "https://zhuanlan.zhihu.com/xiaowenzi",
+        "description": "来自腾讯的高级前端开发工程，为你分享前端案例与感悟"
+      },
+      {
+        "name": "前端算法",
+        "link": "https://zhuanlan.zhihu.com/c_1144189254912610304",
+        "description": "使用javascript演绎算法之美"
+      },
+      {
+        "name": "LeetCode刷题记录",
+        "link": "https://zhuanlan.zhihu.com/leetcode-lyd",
+        "description": "LeetCode刷题记录"
+      },
+      {
+        "name": "美团技术博客",
+        "link": "https://zhuanlan.zhihu.com/meituantech",
+        "description": "美团技术博客"
+      },
+      {
+        "name": "前端随想录",
+        "link": "https://zhuanlan.zhihu.com/fe-fantasy",
+        "description": "始于前端的自由技术专栏"
+      },
+      {
+        "name": "阿里南京技术专刊",
+        "link": "https://zhuanlan.zhihu.com/ali-nanjing",
+        "description": "阿里巴巴南京研发中心官方技术交流专刊"
+      },
+      {
+        "name": "某熊的技术之路",
+        "link": "https://zhuanlan.zhihu.com/wxyyxc1992",
+        "description": "我的技术世界，Web前端、服务端应用架构、数据挖掘"
+      },
+      {
+        "name": "前端精读评论",
+        "link": "https://zhuanlan.zhihu.com/FrontendPerusal",
+        "description": "阿里数据中台前端团队分享前端界的好文精读"
+      },
+      {
+        "name": "前端黑魔法",
+        "link": "https://zhuanlan.zhihu.com/c_29157201",
+        "description": "More"
+      },
+      {
+        "name": "前端技术漫游指南",
+        "link": "https://zhuanlan.zhihu.com/front-end",
+        "description": "这里没有入门教程，只有深度长文"
+      },
+      {
+        "name": "来玩TypeScript啊",
+        "link": "https://zhuanlan.zhihu.com/c_206498766",
+        "description": "在使用typescript过程中的一些记录"
+      },
+      {
+        "name": "方正的编程之路",
+        "link": "https://zhuanlan.zhihu.com/floveluy",
+        "description": "从零开始，开始了就成功了90%"
+      },
+      {
+        "name": "极乐科技",
+        "link": "https://zhuanlan.zhihu.com/dreawer",
+        "description": "高效的中文IT技术平台"
+      }
+    ],
+    "zhihu-data": [
+      {
+        "name": "数据冰山",
+        "link": "https://zhuanlan.zhihu.com/hemingke",
+        "description": "数海探秘，冰山不止一角。"
+      },
+      {
+        "name": "电商数据分析",
+        "link": "https://zhuanlan.zhihu.com/c_1098625782649401344",
+        "description": "More"
+      },
+      {
+        "name": "亚马逊跨境电商前哨站",
+        "link": "https://zhuanlan.zhihu.com/c_1017364281565786112",
+        "description": "最前沿的亚马逊运营技术分享平台"
+      },
+      {
+        "name": "菜鸡说",
+        "link": "https://zhuanlan.zhihu.com/xinqian",
+        "description": "赚钱，不止上班一种方法"
+      }
+    ]
+  }
+}

@@ -39,5 +39,7 @@ export const keywordMapping = {
   'code-named': ' 变量命名',
   'only-tool': '实用工具',
   'online-coding': '在线编程',
-  'build-tool': '构建工具'
+  'build-tool': '构建工具',
+  'zhihu-frontend': '前端',
+  'zhihu-data': '数据'
 }

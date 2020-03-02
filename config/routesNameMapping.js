@@ -2,6 +2,7 @@ export const routesNameMapping = [
   ['tech-blog', '技术博客'],
   ['tech-team', '社区团队'],
   ['framework', '前端框架'],
+  ['zhihu-zhuanlan', '知乎专栏'],
   ['build-tool', '构建工具'],
   ['online-tools', '在线工具'],
   ['mini-program', '小程序'],

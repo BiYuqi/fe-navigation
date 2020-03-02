@@ -160,13 +160,15 @@ export default {
     left: 0;
     width: 400px;
     background-color: #fff;
-    border: 1px solid $baseColor;
     padding: 15px;
     max-height: 500px;
     overflow-y: auto;
     display: flex;
     flex-wrap: wrap;
     z-index: 888;
+    border: 1px solid $baseColor;
+    box-shadow: 0 1px 8px 0px #93d0ff;
+
     li {
       width: 45%;
       padding: 8px;
