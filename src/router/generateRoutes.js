@@ -1,7 +1,7 @@
 import NavBox from '@/components/NavBox'
-import { routerPage } from '@config/routerConfig'
+import { routesNameMapping } from '@config/routesNameMapping'
 
-export const generateRoutes = routerPage.map(([en, _]) => {
+export const generateRoutes = routesNameMapping.map(([en, _]) => {
   return {
     path: en,
     name: en,

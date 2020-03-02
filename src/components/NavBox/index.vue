@@ -34,13 +34,13 @@
 <script>
 import Github from '../Github'
 import LinkData from '@json/basedata.json'
-import { headMapping } from '@config/headMapping'
+import { keywordMapping } from '@config/keywordMapping'
 export default {
   data () {
     return {
       initialRouter: this.$router.currentRoute.name,
       initialData: LinkData[this.$router.currentRoute.name],
-      mappingRule: headMapping,
+      mappingRule: keywordMapping,
       svgGithub: {
         height: '20',
         width: '20',

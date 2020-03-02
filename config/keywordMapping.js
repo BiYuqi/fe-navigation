@@ -1,4 +1,4 @@
-export const headMapping = {
+export const keywordMapping = {
   'personal-blog': '个人博客',
   'awesome-team': '优秀团队',
   'tech-community': '技术社区',

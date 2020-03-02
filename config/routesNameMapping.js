@@ -1,4 +1,4 @@
-export const routerPage = [
+export const routesNameMapping = [
   ['tech-blog', '技术博客'],
   ['tech-team', '社区团队'],
   ['framework', '前端框架'],

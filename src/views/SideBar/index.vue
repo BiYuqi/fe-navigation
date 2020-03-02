@@ -13,11 +13,11 @@
 
 <script>
 import Ad from '../Ad'
-import { routerPage } from '@config/routerConfig'
+import { routesNameMapping } from '@config/routesNameMapping'
 export default {
   data () {
     return {
-      initialData: routerPage
+      initialData: routesNameMapping
     }
   },
   components: {
