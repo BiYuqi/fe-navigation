@@ -6,23 +6,23 @@
           <router-link :to="'/' + router[0]">{{router[1]}}</router-link>
       </li>
     </ul>
-    <ad />
+    <!-- <ad /> -->
   </div>
 
 </template>
 
 <script>
-import Ad from '../Ad'
+// import Ad from '../Ad'
 import { routesNameMapping } from '@config/routesNameMapping'
 export default {
   data () {
     return {
       initialData: routesNameMapping
     }
-  },
-  components: {
-    Ad
   }
+  // components: {
+  //   Ad
+  // }
 }
 </script>
 
