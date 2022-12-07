@@ -31,7 +31,7 @@
     "eslint-plugin-vue": "^5.0.0",
     "glob": "^7.1.4",
     "json-format": "^1.0.1",
-    "lint-staged": "^8.1.5",
+    "lint-staged": "^13.1.0",
     "node-sass": "^4.13.1",
     "nodemon": "^1.19.4",
     "qcloud-upload": "^1.5.0",
